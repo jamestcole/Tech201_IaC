@@ -31,7 +31,9 @@ Terraform is the leader of IaCs in the current market scenario. Because the stan
 
 ## On Premesis - Hybrid - Cloud
 
+Many services exist such as AWS hybrid cloud that can manage a Hybrid environment as an alternative to purely cloud or an on premisis server such as AWS hybrid cloud services which deliver consistent AWS wherever it's needed – from the cloud, to on premises, and at the edge. 
 
+![Alt text](pics/hybrid.PNG "a title")
 
 ## What other tools are 
 
