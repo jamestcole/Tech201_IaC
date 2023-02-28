@@ -128,5 +128,22 @@ sudo nano hosts
 
 Ensure the following line is in the file
 
+```
+[web]
+192.168.33.10 ansible_connection=ssh ansible_ssh_user=vagrant ansible_ssh_pass=vagrant
+```
+You can check this with the following command.
+```
+cat hosts
+```
+
+
+How to copy and send files in ansible
+
+
+```
+sudo ansible web -m copy -a "src=/etc/ansible/test.txt dest=/tmp/"
+```
+
 
 
