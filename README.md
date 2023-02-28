@@ -37,9 +37,9 @@ Many services exist such as AWS hybrid cloud that can manage a Hybrid environmen
 
 ## What other tools are 
 
-
+Tools can be for networking , security, app infrastructure and storage.
 
 ## push configuration vs pull configuration
 
-
+With the push configuration , CICD pipeline is utilised to push changes to your environment which is triggered by a code commit or merge. It has the advantages of simplicity , flexibility, Efficiency and Optimized bandwidth. 
 

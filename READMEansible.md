@@ -60,9 +60,73 @@ Firstly we need a vagrantfile to set up our oracle virtual boxes. The following 
     
     end
 ```
+The vagrantfile should go into the directory that is going to be used for these virtual boxes and then can be run by using GitBash to enter the directory and typing the command.
 
-install dependancies for ansible
+`vagrant up`
+
+Once this has completed the dependencies need to be installed for ansible.
+
+When you are in the directory for your vagrantfile, you can use the following command to enter your three vagrant boxes respectively.
+
+```
+vagrant ssh controller
+vagrant ssh web
+vagrant ssh db
+```
+Firstly update and upgrade
+```
+sudo apt update
+sudo apt upgrade
+```
+
+```
 sudo apt-get install software-properties-common
 sudo apt-add-repository ppa:ansible/ansible ## only in controler
 sudo apt-get install ansible
 sudo ansible --version
+```
+
+To go into anisble use the following command
+
+```
+cd /etc/ansible
+```
+
+
+To shut down the vagrant box, you can right click on the box in oracle vm and click close , save state in order to save the state or if the box needs to be removed.
+
+```
+vagrant destroy
+```
+
+## How to get the ping response
+
+once you are in your controler box `vagrant@controller:~$`, go into etc ansible with 
+
+```
+cd /etc/ansible
+```
+
+then use the following command
+
+```
+sudo ansible -m ping web
+```
+You should get the response that the ping has been successfull but may get an error instead if not properly configured.
+
+![Alt text](pics/vagrantsuccess.PNG "a title")
+
+### Solving empty hosts list problem
+
+![Alt text](pics/iac1.PNG "a title")
+
+use the following command to edit the hosts file
+
+```
+sudo nano hosts
+```
+
+Ensure the following line is in the file
+
+
+
