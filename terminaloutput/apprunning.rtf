@@ -1,0 +1,1820 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fmodern\fprq1 Lucida Console;}{\f1\fnil\fcharset1 Segoe UI Symbol;}{\f2\fmodern\fprq1\fcharset0 Lucida Console;}{\f3\fnil\fcharset0 Calibri;}}
+{\colortbl ;\red28\green168\blue0;\red177\green72\blue198;\red192\green160\blue0;\red125\green151\blue255;\red0\green240\blue240;\red0\green168\blue154;\red0\green0\blue255;\red255\green112\blue255;\red212\green44\blue58;\red0\green242\blue0;\red242\green242\blue0;\red191\green191\blue191;\red0\green0\blue0;\red96\green96\blue96;\red0\green93\blue255;\red255\green118\blue118;}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\cf1\f0\fs18\lang9 James_Cole@DESKTOP-KSNKOST \cf2 MINGW64 \cf3 ~\par
+\cf0 $ ls\par
+\cf4 '3D Objects'\cf0 /\par
+ \cf4 Ansible\cf0 /\par
+ \cf4 AppData\cf0 /\par
+\cf5 'Application Data'\cf0 @\par
+ \cf4 Contacts\cf0 /\par
+ \cf5 Cookies\cf0 @\par
+\cf4 'Creative Cloud Files'\cf0 /\par
+ \cf4 Desktop\cf0 /\par
+ \cf4 DevOps_Git_Test\cf0 /\par
+ \cf4 Documents\cf0 /\par
+ \cf4 Downloads\cf0 /\par
+ \cf4 Dropbox\cf0 /\par
+ \cf4 Favorites\cf0 /\par
+ \cf4 Links\cf0 /\par
+\cf5 'Local Settings'\cf0 @\par
+ \cf4 Music\cf0 /\par
+\cf5 'My Documents'\cf0 @\par
+ NTUSER.DAT\par
+ NTUSER.DAT\{53b39e88-18c4-11ea-a811-000d3aa4692b\}.TM.blf\par
+ NTUSER.DAT\{53b39e88-18c4-11ea-a811-000d3aa4692b\}.TMContainer00000000000000000001.regtrans-ms\par
+ NTUSER.DAT\{53b39e88-18c4-11ea-a811-000d3aa4692b\}.TMContainer00000000000000000002.regtrans-ms\par
+ \cf5 NetHood\cf0 @\par
+ \cf4 OneDrive\cf0 /\par
+ \cf4 Pictures\cf0 /\par
+ \cf5 PrintHood\cf0 @\par
+ \cf4 PycharmProjects\cf0 /\par
+ \cf5 Recent\cf0 @\par
+\cf4 'Saved Games'\cf0 /\par
+ \cf4 Searches\cf0 /\par
+ \cf5 SendTo\cf0 @\par
+\cf5 'Start Menu'\cf0 @\par
+ \cf5 Templates\cf0 @\par
+ \cf4 Tracing\cf0 /\par
+ \cf4 Videos\cf0 /\par
+\cf4 'VirtualBox VMs'\cf0 /\par
+ \cf4 ansel\cf0 /\par
+ \cf4 mysite\cf0 /\par
+ ntuser.dat.LOG1\par
+ ntuser.dat.LOG2\par
+ ntuser.ini\par
+ random.dat\par
+ \cf4 source\cf0 /\par
+ \cf4 tech201_agile_and_scrum\cf0 /\par
+ \cf4 tech201_github\cf0 /\par
+ \cf4 tech201_virtualisation\cf0 /\par
+ \cf4 test_dir\cf0 /\par
+\par
+\cf1 James_Cole@DESKTOP-KSNKOST \cf2 MINGW64 \cf3 ~\par
+\cf0 $ cd .vscode\par
+\par
+\cf1 James_Cole@DESKTOP-KSNKOST \cf2 MINGW64 \cf3 ~/.vscode\par
+\cf0 $ ls\par
+ \cf4 Ansible\cf0 /               Program.cs     \cf4 files\cf0 /                    \cf4 test-ssh\cf0 /\par
+ \cf4 Cloud_computing_AWS\cf0 /   \cf4 Tech201_IaC\cf0 /   \cf4 folder1\cf0 /                 \cf4 'website 1'\cf0 /\par
+ \cf4 DevOps_Git_Test\cf0 /       argv.json     \cf4 'project html'\cf0 /\par
+ \cf4 Git_theory\cf0 /            \cf4 extensions\cf0 /    \cf4 tech201_virtualisation\cf0 /\par
+\par
+\cf1 James_Cole@DESKTOP-KSNKOST \cf2 MINGW64 \cf3 ~/.vscode\par
+\cf0 $ cd Tech201_IaC\par
+\par
+\cf1 James_Cole@DESKTOP-KSNKOST \cf2 MINGW64 \cf3 ~/.vscode/Tech201_IaC\cf6  (main)\par
+\cf0 $ ls\par
+README.md  READMEansible.md  \cf4 ansible\cf0 /  \cf4 pics\cf0 /\par
+\par
+\cf1 James_Cole@DESKTOP-KSNKOST \cf2 MINGW64 \cf3 ~/.vscode/Tech201_IaC\cf6  (main)\par
+\cf0 $ cd ansible\par
+\par
+\cf1 James_Cole@DESKTOP-KSNKOST \cf2 MINGW64 \cf3 ~/.vscode/Tech201_IaC/ansible\cf6  (main)\par
+\cf0 $ ls\par
+Vagrantfile\par
+\par
+\cf1 James_Cole@DESKTOP-KSNKOST \cf2 MINGW64 \cf3 ~/.vscode/Tech201_IaC/ansible\cf6  (main)\par
+\cf0 $ vagrant up\par
+Bringing machine 'controller' up with 'virtualbox' provider...\par
+Bringing machine 'web' up with 'virtualbox' provider...\par
+Bringing machine 'db' up with 'virtualbox' provider...\par
+==> controller: Checking if box 'bento/ubuntu-18.04' version '202212.11.0' is up to date...\par
+==> controller: Resuming suspended VM...\par
+==> controller: Booting VM...\par
+==> controller: Waiting for machine to boot. This may take a few minutes...\par
+    controller: SSH address: 127.0.0.1:2222\par
+    controller: SSH username: vagrant\par
+    controller: SSH auth method: private key\par
+==> controller: Machine booted and ready!\par
+==> controller: Machine already provisioned. Run `vagrant provision` or use the `--provision`\par
+==> controller: flag to force provisioning. Provisioners marked to run always will still run.\par
+==> web: Checking if box 'bento/ubuntu-18.04' version '202212.11.0' is up to date...\par
+==> web: Resuming suspended VM...\par
+==> web: Booting VM...\par
+==> web: Waiting for machine to boot. This may take a few minutes...\par
+    web: SSH address: 127.0.0.1:2200\par
+    web: SSH username: vagrant\par
+    web: SSH auth method: private key\par
+==> web: Machine booted and ready!\par
+==> web: Machine already provisioned. Run `vagrant provision` or use the `--provision`\par
+==> web: flag to force provisioning. Provisioners marked to run always will still run.\par
+==> db: Checking if box 'bento/ubuntu-18.04' version '202212.11.0' is up to date...\par
+==> db: Resuming suspended VM...\par
+==> db: Booting VM...\par
+==> db: Waiting for machine to boot. This may take a few minutes...\par
+    db: SSH address: 127.0.0.1:2201\par
+    db: SSH username: vagrant\par
+    db: SSH auth method: private key\par
+==> db: Machine booted and ready!\par
+==> db: Machine already provisioned. Run `vagrant provision` or use the `--provision`\par
+==> db: flag to force provisioning. Provisioners marked to run always will still run.\par
+\par
+\cf1 James_Cole@DESKTOP-KSNKOST \cf2 MINGW64 \cf3 ~/.vscode/Tech201_IaC/ansible\cf6  (main)\par
+\cf0 $ ssh web\par
+ssh: Could not resolve hostname web: Name or service not known\par
+\par
+\cf1 James_Cole@DESKTOP-KSNKOST \cf2 MINGW64 \cf3 ~/.vscode/Tech201_IaC/ansible\cf6  (main)\par
+\cf0 $ ssh vagrant web\par
+ssh: Could not resolve hostname vagrant: Name or service not known\par
+\par
+\cf1 James_Cole@DESKTOP-KSNKOST \cf2 MINGW64 \cf3 ~/.vscode/Tech201_IaC/ansible\cf6  (main)\par
+\cf0 $ vagrant ssh web\par
+Welcome to Ubuntu 18.04.6 LTS (GNU/Linux 4.15.0-200-generic x86_64)\par
+\par
+ * Documentation:  {{\field{\*\fldinst{HYPERLINK https://help.ubuntu.com }}{\fldrslt{https://help.ubuntu.com\ul0\cf0}}}}\f0\fs18\par
+ * Management:     {{\field{\*\fldinst{HYPERLINK https://landscape.canonical.com }}{\fldrslt{https://landscape.canonical.com\ul0\cf0}}}}\f0\fs18\par
+ * Support:        {{\field{\*\fldinst{HYPERLINK https://ubuntu.com/advantage }}{\fldrslt{https://ubuntu.com/advantage\ul0\cf0}}}}\f0\fs18\par
+\par
+  System information as of Tue Feb 28 09:20:50 UTC 2023\par
+\par
+  System load:  0.0               Processes:           100\par
+  Usage of /:   2.6% of 61.75GB   Users logged in:     0\par
+  Memory usage: 12%               IP address for eth0: 10.0.2.15\par
+  Swap usage:   0%                IP address for eth1: 192.168.33.10\par
+\par
+\par
+This system is built by the Bento project by Chef Software\par
+More information can be found at {{\field{\*\fldinst{HYPERLINK https://github.com/chef/bento }}{\fldrslt{https://github.com/chef/bento\ul0\cf0}}}}\f0\fs18\par
+vagrant@web:~$ sudo apt-get install\par
+Reading package lists... Done\par
+Building dependency tree\par
+Reading state information... Done\par
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.\par
+vagrant@web:~$ sudo apt-get upgrade\par
+Reading package lists... Done\par
+Building dependency tree\par
+Reading state information... Done\par
+Calculating upgrade... Done\par
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.\par
+vagrant@web:~$ exit\par
+logout\par
+\par
+\cf1 James_Cole@DESKTOP-KSNKOST \cf2 MINGW64 \cf3 ~/.vscode/Tech201_IaC/ansible\cf6  (main)\par
+\cf0 $ vagrant ssh db\par
+Welcome to Ubuntu 18.04.6 LTS (GNU/Linux 4.15.0-200-generic x86_64)\par
+\par
+ * Documentation:  {{\field{\*\fldinst{HYPERLINK https://help.ubuntu.com }}{\fldrslt{https://help.ubuntu.com\ul0\cf0}}}}\f0\fs18\par
+ * Management:     {{\field{\*\fldinst{HYPERLINK https://landscape.canonical.com }}{\fldrslt{https://landscape.canonical.com\ul0\cf0}}}}\f0\fs18\par
+ * Support:        {{\field{\*\fldinst{HYPERLINK https://ubuntu.com/advantage }}{\fldrslt{https://ubuntu.com/advantage\ul0\cf0}}}}\f0\fs18\par
+\par
+  System information as of Tue Feb 28 09:21:52 UTC 2023\par
+\par
+  System load:  0.0               Processes:           99\par
+  Usage of /:   2.4% of 61.75GB   Users logged in:     0\par
+  Memory usage: 12%               IP address for eth0: 10.0.2.15\par
+  Swap usage:   0%                IP address for eth1: 192.168.33.11\par
+\par
+\par
+This system is built by the Bento project by Chef Software\par
+More information can be found at {{\field{\*\fldinst{HYPERLINK https://github.com/chef/bento }}{\fldrslt{https://github.com/chef/bento\ul0\cf0}}}}\f0\fs18\par
+vagrant@db:~$ sudo apt-get update\par
+Hit:1 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu }}{\fldrslt{http://archive.ubuntu.com/ubuntu\ul0\cf0}}}}\f0\fs18  bionic InRelease\par
+Get:2 {{\field{\*\fldinst{HYPERLINK http://security.ubuntu.com/ubuntu }}{\fldrslt{http://security.ubuntu.com/ubuntu\ul0\cf0}}}}\f0\fs18  bionic-security InRelease [88.7 kB]\par
+Get:3 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu }}{\fldrslt{http://archive.ubuntu.com/ubuntu\ul0\cf0}}}}\f0\fs18  bionic-updates InRelease [88.7 kB]\par
+Get:4 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu }}{\fldrslt{http://archive.ubuntu.com/ubuntu\ul0\cf0}}}}\f0\fs18  bionic-backports InRelease [83.3 kB]\par
+Get:5 {{\field{\*\fldinst{HYPERLINK http://security.ubuntu.com/ubuntu bionic-security/main }}{\fldrslt{http://security.ubuntu.com/ubuntu bionic-security/main\ul0\cf0}}}}\f0\fs18  amd64 Packages [2,569 kB]\par
+Get:6 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  amd64 Packages [2,901 kB]\par
+Get:7 {{\field{\*\fldinst{HYPERLINK http://security.ubuntu.com/ubuntu bionic-security/main }}{\fldrslt{http://security.ubuntu.com/ubuntu bionic-security/main\ul0\cf0}}}}\f0\fs18  i386 Packages [1,318 kB]\par
+Get:8 {{\field{\*\fldinst{HYPERLINK http://security.ubuntu.com/ubuntu bionic-security/main }}{\fldrslt{http://security.ubuntu.com/ubuntu bionic-security/main\ul0\cf0}}}}\f0\fs18  Translation-en [445 kB]\par
+Get:9 {{\field{\*\fldinst{HYPERLINK http://security.ubuntu.com/ubuntu bionic-security/restricted }}{\fldrslt{http://security.ubuntu.com/ubuntu bionic-security/restricted\ul0\cf0}}}}\f0\fs18  i386 Packages [31.9 kB]\par
+Get:10 {{\field{\*\fldinst{HYPERLINK http://security.ubuntu.com/ubuntu bionic-security/restricted }}{\fldrslt{http://security.ubuntu.com/ubuntu bionic-security/restricted\ul0\cf0}}}}\f0\fs18  amd64 Packages [1,113 kB]\par
+Get:11 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  i386 Packages [1,609 kB]\par
+Get:12 {{\field{\*\fldinst{HYPERLINK http://security.ubuntu.com/ubuntu bionic-security/restricted }}{\fldrslt{http://security.ubuntu.com/ubuntu bionic-security/restricted\ul0\cf0}}}}\f0\fs18  Translation-en [154 kB]\par
+Get:13 {{\field{\*\fldinst{HYPERLINK http://security.ubuntu.com/ubuntu bionic-security/universe }}{\fldrslt{http://security.ubuntu.com/ubuntu bionic-security/universe\ul0\cf0}}}}\f0\fs18  amd64 Packages [1,271 kB]\par
+Get:14 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  Translation-en [531 kB]\par
+Get:15 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/restricted }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/restricted\ul0\cf0}}}}\f0\fs18  amd64 Packages [1,144 kB]\par
+Get:16 {{\field{\*\fldinst{HYPERLINK http://security.ubuntu.com/ubuntu bionic-security/universe }}{\fldrslt{http://security.ubuntu.com/ubuntu bionic-security/universe\ul0\cf0}}}}\f0\fs18  i386 Packages [1,061 kB]\par
+Get:17 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/restricted }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/restricted\ul0\cf0}}}}\f0\fs18  i386 Packages [38.5 kB]\par
+Get:18 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/restricted }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/restricted\ul0\cf0}}}}\f0\fs18  Translation-en [159 kB]\par
+Get:19 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/universe }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/universe\ul0\cf0}}}}\f0\fs18  amd64 Packages [1,883 kB]\par
+Get:20 {{\field{\*\fldinst{HYPERLINK http://security.ubuntu.com/ubuntu bionic-security/universe }}{\fldrslt{http://security.ubuntu.com/ubuntu bionic-security/universe\ul0\cf0}}}}\f0\fs18  Translation-en [297 kB]\par
+Get:21 {{\field{\*\fldinst{HYPERLINK http://security.ubuntu.com/ubuntu bionic-security/multiverse }}{\fldrslt{http://security.ubuntu.com/ubuntu bionic-security/multiverse\ul0\cf0}}}}\f0\fs18  amd64 Packages [19.8 kB]\par
+Get:22 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/universe }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/universe\ul0\cf0}}}}\f0\fs18  i386 Packages [1,648 kB]\par
+Get:23 {{\field{\*\fldinst{HYPERLINK http://security.ubuntu.com/ubuntu bionic-security/multiverse }}{\fldrslt{http://security.ubuntu.com/ubuntu bionic-security/multiverse\ul0\cf0}}}}\f0\fs18  Translation-en [3,928 B]\par
+Get:24 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/universe }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/universe\ul0\cf0}}}}\f0\fs18  Translation-en [410 kB]\par
+Get:25 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/multiverse }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/multiverse\ul0\cf0}}}}\f0\fs18  amd64 Packages [25.6 kB]\par
+Get:26 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/multiverse }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/multiverse\ul0\cf0}}}}\f0\fs18  Translation-en [6,088 B]\par
+Fetched 18.9 MB in 7s (2,548 kB/s)\par
+Reading package lists... Done\par
+vagrant@db:~$ logout\par
+\par
+\cf1 James_Cole@DESKTOP-KSNKOST \cf2 MINGW64 \cf3 ~/.vscode/Tech201_IaC/ansible\cf6  (main)\par
+\cf0 $ ssh vagrant config\par
+ssh: Could not resolve hostname vagrant: Name or service not known\par
+\par
+\cf1 James_Cole@DESKTOP-KSNKOST \cf2 MINGW64 \cf3 ~/.vscode/Tech201_IaC/ansible\cf6  (main)\par
+\cf0 $ vagrant ssh config\par
+The machine with the name 'config' was not found configured for\par
+this Vagrant environment.\par
+\par
+\cf1 James_Cole@DESKTOP-KSNKOST \cf2 MINGW64 \cf3 ~/.vscode/Tech201_IaC/ansible\cf6  (main)\par
+\cf0 $ ls\par
+Vagrantfile\par
+\par
+\cf1 James_Cole@DESKTOP-KSNKOST \cf2 MINGW64 \cf3 ~/.vscode/Tech201_IaC/ansible\cf6  (main)\par
+\cf0 $ vagrant ssh configuration\par
+The machine with the name 'configuration' was not found configured for\par
+this Vagrant environment.\par
+\par
+\cf1 James_Cole@DESKTOP-KSNKOST \cf2 MINGW64 \cf3 ~/.vscode/Tech201_IaC/ansible\cf6  (main)\par
+\cf0 $ vagrant ssh controller\par
+Welcome to Ubuntu 18.04.6 LTS (GNU/Linux 4.15.0-200-generic x86_64)\par
+\par
+ * Documentation:  {{\field{\*\fldinst{HYPERLINK https://help.ubuntu.com }}{\fldrslt{https://help.ubuntu.com\ul0\cf0}}}}\f0\fs18\par
+ * Management:     {{\field{\*\fldinst{HYPERLINK https://landscape.canonical.com }}{\fldrslt{https://landscape.canonical.com\ul0\cf0}}}}\f0\fs18\par
+ * Support:        {{\field{\*\fldinst{HYPERLINK https://ubuntu.com/advantage }}{\fldrslt{https://ubuntu.com/advantage\ul0\cf0}}}}\f0\fs18\par
+\par
+  System information as of Tue Feb 28 09:41:14 UTC 2023\par
+\par
+  System load:  0.08              Processes:           103\par
+  Usage of /:   2.9% of 61.75GB   Users logged in:     1\par
+  Memory usage: 16%               IP address for eth0: 10.0.2.15\par
+  Swap usage:   0%                IP address for eth1: 192.168.33.12\par
+\par
+ * Introducing Expanded Security Maintenance for Applications.\par
+   Receive updates to over 25,000 software packages with your\par
+   Ubuntu Pro subscription. Free for personal use.\par
+\par
+     {{\field{\*\fldinst{HYPERLINK https://ubuntu.com/pro }}{\fldrslt{https://ubuntu.com/pro\ul0\cf0}}}}\f0\fs18\par
+\par
+\par
+This system is built by the Bento project by Chef Software\par
+More information can be found at {{\field{\*\fldinst{HYPERLINK https://github.com/chef/bento }}{\fldrslt{https://github.com/chef/bento\ul0\cf0}}}}\f0\fs18\par
+Last login: Mon Feb 27 15:50:37 2023 from 10.0.2.2\par
+vagrant@controller:~$ sudo apt-get update\par
+Get:1 {{\field{\*\fldinst{HYPERLINK http://security.ubuntu.com/ubuntu }}{\fldrslt{http://security.ubuntu.com/ubuntu\ul0\cf0}}}}\f0\fs18  bionic-security InRelease [88.7 kB]\par
+Hit:2 {{\field{\*\fldinst{HYPERLINK http://ppa.launchpad.net/ansible/ansible/ubuntu }}{\fldrslt{http://ppa.launchpad.net/ansible/ansible/ubuntu\ul0\cf0}}}}\f0\fs18  bionic InRelease\par
+Hit:3 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu }}{\fldrslt{http://archive.ubuntu.com/ubuntu\ul0\cf0}}}}\f0\fs18  bionic InRelease\par
+Get:4 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu }}{\fldrslt{http://archive.ubuntu.com/ubuntu\ul0\cf0}}}}\f0\fs18  bionic-updates InRelease [88.7 kB]\par
+Get:5 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu }}{\fldrslt{http://archive.ubuntu.com/ubuntu\ul0\cf0}}}}\f0\fs18  bionic-backports InRelease [83.3 kB]\par
+Get:6 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  i386 Packages [1,609 kB]\par
+Get:7 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  amd64 Packages [2,901 kB]\par
+Get:8 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/universe }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/universe\ul0\cf0}}}}\f0\fs18  amd64 Packages [1,883 kB]\par
+Get:9 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/universe }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/universe\ul0\cf0}}}}\f0\fs18  i386 Packages [1,648 kB]\par
+Get:10 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/universe }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/universe\ul0\cf0}}}}\f0\fs18  Translation-en [410 kB]\par
+Get:11 {{\field{\*\fldinst{HYPERLINK http://security.ubuntu.com/ubuntu bionic-security/main }}{\fldrslt{http://security.ubuntu.com/ubuntu bionic-security/main\ul0\cf0}}}}\f0\fs18  amd64 Packages [2,569 kB]\par
+Get:12 {{\field{\*\fldinst{HYPERLINK http://security.ubuntu.com/ubuntu bionic-security/main }}{\fldrslt{http://security.ubuntu.com/ubuntu bionic-security/main\ul0\cf0}}}}\f0\fs18  i386 Packages [1,318 kB]\par
+Get:13 {{\field{\*\fldinst{HYPERLINK http://security.ubuntu.com/ubuntu bionic-security/universe }}{\fldrslt{http://security.ubuntu.com/ubuntu bionic-security/universe\ul0\cf0}}}}\f0\fs18  amd64 Packages [1,271 kB]\par
+Get:14 {{\field{\*\fldinst{HYPERLINK http://security.ubuntu.com/ubuntu bionic-security/universe }}{\fldrslt{http://security.ubuntu.com/ubuntu bionic-security/universe\ul0\cf0}}}}\f0\fs18  i386 Packages [1,061 kB]\par
+Get:15 {{\field{\*\fldinst{HYPERLINK http://security.ubuntu.com/ubuntu bionic-security/universe }}{\fldrslt{http://security.ubuntu.com/ubuntu bionic-security/universe\ul0\cf0}}}}\f0\fs18  Translation-en [297 kB]\par
+Fetched 15.2 MB in 7s (2,097 kB/s)\par
+Reading package lists... Done\par
+vagrant@controller:~$ sudo apt-get upgrade\par
+Reading package lists... Done\par
+Building dependency tree\par
+Reading state information... Done\par
+Calculating upgrade... Done\par
+The following packages have been kept back:\par
+  linux-image-generic\par
+0 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.\par
+vagrant@controller:~$ cd etc/ansible\par
+-bash: cd: etc/ansible: No such file or directory\par
+vagrant@controller:~$ cd /etc/ansible\par
+vagrant@controller:/etc/ansible$ ssh vagrant@192.168.33.10\par
+The authenticity of host '192.168.33.10 (192.168.33.10)' can't be established.\par
+ECDSA key fingerprint is SHA256:46OVSath7cDYfi8diQbBofRI7QpdCLnzuwe8eTsq1eU.\par
+Are you sure you want to continue connecting (yes/no)? yes\par
+Warning: Permanently added '192.168.33.10' (ECDSA) to the list of known hosts.\par
+vagrant@192.168.33.10's password:\par
+Connection closed by 192.168.33.10 port 22\par
+vagrant@controller:/etc/ansible$ ssh vagrant@192.168.33.11\par
+The authenticity of host '192.168.33.11 (192.168.33.11)' can't be established.\par
+ECDSA key fingerprint is SHA256:46OVSath7cDYfi8diQbBofRI7QpdCLnzuwe8eTsq1eU.\par
+Are you sure you want to continue connecting (yes/no)? yes\par
+Warning: Permanently added '192.168.33.11' (ECDSA) to the list of known hosts.\par
+vagrant@192.168.33.11's password:\par
+Permission denied, please try again.\par
+vagrant@192.168.33.11's password:\par
+Permission denied, please try again.\par
+vagrant@192.168.33.11's password:\par
+vavagrant@192.168.33.11: Permission denied (publickey,password).\par
+vagrant@controller:/etc/ansible$ exit\par
+logout\par
+\par
+\cf1 James_Cole@DESKTOP-KSNKOST \cf2 MINGW64 \cf3 ~/.vscode/Tech201_IaC/ansible\cf6  (main)\par
+\cf0 $ vagrant ssh controller\par
+Welcome to Ubuntu 18.04.6 LTS (GNU/Linux 4.15.0-200-generic x86_64)\par
+\par
+ * Documentation:  {{\field{\*\fldinst{HYPERLINK https://help.ubuntu.com }}{\fldrslt{https://help.ubuntu.com\ul0\cf0}}}}\f0\fs18\par
+ * Management:     {{\field{\*\fldinst{HYPERLINK https://landscape.canonical.com }}{\fldrslt{https://landscape.canonical.com\ul0\cf0}}}}\f0\fs18\par
+ * Support:        {{\field{\*\fldinst{HYPERLINK https://ubuntu.com/advantage }}{\fldrslt{https://ubuntu.com/advantage\ul0\cf0}}}}\f0\fs18\par
+\par
+  System information as of Tue Feb 28 10:38:01 UTC 2023\par
+\par
+  System load:  0.0               Processes:           104\par
+  Usage of /:   2.9% of 61.75GB   Users logged in:     1\par
+  Memory usage: 16%               IP address for eth0: 10.0.2.15\par
+  Swap usage:   0%                IP address for eth1: 192.168.33.12\par
+\par
+ * Introducing Expanded Security Maintenance for Applications.\par
+   Receive updates to over 25,000 software packages with your\par
+   Ubuntu Pro subscription. Free for personal use.\par
+\par
+     {{\field{\*\fldinst{HYPERLINK https://ubuntu.com/pro }}{\fldrslt{https://ubuntu.com/pro\ul0\cf0}}}}\f0\fs18\par
+\par
+\par
+This system is built by the Bento project by Chef Software\par
+More information can be found at {{\field{\*\fldinst{HYPERLINK https://github.com/chef/bento }}{\fldrslt{https://github.com/chef/bento\ul0\cf0}}}}\f0\fs18\par
+Last login: Tue Feb 28 09:41:15 2023 from 10.0.2.2\par
+vagrant@controller:~$ cd /etc/ansible\par
+vagrant@controller:/etc/ansible$ sudo ansible -m ping web\par
+\cf8 [WARNING]: provided hosts list is empty, only localhost is available. Note that\par
+the implicit localhost does not match 'all'\par
+[WARNING]: Could not match supplied host pattern, ignoring: web\par
+\cf0 vagrant@controller:/etc/ansible$ sudo nano hosts\par
+vagrant@controller:/etc/ansible$ cat hosts\par
+# This is the default ansible 'hosts' file.\par
+#\par
+# It should live in /etc/ansible/hosts\par
+#\par
+#   - Comments begin with the '#' character\par
+#   - Blank lines are ignored\par
+#   - Groups of hosts are delimited by [header] elements\par
+#   - You can enter hostnames or ip addresses\par
+#   - A hostname/ip can be a member of multiple groups\par
+[web]\par
+192.168.33.10 ansible_connection=ssh ansible_ssh_user=vagrant ansible_ssh_pass=vagrant\par
+# using ssh with password for ansible connection for ansible connection between controller and agent node\par
+\par
+#[db]\par
+\par
+\par
+# Ex 1: Ungrouped hosts, specify before any group headers.\par
+#[local]\par
+#localhost ansible_python_interpreter=/usr/local/bin/python3\par
+\par
+#[aws]\par
+\par
+#ec2-instance ansible_host\par
+\par
+\par
+## green.example.com\par
+## blue.example.com\par
+## 192.168.100.1\par
+## 192.168.100.10\par
+\par
+# Ex 2: A collection of hosts belonging to the 'webservers' group\par
+\par
+## [webservers]\par
+## alpha.example.org\par
+## beta.example.org\par
+## 192.168.1.100\par
+## 192.168.1.110\par
+\par
+# If you have multiple hosts following a pattern you can specify\par
+# them like this:\par
+\par
+## www[001:006].example.com\par
+\par
+# Ex 3: A collection of database servers in the 'dbservers' group\par
+\par
+## [dbservers]\par
+##\par
+## db01.intranet.mydomain.net\par
+## db02.intranet.mydomain.net\par
+## 10.25.1.56\par
+## 10.25.1.57\par
+\par
+# Here's another example of host ranges, this time there are no\par
+# leading 0s:\par
+\par
+## db-[99:101]-node.example.com\par
+\par
+vagrant@controller:/etc/ansible$ sudo ansible -m ping all --ask-vault-pass\par
+Vault password:\par
+\cf9 192.168.33.10 | FAILED! => \{\par
+    "msg": "Using a SSH password instead of a key is not possible because Host Key checking is enabled and sshpass does not support this.  Please add this host's fingerprint to your known_hosts file to manage this host."\par
+\}\par
+\cf0 vagrant@controller:/etc/ansible$ sudo ansible -m ping all --ask-vault-pass\par
+Vault password:\par
+\cf9 192.168.33.10 | FAILED! => \{\par
+    "msg": "Using a SSH password instead of a key is not possible because Host Key checking is enabled and sshpass does not support this.  Please add this host's fingerprint to your known_hosts file to manage this host."\par
+\}\par
+\cf0 vagrant@controller:/etc/ansible$ ssh vagrant@192.168.33.10\par
+vagrant@192.168.33.10's password:\par
+\par
+\par
+\par
+Permission denied, please try again.\par
+vagrant@192.168.33.10's password:\par
+Permission denied, please try again.\par
+vagrant@192.168.33.10's password:\par
+vagrant@192.168.33.10: Permission denied (publickey,password).\par
+vagrant@controller:/etc/ansible$ ssh vagrant@192.168.33.10\par
+vagrant@192.168.33.10's password:\par
+Permission denied, please try again.\par
+vagrant@192.168.33.10's password:\par
+Welcome to Ubuntu 18.04.6 LTS (GNU/Linux 4.15.0-200-generic x86_64)\par
+\par
+ * Documentation:  {{\field{\*\fldinst{HYPERLINK https://help.ubuntu.com }}{\fldrslt{https://help.ubuntu.com\ul0\cf0}}}}\f0\fs18\par
+ * Management:     {{\field{\*\fldinst{HYPERLINK https://landscape.canonical.com }}{\fldrslt{https://landscape.canonical.com\ul0\cf0}}}}\f0\fs18\par
+ * Support:        {{\field{\*\fldinst{HYPERLINK https://ubuntu.com/advantage }}{\fldrslt{https://ubuntu.com/advantage\ul0\cf0}}}}\f0\fs18\par
+\par
+  System information as of Tue Feb 28 10:55:25 UTC 2023\par
+\par
+  System load:  0.0               Processes:           100\par
+  Usage of /:   2.6% of 61.75GB   Users logged in:     0\par
+  Memory usage: 12%               IP address for eth0: 10.0.2.15\par
+  Swap usage:   0%                IP address for eth1: 192.168.33.10\par
+\par
+\par
+This system is built by the Bento project by Chef Software\par
+More information can be found at {{\field{\*\fldinst{HYPERLINK https://github.com/chef/bento }}{\fldrslt{https://github.com/chef/bento\ul0\cf0}}}}\f0\fs18\par
+Last login: Tue Feb 28 09:20:51 2023 from 10.0.2.2\par
+vagrant@web:~$ sudo ansible -m ping all --ask-vault-pass\par
+sudo: ansible: command not found\par
+vagrant@web:~$ sudo ansible -m ping all\par
+sudo: ansible: command not found\par
+vagrant@web:~$ cd /etc/ansible\par
+-bash: cd: /etc/ansible: No such file or directory\par
+vagrant@web:~$ exit\par
+logout\par
+Connection to 192.168.33.10 closed.\par
+vagrant@controller:/etc/ansible$ sudo ansible -m ping web\par
+\cf9 192.168.33.10 | FAILED! => \{\par
+    "msg": "Using a SSH password instead of a key is not possible because Host Key checking is enabled and sshpass does not support this.  Please add this host's fingerprint to your known_hosts file to manage this host."\par
+\}\par
+\cf0 vagrant@controller:/etc/ansible$ ssh vagrant@192.168.33.10\par
+vagrant@192.168.33.10's password:\par
+Welcome to Ubuntu 18.04.6 LTS (GNU/Linux 4.15.0-200-generic x86_64)\par
+\par
+ * Documentation:  {{\field{\*\fldinst{HYPERLINK https://help.ubuntu.com }}{\fldrslt{https://help.ubuntu.com\ul0\cf0}}}}\f0\fs18\par
+ * Management:     {{\field{\*\fldinst{HYPERLINK https://landscape.canonical.com }}{\fldrslt{https://landscape.canonical.com\ul0\cf0}}}}\f0\fs18\par
+ * Support:        {{\field{\*\fldinst{HYPERLINK https://ubuntu.com/advantage }}{\fldrslt{https://ubuntu.com/advantage\ul0\cf0}}}}\f0\fs18\par
+\par
+  System information as of Tue Feb 28 10:58:19 UTC 2023\par
+\par
+  System load:  0.0               Processes:           102\par
+  Usage of /:   2.6% of 61.75GB   Users logged in:     0\par
+  Memory usage: 12%               IP address for eth0: 10.0.2.15\par
+  Swap usage:   0%                IP address for eth1: 192.168.33.10\par
+\par
+\par
+This system is built by the Bento project by Chef Software\par
+More information can be found at {{\field{\*\fldinst{HYPERLINK https://github.com/chef/bento }}{\fldrslt{https://github.com/chef/bento\ul0\cf0}}}}\f0\fs18\par
+Last login: Tue Feb 28 10:55:26 2023 from 192.168.33.12\par
+vagrant@web:~$ ls\par
+vagrant@web:~$ ls -a\par
+\cf4 .\cf0    .bash_history  .bashrc  \cf4 .gnupg\cf0     \cf4 .ssh\cf0                        .vbox_version\par
+\cf4 ..\cf0   .bash_logout   \cf4 .cache\cf0    .profile  .sudo_as_admin_successful  .wget-hsts\par
+vagrant@web:~$ cd .ssh\par
+vagrant@web:~/.ssh$ sudo nano authorized_keys\par
+vagrant@web:~/.ssh$ cd ..\par
+vagrant@web:~$ cd /etc\par
+vagrant@web:/etc$ ls\par
+\cf4 acpi\cf0                            \cf4 initramfs-tools\cf0       \cf4 profile.d\par
+\cf0 adduser.conf                   inputrc              protocols\par
+\cf4 alternatives\cf0                    \cf4 insserv.conf.d\cf0        \cf4 python\par
+apm\cf0                             \cf4 iproute2\cf0              \cf4 python2.7\par
+apparmor\cf0                        \cf4 iscsi\cf0                 \cf4 python3\par
+apparmor.d\cf0                      issue                \cf4 python3.6\par
+apport\cf0                          issue.net            \cf4 rc0.d\par
+apt\cf0                             \cf4 kernel\cf0                \cf4 rc1.d\par
+\cf0 at.deny                        kernel-img.conf      \cf4 rc2.d\par
+\cf0 bash.bashrc                    \cf4 landscape\cf0             \cf4 rc3.d\par
+bash_completion.d\cf0               \cf4 ldap\cf0                  \cf4 rc4.d\par
+\cf0 bindresvport.blacklist         ld.so.cache          \cf4 rc5.d\par
+binfmt.d\cf0                        ld.so.conf           \cf4 rc6.d\par
+byobu\cf0                           \cf4 ld.so.conf.d\cf0          \cf4 rcS.d\par
+ca-certificates\cf0                 legal                request-key.conf\par
+ca-certificates.conf           libaudit.conf        \cf4 request-key.d\par
+\cf0 ca-certificates.conf.dpkg-old  \cf4 libnl-3\cf0               \cf5 resolv.conf\par
+\cf4 calendar\cf0                        locale.alias         \cf10 rmt\par
+\cf4 cifs-utils\cf0                      locale.gen           rpc\par
+\cf4 console-setup\cf0                   \cf5 localtime\cf0             rsyslog.conf\par
+\cf4 cron.d\cf0                          \cf4 logcheck\cf0              \cf4 rsyslog.d\par
+cron.daily\cf0                      login.defs           \cf4 samba\par
+cron.hourly\cf0                     logrotate.conf       screenrc\par
+\cf4 cron.monthly\cf0                    \cf4 logrotate.d\cf0           securetty\par
+crontab                        lsb-release          \cf4 security\par
+cron.weekly\cf0                     ltrace.conf          \cf4 selinux\par
+cryptsetup-initramfs\cf0            \cf4 lvm\cf0                   services\par
+crypttab                       machine-id           shadow\par
+\cf4 dbus-1\cf0                          magic                shadow-\par
+debconf.conf                   magic.mime           shells\par
+debian_version                 mailcap              \cf4 skel\par
+default\cf0                         mailcap.order        \cf4 sos\par
+\cf0 deluser.conf                   mailname             \cf4 ssh\par
+depmod.d\cf0                        manpath.config       \cf4 ssl\par
+dhcp\cf0                            \cf4 mdadm\cf0                 subgid\par
+\cf4 dkms\cf0                            mime.types           subgid-\par
+\cf4 dnsmasq.d\cf0                       mke2fs.conf          subuid\par
+\cf4 dnsmasq.d-available\cf0             \cf4 modprobe.d\cf0            subuid-\par
+\cf4 dpkg\cf0                            modules              sudoers\par
+environment                    \cf4 modules-load.d\cf0        \cf4 sudoers.d\par
+\cf0 ethertypes                     \cf5 mtab\cf0                  sysctl.conf\par
+\cf4 fonts\cf0                           nanorc               \cf4 sysctl.d\par
+\cf0 fstab                          netconfig            \cf4 systemd\par
+\cf0 fuse.conf                      \cf4 netplan\cf0               \cf4 terminfo\par
+\cf0 gai.conf                       \cf4 network\cf0               timezone\par
+\cf4 groff\cf0                           \cf4 networkd-dispatcher\cf0   \cf4 tmpfiles.d\par
+\cf0 group                          networks             \cf4 ubuntu-advantage\par
+\cf0 group-                         \cf4 newt\cf0                  ucf.conf\par
+\cf4 grub.d\cf0                          nsswitch.conf        \cf4 udev\par
+\cf0 gshadow                        \cf4 opt\cf0                   \cf4 ufw\par
+\cf0 gshadow-                       \cf5 os-release\cf0            updatedb.conf\par
+\cf4 gss\cf0                             overlayroot.conf     \cf4 update-manager\par
+\cf0 hdparm.conf                    pam.conf             \cf4 update-motd.d\par
+\cf0 host.conf                      \cf4 pam.d\cf0                 \cf4 update-notifier\par
+\cf0 hostname                       passwd               \cf4 vim\par
+\cf0 hosts                          passwd-              \cf4 vmware-tools\par
+\cf0 hosts.allow                    \cf4 perl\cf0                  \cf5 vtrgb\par
+\cf0 hosts.deny                     \cf4 pm\cf0                    wgetrc\par
+idmapd.conf                    \cf4 polkit-1\cf0              \cf4 X11\par
+init\cf0                            \cf4 pollinate\cf0             \cf4 xdg\par
+init.d\cf0                          profile\par
+vagrant@web:/etc$ cd ssh\par
+vagrant@web:/etc/ssh$ ls\par
+moduli       ssh_host_ecdsa_key      ssh_host_ed25519_key.pub  ssh_import_id\par
+ssh_config   ssh_host_ecdsa_key.pub  ssh_host_rsa_key\par
+sshd_config  ssh_host_ed25519_key    ssh_host_rsa_key.pub\par
+vagrant@web:/etc/ssh$ sudo nano sshd_config\par
+vagrant@web:/etc/ssh$ sudo systemctl restart ssh\par
+vagrant@web:/etc/ssh$ sudo su -a\par
+su: invalid option -- 'a'\par
+Usage: su [options] [LOGIN]\par
+\par
+Options:\par
+  -c, --command COMMAND         pass COMMAND to the invoked shell\par
+  -h, --help                    display this help message and exit\par
+  -, -l, --login                make the shell a login shell\par
+  -m, -p,\par
+  --preserve-environment        do not reset environment variables, and\par
+                                keep the same shell\par
+  -s, --shell SHELL             use SHELL instead of the default in passwd\par
+\par
+vagrant@web:/etc/ssh$ sudo su -a\par
+su: invalid option -- 'a'\par
+Usage: su [options] [LOGIN]\par
+\par
+Options:\par
+  -c, --command COMMAND         pass COMMAND to the invoked shell\par
+  -h, --help                    display this help message and exit\par
+  -, -l, --login                make the shell a login shell\par
+  -m, -p,\par
+  --preserve-environment        do not reset environment variables, and\par
+                                keep the same shell\par
+  -s, --shell SHELL             use SHELL instead of the default in passwd\par
+\par
+vagrant@web:/etc/ssh$ sudo su\par
+root@web:/etc/ssh# passwd\par
+Enter new UNIX password:\par
+Retype new UNIX password:\par
+passwd: password updated successfully\par
+root@web:/etc/ssh# cd ..\par
+root@web:/etc# exit\par
+exit\par
+vagrant@web:/etc/ssh$ sudo nano sshd_config\par
+vagrant@web:/etc/ssh$ sudo systemctl restart ssh\par
+vagrant@web:/etc/ssh$ sudo nano sshd_config\par
+vagrant@web:/etc/ssh$ sudo systemctl restart ssh\par
+vagrant@web:/etc/ssh$ sudo ansible -m ping all\par
+sudo: ansible: command not found\par
+vagrant@web:/etc/ssh$ sudo ansible -m ping all --ask-vault-pass\par
+sudo: ansible: command not found\par
+vagrant@web:/etc/ssh$ cd ..\par
+vagrant@web:/etc$ sudo ansible -m ping all --ask-vault-pass\par
+sudo: ansible: command not found\par
+vagrant@web:/etc$ sudo ansible -m ping all\par
+sudo: ansible: command not found\par
+vagrant@web:/etc$ exit\par
+logout\par
+Connection to 192.168.33.10 closed.\par
+vagrant@controller:/etc/ansible$ sudo ansible -m ping web\par
+\cf2 [DEPRECATION WARNING]: Distribution Ubuntu 18.04 on host 192.168.33.10 should\par
+use /usr/bin/python3, but is using /usr/bin/python for backward compatibility\par
+with prior Ansible releases. A future Ansible release will default to using the\par
+ discovered platform python for this host. See {{\field{\*\fldinst{HYPERLINK https://docs.ansible.com/ansible }}{\fldrslt{https://docs.ansible.com/ansible\ul0\cf0}}}}\f0\fs18\par
+/2.9/reference_appendices/interpreter_discovery.html for more information. This\par
+ feature will be removed in version 2.12. Deprecation warnings can be disabled\par
+by setting deprecation_warnings=False in ansible.cfg.\par
+\cf1 192.168.33.10 | SUCCESS => \{\par
+    "ansible_facts": \{\par
+        "discovered_interpreter_python": "/usr/bin/python"\par
+    \},\par
+    "changed": false,\par
+    "ping": "pong"\par
+\}\par
+\cf0 vagrant@controller:/etc/ansible$ sudo nano nginx-playbook.yml\par
+vagrant@controller:/etc/ansible$ cat nginx-playbook.yml\par
+# create a playbook to configure nginx web server in web machine\par
+\par
+# let's add --- 3 dashes to start a YAML file\par
+---\par
+# where do we want this playbook to run\par
+# add the name of the host\par
+- hosts: web\par
+# find the facts\par
+  gather_facts: yes\par
+# we need admin access\par
+  become: true\par
+\par
+# add instructions to perform the task\par
+# install nginx in web machine\par
+  tasks:\par
+  - name: Install Nginx in web-server\par
+    apt; pkg=nginx state=present\par
+# ensure tha nginx is running - status is running\par
+vagrant@controller:/etc/ansible$ sudo ansible-playbook nginx-playbook.yml\par
+\cf9 ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:\par
+JSON: No JSON object could be decoded\par
+\par
+Syntax Error while loading YAML.\par
+  could not find expected ':'\par
+\par
+The error appears to be in '/etc/ansible/nginx-playbook.yml': line 17, column 13, but may\par
+be elsewhere in the file depending on the exact syntax problem.\par
+\par
+The offending line appears to be:\par
+\par
+    apt; pkg=nginx state=present\par
+            ^ here\par
+\par
+There appears to be both 'k=v' shorthand syntax and YAML in this task. Only one syntax may be used.\par
+\cf0 vagrant@controller:/etc/ansible$ sudo nano nginx-playbook.yml\par
+vagrant@controller:/etc/ansible$ sudo ansible-playbook nginx-playbook.yml\par
+\par
+PLAY [web] ***************************************************************************************************************************************\par
+\par
+TASK [Gathering Facts] ***************************************************************************************************************************\par
+\cf2 [DEPRECATION WARNING]: Distribution Ubuntu 18.04 on host 192.168.33.10 should use /usr/bin/python3, but is using /usr/bin/python for backward comp\par
+with prior Ansible releases. A future Ansible release will default to using the discovered platform python for this host. See\par
+{{\field{\*\fldinst{HYPERLINK https://docs.ansible.com/ansible/2.9/reference_appendices/interpreter_discovery.html }}{\fldrslt{https://docs.ansible.com/ansible/2.9/reference_appendices/interpreter_discovery.html\ul0\cf0}}}}\f0\fs18  for more information. This feature will be removed in version\par
+Deprecation warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.\par
+\cf1 ok: [192.168.33.10]\par
+\par
+\cf0 TASK [Install Nginx in web-server] ***************************************************************************************************************\par
+\cf8 [WARNING]: Updating cache and auto-installing missing dependency: python-apt\par
+\cf3 changed: [192.168.33.10]\par
+\par
+\cf0 PLAY RECAP ***************************************************************************************************************************************\par
+\cf3 192.168.33.10\cf0               : \cf1 ok=2   \cf0  \cf3 changed=1   \cf0  unreachable=0    failed=0    skipped=0    rescued=0    ignored=0\par
+\par
+vagrant@controller:/etc/ansible$ sudo ansible web -a "systemctl status nginx"\par
+\cf2 [DEPRECATION WARNING]: Distribution Ubuntu 18.04 on host 192.168.33.10 should use /usr/bin/python3, but is using /usr/bin/python for backward comp\par
+with prior Ansible releases. A future Ansible release will default to using the discovered platform python for this host. See\par
+{{\field{\*\fldinst{HYPERLINK https://docs.ansible.com/ansible/2.9/reference_appendices/interpreter_discovery.html }}{\fldrslt{https://docs.ansible.com/ansible/2.9/reference_appendices/interpreter_discovery.html\ul0\cf0}}}}\f0\fs18  for more information. This feature will be removed in version\par
+Deprecation warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.\par
+\cf3 192.168.33.10 | CHANGED | rc=0 >>\par
+\f1\u9679?\f0  nginx.service - A high performance web server and a reverse proxy server\par
+   Loaded: loaded (/lib/systemd/system/nginx.service; enabled; vendor preset: enabled)\par
+   Active: active (running) since Tue 2023-02-28 14:16:35 UTC; 20min ago\par
+     Docs: man:nginx(8)\par
+ Main PID: 3713 (nginx)\par
+    Tasks: 3 (limit: 1104)\par
+   CGroup: /system.slice/nginx.service\par
+           \f1\u9500?\u9472?\f0 3713 nginx: master process /usr/sbin/nginx -g daemon on; master_process on;\par
+           \f1\u9500?\u9472?\f0 3714 nginx: worker process\par
+           \f1\u9492?\u9472?\f0 3715 nginx: worker process\par
+\par
+Feb 28 14:16:35 web systemd[1]: Starting A high performance web server and a reverse proxy server...\par
+Feb 28 14:16:35 web systemd[1]: Started A high performance web server and a reverse proxy server.\par
+\cf0 vagrant@controller:/etc/ansible$ sudo nano nginx-playbook.yml\par
+vagrant@controller:/etc/ansible$ sudo nano nginx-playbook.yml\par
+vagrant@controller:/etc/ansible$ sudo ansible-playbook nginx-playbook.yml\par
+\par
+PLAY [web] ***************************************************************************************************************************************\par
+\par
+TASK [Gathering Facts] ***************************************************************************************************************************\par
+\cf2 [DEPRECATION WARNING]: Distribution Ubuntu 18.04 on host 192.168.33.10 should use /usr/bin/python3, but is using /usr/bin/python for backward comp\par
+with prior Ansible releases. A future Ansible release will default to using the discovered platform python for this host. See\par
+{{\field{\*\fldinst{HYPERLINK https://docs.ansible.com/ansible/2.9/reference_appendices/interpreter_discovery.html }}{\fldrslt{https://docs.ansible.com/ansible/2.9/reference_appendices/interpreter_discovery.html\ul0\cf0}}}}\f0\fs18  for more information. This feature will be removed in version\par
+Deprecation warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.\par
+\cf1 ok: [192.168.33.10]\par
+\par
+\cf0 TASK [Cloning GIT] *******************************************************************************************************************************\par
+\cf9 fatal: [192.168.33.10]: FAILED! => \{"changed": false, "cmd": "/usr/bin/git clone --origin origin {{\field{\*\fldinst{HYPERLINK https://github.com/jamestcole/tech201_virtualisate/vagrant }}{\fldrslt{https://github.com/jamestcole/tech201_virtualisate/vagrant\ul0\cf0}}}}\f0\fs18 ", "msg": "fatal: destination path '/home/vagrant' already exists and is not an empty directory.", "rc": 128, "stderr": "fatal: destinatime/vagrant' already exists and is not an empty directory.\\n", "stderr_lines": ["fatal: destination path '/home/vagrant' already exists and is not ectory."], "stdout": "", "stdout_lines": []\}\par
+\par
+\cf0 PLAY RECAP ***************************************************************************************************************************************\par
+\cf9 192.168.33.10\cf0               : \cf1 ok=1   \cf0  changed=0    unreachable=0    \cf9 failed=1   \cf0  skipped=0    rescued=0    ignored=0\par
+\par
+vagrant@controller:/etc/ansible$ ls\par
+ansible.cfg  hosts  nginx-playbook.yml  \cf4 roles\cf0   test.txt\par
+vagrant@controller:/etc/ansible$ ls -a\par
+\cf4 .\cf0   \cf4 ..\cf0   ansible.cfg  hosts  nginx-playbook.yml  \cf4 roles\cf0   test.txt\par
+vagrant@controller:/etc/ansible$ sudo nano nginx-playbook.yml\par
+vagrant@controller:/etc/ansible$ sudo ansible-playbook nginx-playbook.yml\par
+\par
+PLAY [web] ***************************************************************************************************************************************\par
+\par
+TASK [Gathering Facts] ***************************************************************************************************************************\par
+\cf2 [DEPRECATION WARNING]: Distribution Ubuntu 18.04 on host 192.168.33.10 should use /usr/bin/python3, but is using /usr/bin/python for backward comp\par
+the discovered platform python for this host. See {{\field{\*\fldinst{HYPERLINK https://docs.ansible.com/ansible/2.9/reference_appendices/interpreter_discovery.html }}{\fldrslt{https://docs.ansible.com/ansible/2.9/reference_appendices/interpreter_discovery.html\ul0\cf0}}}}\f0\fs18  for more in\par
+disabled by setting deprecation_warnings=False in ansible.cfg.\par
+\cf1 ok: [192.168.33.10]\par
+\par
+\cf0 TASK [Cloning GIT] *******************************************************************************************************************************\par
+\cf9 fatal: [192.168.33.10]: FAILED! => \{"changed": false, "cmd": "/usr/bin/git clone --origin origin {{\field{\*\fldinst{HYPERLINK https://github.com/jamestcole/tech201_virtualisatty }}{\fldrslt{https://github.com/jamestcole/tech201_virtualisatty\ul0\cf0}}}}\f0\fs18  directory.", "rc": 128, "stderr": "fatal: destination path '/home' already exists and is not an empty directory.\\n", "stderr_lines": ["fatal: dstdout_lines": []\}\par
+\par
+\cf0 PLAY RECAP ***************************************************************************************************************************************\par
+\cf9 192.168.33.10\cf0               : \cf1 ok=1   \cf0  changed=0    unreachable=0    \cf9 failed=1   \cf0  skipped=0    rescued=0    ignored=0\par
+\par
+vagrant@controller:/etc/ansible$ sudo nano nginx-playbook.yml\par
+vagrant@controller:/etc/ansible$ sudo ansible-playbook nginx-playbook.yml\par
+\par
+PLAY [web] ***************************************************************************************************************************************\par
+\par
+TASK [Gathering Facts] ***************************************************************************************************************************\par
+\cf2 [DEPRECATION WARNING]: Distribution Ubuntu 18.04 on host 192.168.33.10 should use /usr/bin/python3, but is using /usr/bin/python for backward comp\par
+the discovered platform python for this host. See {{\field{\*\fldinst{HYPERLINK https://docs.ansible.com/ansible/2.9/reference_appendices/interpreter_discovery.html }}{\fldrslt{https://docs.ansible.com/ansible/2.9/reference_appendices/interpreter_discovery.html\ul0\cf0}}}}\f0\fs18  for more in\par
+disabled by setting deprecation_warnings=False in ansible.cfg.\par
+\cf1 ok: [192.168.33.10]\par
+\par
+\cf0 TASK [Cloning GIT] *******************************************************************************************************************************\par
+\cf3 changed: [192.168.33.10]\par
+\par
+\cf0 PLAY RECAP ***************************************************************************************************************************************\par
+\cf3 192.168.33.10\cf0               : \cf1 ok=2   \cf0  \cf3 changed=1   \cf0  unreachable=0    failed=0    skipped=0    rescued=0    ignored=0\par
+\par
+vagrant@controller:/etc/ansible$ ls\par
+ansible.cfg  hosts  nginx-playbook.yml  \cf4 roles\cf0   test.txt\par
+vagrant@controller:/etc/ansible$ ssh vagrant@192.168.33.10\par
+vagrant@192.168.33.10's password:\par
+Permission denied, please try again.\par
+vagrant@192.168.33.10's password:\par
+Welcome to Ubuntu 18.04.6 LTS (GNU/Linux 4.15.0-200-generic x86_64)\par
+\par
+ * Documentation:  {{\field{\*\fldinst{HYPERLINK https://help.ubuntu.com }}{\fldrslt{https://help.ubuntu.com\ul0\cf0}}}}\f0\fs18\par
+ * Management:     {{\field{\*\fldinst{HYPERLINK https://landscape.canonical.com }}{\fldrslt{https://landscape.canonical.com\ul0\cf0}}}}\f0\fs18\par
+ * Support:        {{\field{\*\fldinst{HYPERLINK https://ubuntu.com/advantage }}{\fldrslt{https://ubuntu.com/advantage\ul0\cf0}}}}\f0\fs18\par
+\par
+  System information as of Tue Feb 28 15:27:00 UTC 2023\par
+\par
+  System load:  0.0               Processes:           106\par
+  Usage of /:   2.7% of 61.75GB   Users logged in:     1\par
+  Memory usage: 15%               IP address for eth0: 10.0.2.15\par
+  Swap usage:   0%                IP address for eth1: 192.168.33.10\par
+\par
+\par
+This system is built by the Bento project by Chef Software\par
+More information can be found at {{\field{\*\fldinst{HYPERLINK https://github.com/chef/bento }}{\fldrslt{https://github.com/chef/bento\ul0\cf0}}}}\f0\fs18\par
+Last login: Tue Feb 28 15:21:03 2023 from 192.168.33.12\par
+vagrant@web:~$ ls\par
+vagrant@web:~$ ls -a\par
+\cf4 .\cf0   \cf4 ..\cf0   \cf4 .ansible\cf0   .bash_history  .bash_logout  .bashrc  \cf4 .cache\cf0   \cf4 .gnupg\cf0   .profile  \cf4 .ssh\cf0   .sudo_as_admin_successful  .vbox_version  .wget-hsts\par
+vagrant@web:~$ cd .ssh\par
+vagrant@web:~/.ssh$ ls\par
+authorized_keys\par
+vagrant@web:~/.ssh$ cd ..\par
+vagrant@web:~$ cd .ansible\par
+vagrant@web:~/.ansible$ ls\par
+\cf4 tmp\par
+\cf0 vagrant@web:~/.ansible$ cd tmp\par
+vagrant@web:~/.ansible/tmp$ ls\par
+vagrant@web:~/.ansible/tmp$ cd ../..\par
+vagrant@web:~$ cd .\par
+vagrant@web:~$ cd ..\par
+vagrant@web:/home$ ls\par
+\cf4 vagrant\par
+\cf0 vagrant@web:/home$ cd vagrant\par
+vagrant@web:~$ ls\par
+vagrant@web:~$ ls -a\par
+\cf4 .\cf0   \cf4 ..\cf0   \cf4 .ansible\cf0   .bash_history  .bash_logout  .bashrc  \cf4 .cache\cf0   \cf4 .gnupg\cf0   .profile  \cf4 .ssh\cf0   .sudo_as_admin_successful  .vbox_version  .wget-hsts\par
+vagrant@web:~$ exit\par
+logout\par
+Connection to 192.168.33.10 closed.\par
+vagrant@controller:/etc/ansible$ sudo nano nginx-playbook.yml\par
+vagrant@controller:/etc/ansible$ sudo ansible-playbook nginx-playbook.yml\par
+\par
+PLAY [web] ***************************************************************************************************************************************\par
+\par
+TASK [Gathering Facts] ***************************************************************************************************************************\par
+\cf2 [DEPRECATION WARNING]: Distribution Ubuntu 18.04 on host 192.168.33.10 should use /usr/bin/python3, but is using /usr/bin/python for backward comp\par
+the discovered platform python for this host. See {{\field{\*\fldinst{HYPERLINK https://docs.ansible.com/ansible/2.9/reference_appendices/interpreter_discovery.html }}{\fldrslt{https://docs.ansible.com/ansible/2.9/reference_appendices/interpreter_discovery.html\ul0\cf0}}}}\f0\fs18  for more in\par
+disabled by setting deprecation_warnings=False in ansible.cfg.\par
+\cf1 ok: [192.168.33.10]\par
+\par
+\cf0 TASK [Cloning GIT] *******************************************************************************************************************************\par
+\cf3 changed: [192.168.33.10]\par
+\par
+\cf0 PLAY RECAP ***************************************************************************************************************************************\par
+\cf3 192.168.33.10\cf0               : \cf1 ok=2   \cf0  \cf3 changed=1   \cf0  unreachable=0    failed=0    skipped=0    rescued=0    ignored=0\par
+\par
+vagrant@controller:/etc/ansible$ ssh vagrant@192.168.33.10\par
+vagrant@192.168.33.10's password:\par
+Welcome to Ubuntu 18.04.6 LTS (GNU/Linux 4.15.0-200-generic x86_64)\par
+\par
+ * Documentation:  {{\field{\*\fldinst{HYPERLINK https://help.ubuntu.com }}{\fldrslt{https://help.ubuntu.com\ul0\cf0}}}}\f0\fs18\par
+ * Management:     {{\field{\*\fldinst{HYPERLINK https://landscape.canonical.com }}{\fldrslt{https://landscape.canonical.com\ul0\cf0}}}}\f0\fs18\par
+ * Support:        {{\field{\*\fldinst{HYPERLINK https://ubuntu.com/advantage }}{\fldrslt{https://ubuntu.com/advantage\ul0\cf0}}}}\f0\fs18\par
+\par
+  System information as of Tue Feb 28 15:41:54 UTC 2023\par
+\par
+  System load:  0.02              Processes:           109\par
+  Usage of /:   2.7% of 61.75GB   Users logged in:     1\par
+  Memory usage: 15%               IP address for eth0: 10.0.2.15\par
+  Swap usage:   0%                IP address for eth1: 192.168.33.10\par
+\par
+\par
+This system is built by the Bento project by Chef Software\par
+More information can be found at {{\field{\*\fldinst{HYPERLINK https://github.com/chef/bento }}{\fldrslt{https://github.com/chef/bento\ul0\cf0}}}}\f0\fs18\par
+Last login: Tue Feb 28 15:41:22 2023 from 192.168.33.10\par
+vagrant@web:~$ ls\par
+vagrant@web:~$ ls -a\par
+\cf4 .\cf0   \cf4 ..\cf0   \cf4 .ansible\cf0   .bash_history  .bash_logout  .bashrc  \cf4 .cache\cf0   \cf4 .gnupg\cf0   .profile  \cf4 .ssh\cf0   .sudo_as_admin_successful  .vbox_version  .wget-hsts\par
+vagrant@web:~$ cd ..\par
+vagrant@web:/home$ ls\par
+\cf4 app\cf0   \cf4 vagrant\par
+\cf0 vagrant@web:/home$ cd app\par
+vagrant@web:/home/app$ ls\par
+\cf4 app\cf0                            \cf4 environment\cf0                \cf8 monolithServer.png\cf0         README.md             screenshotport.PNG  ubuntu-bionic-18.04-cl\par
+\cf8 cpuconfig.jpg\cf0                  \cf8 fileStructure.png\cf0          postserror.PNG            READMETask1.md        success.PNG         ubuntu-xenial-16.04-cl\par
+databaseclearedandseeded.PNG  \cf8 finalpage.png\cf0              provision.sh              READMETWOENV.md       Time                Vagrantfile\par
+DiagramDeployment.md          forwardreverseproxy.webp  READMEautomatingdbenv.md  reverseproxyfile.PNG  twoenvpic.PNG       vagrantfile1.PNG\par
+vagrant@web:/home/app$ sh provision.sh\par
+Hit:1 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu }}{\fldrslt{http://archive.ubuntu.com/ubuntu\ul0\cf0}}}}\f0\fs18  bionic InRelease\par
+Get:2 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu }}{\fldrslt{http://archive.ubuntu.com/ubuntu\ul0\cf0}}}}\f0\fs18  bionic-updates InRelease [88.7 kB]\par
+Get:3 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu }}{\fldrslt{http://archive.ubuntu.com/ubuntu\ul0\cf0}}}}\f0\fs18  bionic-backports InRelease [83.3 kB]\par
+Get:4 {{\field{\*\fldinst{HYPERLINK http://security.ubuntu.com/ubuntu }}{\fldrslt{http://security.ubuntu.com/ubuntu\ul0\cf0}}}}\f0\fs18  bionic-security InRelease [88.7 kB]\par
+Get:5 {{\field{\*\fldinst{HYPERLINK http://security.ubuntu.com/ubuntu bionic-security/main }}{\fldrslt{http://security.ubuntu.com/ubuntu bionic-security/main\ul0\cf0}}}}\f0\fs18  i386 Packages [1,318 kB]\par
+Get:6 {{\field{\*\fldinst{HYPERLINK http://security.ubuntu.com/ubuntu bionic-security/main }}{\fldrslt{http://security.ubuntu.com/ubuntu bionic-security/main\ul0\cf0}}}}\f0\fs18  amd64 Packages [2,569 kB]\par
+Get:7 {{\field{\*\fldinst{HYPERLINK http://security.ubuntu.com/ubuntu bionic-security/universe }}{\fldrslt{http://security.ubuntu.com/ubuntu bionic-security/universe\ul0\cf0}}}}\f0\fs18  i386 Packages [1,062 kB]\par
+Get:8 {{\field{\*\fldinst{HYPERLINK http://security.ubuntu.com/ubuntu bionic-security/universe }}{\fldrslt{http://security.ubuntu.com/ubuntu bionic-security/universe\ul0\cf0}}}}\f0\fs18  amd64 Packages [1,272 kB]\par
+Fetched 6,482 kB in 5s (1,376 kB/s)\par
+Reading package lists... Done\par
+Reading package lists... Done\par
+Building dependency tree\par
+Reading state information... Done\par
+Calculating upgrade... Done\par
+The following packages have been kept back:\par
+  linux-image-generic\par
+The following packages will be upgraded:\par
+  curl git git-man intel-microcode krb5-locales libasn1-8-heimdal libcurl3-gnutls libcurl4 libgssapi-krb5-2 libgssapi3-heimdal libhcrypto4-heimdal\par
+  libkrb5-26-heimdal libkrb5-3 libkrb5support0 libksba8 libpam-modules libpam-modules-bin libpam-runtime libpam0g libroken18-heimdal libssl1.0.0 l\par
+  python3-pkg-resources python3-software-properties snapd software-properties-common sudo tmux tzdata ubuntu-advantage-tools vim vim-common vim-ru\par
+44 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.\par
+Need to get 63.0 MB of archives.\par
+After this operation, 6,959 kB of additional disk space will be used.\par
+Get:1 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  amd64 libpam0g amd64 1.1.8-3.6ubuntu2.18.04.6 [54.3 kB]\par
+Get:2 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  amd64 libpam-modules-bin amd64 1.1.8-3.6ubuntu2.18.04.6 [40.3 kB]\par
+Get:3 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  amd64 libpam-modules amd64 1.1.8-3.6ubuntu2.18.04.6 [253 kB]\par
+Get:4 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  amd64 libpam-runtime all 1.1.8-3.6ubuntu2.18.04.6 [37.1 kB]\par
+Get:5 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  amd64 libssl1.1 amd64 1.1.1-1ubuntu2.1~18.04.21 [1,304 kB]\par
+Get:6 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  amd64 openssl amd64 1.1.1-1ubuntu2.1~18.04.21 [614 kB]\par
+Get:7 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  amd64 sudo amd64 1.8.21p2-3ubuntu1.5 [428 kB]\par
+Get:8 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  amd64 tzdata all 2022g-0ubuntu0.18.04 [184 kB]\par
+Get:9 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  amd64 python-apt-common all 1.6.6 [16.9 kB]\par
+Get:10 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  amd64 python3-apt amd64 1.6.6 [149 kB]\par
+Get:11 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  amd64 python3-pkg-resources all 39.0.1-2ubuntu0.1 [99.0 kB]\par
+Get:12 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  amd64 ubuntu-advantage-tools amd64 27.13.5~18.04.1 [172 kB]\par
+Get:13 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  amd64 vim amd64 2:8.0.1453-1ubuntu1.10 [1,153 kB]\par
+Get:14 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  amd64 vim-tiny amd64 2:8.0.1453-1ubuntu1.10 [477 kB]\par
+Get:15 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  amd64 vim-runtime all 2:8.0.1453-1ubuntu1.10 [5,439 kB]\par
+Get:16 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  amd64 xxd amd64 2:8.0.1453-1ubuntu1.10 [49.9 kB]\par
+Get:17 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  amd64 vim-common all 2:8.0.1453-1ubuntu1.10 [71.0 kB]\par
+Get:18 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  amd64 krb5-locales all 1.16-2ubuntu0.3 [13.5 kB]\par
+Get:19 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  amd64 libgssapi-krb5-2 amd64 1.16-2ubuntu0.3 [122 kB]\par
+Get:20 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  amd64 libkrb5-3 amd64 1.16-2ubuntu0.3 [278 kB]\par
+Get:21 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  amd64 libkrb5support0 amd64 1.16-2ubuntu0.3 [30.9 kB]\par
+Get:22 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  amd64 libk5crypto3 amd64 1.16-2ubuntu0.3 [85.5 kB]\par
+Get:23 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  amd64 libssl1.0.0 amd64 1.0.2n-1ubuntu5.11 [1,089 kB]\par
+Get:24 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  amd64 curl amd64 7.58.0-2ubuntu3.23 [159 kB]\par
+Get:25 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  amd64 libcurl4 amd64 7.58.0-2ubuntu3.23 [220 kB]\par
+Get:26 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  amd64 git-man all 1:2.17.1-1ubuntu0.16 [805 kB]\par
+Get:27 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  amd64 libcurl3-gnutls amd64 7.58.0-2ubuntu3.23 [218 kB]\par
+Get:28 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  amd64 git amd64 1:2.17.1-1ubuntu0.16 [3,929 kB]\par
+Get:29 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  amd64 libroken18-heimdal amd64 7.5.0+dfsg-1ubuntu0.4 [42.3 kB]\par
+Get:30 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  amd64 libasn1-8-heimdal amd64 7.5.0+dfsg-1ubuntu0.4 [175 kB]\par
+Get:31 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  amd64 libheimbase1-heimdal amd64 7.5.0+dfsg-1ubuntu0.4 [30.3 kB]\par
+Get:32 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  amd64 libhcrypto4-heimdal amd64 7.5.0+dfsg-1ubuntu0.4 [85.9 kB]\par
+Get:33 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  amd64 libwind0-heimdal amd64 7.5.0+dfsg-1ubuntu0.4 [48.0 kB]\par
+Get:34 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  amd64 libhx509-5-heimdal amd64 7.5.0+dfsg-1ubuntu0.4 [107 kB]\par
+Get:35 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  amd64 libkrb5-26-heimdal amd64 7.5.0+dfsg-1ubuntu0.4 [207 kB]\par
+Get:36 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  amd64 libheimntlm0-heimdal amd64 7.5.0+dfsg-1ubuntu0.4 [14.8 kB]\par
+Get:37 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  amd64 libgssapi3-heimdal amd64 7.5.0+dfsg-1ubuntu0.4 [96.7 kB]\par
+Get:38 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  amd64 libksba8 amd64 1.3.5-2ubuntu0.18.04.2 [94.6 kB]\par
+Get:39 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  amd64 software-properties-common all 0.96.24.32.20 [9,876 B]\par
+Get:40 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  amd64 python3-software-properties all 0.96.24.32.20 [20.5 kB]\par
+Get:41 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  amd64 snapd amd64 2.58+18.04 [37.9 MB]\par
+Get:42 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  amd64 tmux amd64 2.6-3ubuntu0.3 [249 kB]\par
+Get:43 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  amd64 intel-microcode amd64 3.20230214.0ubuntu0.18.04.1 [5,856 kB]\par
+Get:44 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu bionic-updates/main }}{\fldrslt{http://archive.ubuntu.com/ubuntu bionic-updates/main\ul0\cf0}}}}\f0\fs18  amd64 open-vm-tools amd64 2:11.0.5-4ubuntu0.18.04.3 [544 kB]\par
+Fetched 63.0 MB in 4s (14.1 MB/s)\par
+Extracting templates from packages: 100%\par
+Preconfiguring packages ...\par
+(Reading database ... 40487 files and directories currently installed.)\par
+Preparing to unpack .../libpam0g_1.1.8-3.6ubuntu2.18.04.6_amd64.deb ...\par
+Unpacking libpam0g:amd64 (1.1.8-3.6ubuntu2.18.04.6) over (1.1.8-3.6ubuntu2.18.04.3) ...\par
+Setting up libpam0g:amd64 (1.1.8-3.6ubuntu2.18.04.6) ...\par
+(Reading database ... 40487 files and directories currently installed.)\par
+Preparing to unpack .../libpam-modules-bin_1.1.8-3.6ubuntu2.18.04.6_amd64.deb ...\par
+Unpacking libpam-modules-bin (1.1.8-3.6ubuntu2.18.04.6) over (1.1.8-3.6ubuntu2.18.04.3) ...\par
+Setting up libpam-modules-bin (1.1.8-3.6ubuntu2.18.04.6) ...\par
+(Reading database ... 40487 files and directories currently installed.)\par
+Preparing to unpack .../libpam-modules_1.1.8-3.6ubuntu2.18.04.6_amd64.deb ...\par
+Unpacking libpam-modules:amd64 (1.1.8-3.6ubuntu2.18.04.6) over (1.1.8-3.6ubuntu2.18.04.3) ...\par
+Setting up libpam-modules:amd64 (1.1.8-3.6ubuntu2.18.04.6) ...\par
+(Reading database ... 40487 files and directories currently installed.)\par
+Preparing to unpack .../libpam-runtime_1.1.8-3.6ubuntu2.18.04.6_all.deb ...\par
+Unpacking libpam-runtime (1.1.8-3.6ubuntu2.18.04.6) over (1.1.8-3.6ubuntu2.18.04.3) ...\par
+Setting up libpam-runtime (1.1.8-3.6ubuntu2.18.04.6) ...\par
+(Reading database ... 40487 files and directories currently installed.)\par
+Preparing to unpack .../00-libssl1.1_1.1.1-1ubuntu2.1~18.04.21_amd64.deb ...\par
+Unpacking libssl1.1:amd64 (1.1.1-1ubuntu2.1~18.04.21) over (1.1.1-1ubuntu2.1~18.04.20) ...\par
+Preparing to unpack .../01-openssl_1.1.1-1ubuntu2.1~18.04.21_amd64.deb ...\par
+Unpacking openssl (1.1.1-1ubuntu2.1~18.04.21) over (1.1.1-1ubuntu2.1~18.04.20) ...\par
+Preparing to unpack .../02-sudo_1.8.21p2-3ubuntu1.5_amd64.deb ...\par
+Unpacking sudo (1.8.21p2-3ubuntu1.5) over (1.8.21p2-3ubuntu1.4) ...\par
+Preparing to unpack .../03-tzdata_2022g-0ubuntu0.18.04_all.deb ...\par
+Unpacking tzdata (2022g-0ubuntu0.18.04) over (2022f-0ubuntu0.18.04.0) ...\par
+Preparing to unpack .../04-python-apt-common_1.6.6_all.deb ...\par
+Unpacking python-apt-common (1.6.6) over (1.6.5ubuntu0.7) ...\par
+Preparing to unpack .../05-python3-apt_1.6.6_amd64.deb ...\par
+Unpacking python3-apt (1.6.6) over (1.6.5ubuntu0.7) ...\par
+Preparing to unpack .../06-python3-pkg-resources_39.0.1-2ubuntu0.1_all.deb ...\par
+Unpacking python3-pkg-resources (39.0.1-2ubuntu0.1) over (39.0.1-2) ...\par
+Preparing to unpack .../07-ubuntu-advantage-tools_27.13.5~18.04.1_amd64.deb ...\par
+Unpacking ubuntu-advantage-tools (27.13.5~18.04.1) over (27.12~18.04.1) ...\par
+Preparing to unpack .../08-vim_2%3a8.0.1453-1ubuntu1.10_amd64.deb ...\par
+Unpacking vim (2:8.0.1453-1ubuntu1.10) over (2:8.0.1453-1ubuntu1.9) ...\par
+Preparing to unpack .../09-vim-tiny_2%3a8.0.1453-1ubuntu1.10_amd64.deb ...\par
+Unpacking vim-tiny (2:8.0.1453-1ubuntu1.10) over (2:8.0.1453-1ubuntu1.9) ...\par
+Preparing to unpack .../10-vim-runtime_2%3a8.0.1453-1ubuntu1.10_all.deb ...\par
+Unpacking vim-runtime (2:8.0.1453-1ubuntu1.10) over (2:8.0.1453-1ubuntu1.9) ...\par
+Preparing to unpack .../11-xxd_2%3a8.0.1453-1ubuntu1.10_amd64.deb ...\par
+Unpacking xxd (2:8.0.1453-1ubuntu1.10) over (2:8.0.1453-1ubuntu1.9) ...\par
+Preparing to unpack .../12-vim-common_2%3a8.0.1453-1ubuntu1.10_all.deb ...\par
+Unpacking vim-common (2:8.0.1453-1ubuntu1.10) over (2:8.0.1453-1ubuntu1.9) ...\par
+Preparing to unpack .../13-krb5-locales_1.16-2ubuntu0.3_all.deb ...\par
+Unpacking krb5-locales (1.16-2ubuntu0.3) over (1.16-2ubuntu0.2) ...\par
+Preparing to unpack .../14-libgssapi-krb5-2_1.16-2ubuntu0.3_amd64.deb ...\par
+Unpacking libgssapi-krb5-2:amd64 (1.16-2ubuntu0.3) over (1.16-2ubuntu0.2) ...\par
+Preparing to unpack .../15-libkrb5-3_1.16-2ubuntu0.3_amd64.deb ...\par
+Unpacking libkrb5-3:amd64 (1.16-2ubuntu0.3) over (1.16-2ubuntu0.2) ...\par
+Preparing to unpack .../16-libkrb5support0_1.16-2ubuntu0.3_amd64.deb ...\par
+Unpacking libkrb5support0:amd64 (1.16-2ubuntu0.3) over (1.16-2ubuntu0.2) ...\par
+Preparing to unpack .../17-libk5crypto3_1.16-2ubuntu0.3_amd64.deb ...\par
+Unpacking libk5crypto3:amd64 (1.16-2ubuntu0.3) over (1.16-2ubuntu0.2) ...\par
+Preparing to unpack .../18-libssl1.0.0_1.0.2n-1ubuntu5.11_amd64.deb ...\par
+Unpacking libssl1.0.0:amd64 (1.0.2n-1ubuntu5.11) over (1.0.2n-1ubuntu5.10) ...\par
+Preparing to unpack .../19-curl_7.58.0-2ubuntu3.23_amd64.deb ...\par
+Unpacking curl (7.58.0-2ubuntu3.23) over (7.58.0-2ubuntu3.21) ...\par
+Preparing to unpack .../20-libcurl4_7.58.0-2ubuntu3.23_amd64.deb ...\par
+Unpacking libcurl4:amd64 (7.58.0-2ubuntu3.23) over (7.58.0-2ubuntu3.21) ...\par
+Preparing to unpack .../21-git-man_1%3a2.17.1-1ubuntu0.16_all.deb ...\par
+Unpacking git-man (1:2.17.1-1ubuntu0.16) over (1:2.17.1-1ubuntu0.13) ...\par
+Preparing to unpack .../22-libcurl3-gnutls_7.58.0-2ubuntu3.23_amd64.deb ...\par
+Unpacking libcurl3-gnutls:amd64 (7.58.0-2ubuntu3.23) over (7.58.0-2ubuntu3.21) ...\par
+Preparing to unpack .../23-git_1%3a2.17.1-1ubuntu0.16_amd64.deb ...\par
+Unpacking git (1:2.17.1-1ubuntu0.16) over (1:2.17.1-1ubuntu0.13) ...\par
+Preparing to unpack .../24-libroken18-heimdal_7.5.0+dfsg-1ubuntu0.4_amd64.deb ...\par
+Unpacking libroken18-heimdal:amd64 (7.5.0+dfsg-1ubuntu0.4) over (7.5.0+dfsg-1ubuntu0.2) ...\par
+Preparing to unpack .../25-libasn1-8-heimdal_7.5.0+dfsg-1ubuntu0.4_amd64.deb ...\par
+Unpacking libasn1-8-heimdal:amd64 (7.5.0+dfsg-1ubuntu0.4) over (7.5.0+dfsg-1ubuntu0.2) ...\par
+Preparing to unpack .../26-libheimbase1-heimdal_7.5.0+dfsg-1ubuntu0.4_amd64.deb ...\par
+Unpacking libheimbase1-heimdal:amd64 (7.5.0+dfsg-1ubuntu0.4) over (7.5.0+dfsg-1ubuntu0.2) ...\par
+Preparing to unpack .../27-libhcrypto4-heimdal_7.5.0+dfsg-1ubuntu0.4_amd64.deb ...\par
+Unpacking libhcrypto4-heimdal:amd64 (7.5.0+dfsg-1ubuntu0.4) over (7.5.0+dfsg-1ubuntu0.2) ...\par
+Preparing to unpack .../28-libwind0-heimdal_7.5.0+dfsg-1ubuntu0.4_amd64.deb ...\par
+Unpacking libwind0-heimdal:amd64 (7.5.0+dfsg-1ubuntu0.4) over (7.5.0+dfsg-1ubuntu0.2) ...\par
+Preparing to unpack .../29-libhx509-5-heimdal_7.5.0+dfsg-1ubuntu0.4_amd64.deb ...\par
+Unpacking libhx509-5-heimdal:amd64 (7.5.0+dfsg-1ubuntu0.4) over (7.5.0+dfsg-1ubuntu0.2) ...\par
+Preparing to unpack .../30-libkrb5-26-heimdal_7.5.0+dfsg-1ubuntu0.4_amd64.deb ...\par
+Unpacking libkrb5-26-heimdal:amd64 (7.5.0+dfsg-1ubuntu0.4) over (7.5.0+dfsg-1ubuntu0.2) ...\par
+Preparing to unpack .../31-libheimntlm0-heimdal_7.5.0+dfsg-1ubuntu0.4_amd64.deb ...\par
+Unpacking libheimntlm0-heimdal:amd64 (7.5.0+dfsg-1ubuntu0.4) over (7.5.0+dfsg-1ubuntu0.2) ...\par
+Preparing to unpack .../32-libgssapi3-heimdal_7.5.0+dfsg-1ubuntu0.4_amd64.deb ...\par
+Unpacking libgssapi3-heimdal:amd64 (7.5.0+dfsg-1ubuntu0.4) over (7.5.0+dfsg-1ubuntu0.2) ...\par
+Preparing to unpack .../33-libksba8_1.3.5-2ubuntu0.18.04.2_amd64.deb ...\par
+Unpacking libksba8:amd64 (1.3.5-2ubuntu0.18.04.2) over (1.3.5-2ubuntu0.18.04.1) ...\par
+Preparing to unpack .../34-software-properties-common_0.96.24.32.20_all.deb ...\par
+Unpacking software-properties-common (0.96.24.32.20) over (0.96.24.32.18) ...\par
+Preparing to unpack .../35-python3-software-properties_0.96.24.32.20_all.deb ...\par
+Unpacking python3-software-properties (0.96.24.32.20) over (0.96.24.32.18) ...\par
+Preparing to unpack .../36-snapd_2.58+18.04_amd64.deb ...\par
+Unpacking snapd (2.58+18.04) over (2.57.5+18.04ubuntu0.1) ...\par
+Preparing to unpack .../37-tmux_2.6-3ubuntu0.3_amd64.deb ...\par
+Unpacking tmux (2.6-3ubuntu0.3) over (2.6-3ubuntu0.2) ...\par
+Preparing to unpack .../38-intel-microcode_3.20230214.0ubuntu0.18.04.1_amd64.deb ...\par
+Unpacking intel-microcode (3.20230214.0ubuntu0.18.04.1) over (3.20220809.0ubuntu0.18.04.1) ...\par
+Preparing to unpack .../39-open-vm-tools_2%3a11.0.5-4ubuntu0.18.04.3_amd64.deb ...\par
+Unpacking open-vm-tools (2:11.0.5-4ubuntu0.18.04.3) over (2:11.0.5-4ubuntu0.18.04.2) ...\par
+Setting up python-apt-common (1.6.6) ...\par
+Setting up intel-microcode (3.20230214.0ubuntu0.18.04.1) ...\par
+update-initramfs: deferring update (trigger activated)\par
+intel-microcode: microcode will be updated at next boot\par
+Setting up git-man (1:2.17.1-1ubuntu0.16) ...\par
+Setting up python3-apt (1.6.6) ...\par
+Setting up libssl1.0.0:amd64 (1.0.2n-1ubuntu5.11) ...\par
+Setting up xxd (2:8.0.1453-1ubuntu1.10) ...\par
+Setting up sudo (1.8.21p2-3ubuntu1.5) ...\par
+Setting up tzdata (2022g-0ubuntu0.18.04) ...\par
+\par
+Current default time zone: 'Etc/UTC'\par
+Local time is now:      Tue Feb 28 15:43:59 UTC 2023.\par
+Universal Time is now:  Tue Feb 28 15:43:59 UTC 2023.\par
+Run 'dpkg-reconfigure tzdata' if you wish to change it.\par
+\par
+Setting up libroken18-heimdal:amd64 (7.5.0+dfsg-1ubuntu0.4) ...\par
+Setting up libksba8:amd64 (1.3.5-2ubuntu0.18.04.2) ...\par
+Setting up python3-pkg-resources (39.0.1-2ubuntu0.1) ...\par
+Setting up libkrb5support0:amd64 (1.16-2ubuntu0.3) ...\par
+Setting up snapd (2.58+18.04) ...\par
+Installing new version of config file /etc/apt/apt.conf.d/20snapd.conf ...\par
+snapd.failure.service is a disabled or a static unit not running, not starting it.\par
+snapd.snap-repair.service is a disabled or a static unit not running, not starting it.\par
+Failed to restart snapd.mounts-pre.target: Operation refused, unit snapd.mounts-pre.target may be requested by dependency only (it is configured t\par
+See system logs and 'systemctl status snapd.mounts-pre.target' for details.\par
+Setting up krb5-locales (1.16-2ubuntu0.3) ...\par
+Setting up libssl1.1:amd64 (1.1.1-1ubuntu2.1~18.04.21) ...\par
+Setting up libheimbase1-heimdal:amd64 (7.5.0+dfsg-1ubuntu0.4) ...\par
+Setting up openssl (1.1.1-1ubuntu2.1~18.04.21) ...\par
+Setting up vim-common (2:8.0.1453-1ubuntu1.10) ...\par
+Setting up tmux (2.6-3ubuntu0.3) ...\par
+Setting up python3-software-properties (0.96.24.32.20) ...\par
+Setting up vim-runtime (2:8.0.1453-1ubuntu1.10) ...\par
+Setting up software-properties-common (0.96.24.32.20) ...\par
+Setting up ubuntu-advantage-tools (27.13.5~18.04.1) ...\par
+Installing new version of config file /etc/apt/apt.conf.d/20apt-esm-hook.conf ...\par
+Installing new version of config file /etc/ubuntu-advantage/help_data.yaml ...\par
+Installing new version of config file /etc/ubuntu-advantage/uaclient.conf ...\par
+Setting up vim-tiny (2:8.0.1453-1ubuntu1.10) ...\par
+Setting up libk5crypto3:amd64 (1.16-2ubuntu0.3) ...\par
+Setting up libwind0-heimdal:amd64 (7.5.0+dfsg-1ubuntu0.4) ...\par
+Setting up vim (2:8.0.1453-1ubuntu1.10) ...\par
+Setting up libasn1-8-heimdal:amd64 (7.5.0+dfsg-1ubuntu0.4) ...\par
+Setting up open-vm-tools (2:11.0.5-4ubuntu0.18.04.3) ...\par
+Setting up libhcrypto4-heimdal:amd64 (7.5.0+dfsg-1ubuntu0.4) ...\par
+Setting up libhx509-5-heimdal:amd64 (7.5.0+dfsg-1ubuntu0.4) ...\par
+Setting up libkrb5-3:amd64 (1.16-2ubuntu0.3) ...\par
+Setting up libkrb5-26-heimdal:amd64 (7.5.0+dfsg-1ubuntu0.4) ...\par
+Setting up libheimntlm0-heimdal:amd64 (7.5.0+dfsg-1ubuntu0.4) ...\par
+Setting up libgssapi-krb5-2:amd64 (1.16-2ubuntu0.3) ...\par
+Setting up libgssapi3-heimdal:amd64 (7.5.0+dfsg-1ubuntu0.4) ...\par
+Setting up libcurl3-gnutls:amd64 (7.58.0-2ubuntu3.23) ...\par
+Setting up libcurl4:amd64 (7.58.0-2ubuntu3.23) ...\par
+Setting up git (1:2.17.1-1ubuntu0.16) ...\par
+Setting up curl (7.58.0-2ubuntu3.23) ...\par
+Processing triggers for systemd (237-3ubuntu10.56) ...\par
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...\par
+Processing triggers for dbus (1.12.2-1ubuntu1.4) ...\par
+Processing triggers for mime-support (3.60ubuntu1) ...\par
+Processing triggers for ureadahead (0.100.0-21) ...\par
+Processing triggers for libc-bin (2.27-3ubuntu1.6) ...\par
+Processing triggers for initramfs-tools (0.130ubuntu3.13) ...\par
+update-initramfs: Generating /boot/initrd.img-4.15.0-200-generic\par
+Reading package lists... Done\par
+Building dependency tree\par
+Reading state information... Done\par
+nginx is already the newest version (1.14.0-0ubuntu1.11).\par
+0 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.\par
+systemctl: invalid option -- 'y'\par
+systemctl: invalid option -- 'y'\par
+Reading package lists... Done\par
+Building dependency tree\par
+Reading state information... Done\par
+Package python-software-properties is not available, but is referred to by another package.\par
+This may mean that the package is missing, has been obsoleted, or\par
+is only available from another source\par
+However the following packages replace it:\par
+  software-properties-common\par
+\par
+E: Package 'python-software-properties' has no installation candidate\par
+\par
+\cf9 ================================================================================\par
+================================================================================\par
+\par
+\cf0   \cf11                             DEPRECATION WARNING\par
+\par
+\cf0   \b Node.js 12.x is no longer actively supported!\par
+\par
+\b0   \b You will not receive security or critical stability updates\b0  for this version.\par
+\par
+  You should migrate to a supported version of Node.js as soon as possible.\par
+  Use the installation script that corresponds to the version of Node.js you\par
+  wish to install. e.g.\par
+\par
+   * {\cf1\f2{\field{\*\fldinst{HYPERLINK https://deb.nodesource.com/setup_14.x }}{\fldrslt{https://deb.nodesource.com/setup_14.x\ul0\cf0}}}}\cf1\f2\fs18  \emdash  Node.js 14 LTS "Fermium"\cf0\f0  (recommended)\par
+   * {\cf1\f2{\field{\*\fldinst{HYPERLINK https://deb.nodesource.com/setup_16.x }}{\fldrslt{https://deb.nodesource.com/setup_16.x\ul0\cf0}}}}\cf1\f2\fs18  \emdash  Node.js 16 "Gallium"\f0\par
+\cf0    * {\cf1\f2{\field{\*\fldinst{HYPERLINK https://deb.nodesource.com/setup_18.x }}{\fldrslt{https://deb.nodesource.com/setup_18.x\ul0\cf0}}}}\cf1\f2\fs18  \emdash  Node.js 18 "Eighteen"\cf0\f0  (current)\par
+\par
+  Please see {\b{\field{\*\fldinst{HYPERLINK https://github.com/nodejs/Release }}{\fldrslt{https://github.com/nodejs/Release\ul0\cf0}}}}\f0\fs18  for details about which\par
+  version may be appropriate for you.\par
+\par
+  The \b NodeSource\b0  Node.js distributions repository contains\par
+  information both about supported versions of Node.js and supported Linux\par
+  distributions. To learn more about usage, see the repository:\par
+    {\b{\field{\*\fldinst{HYPERLINK https://github.com/nodesource/distributions }}{\fldrslt{https://github.com/nodesource/distributions\ul0\cf0}}}}\b\f0\fs18\par
+\par
+\cf9\b0 ================================================================================\par
+================================================================================\par
+\par
+\cf0 Continuing in 20 seconds ...\par
+\par
+\par
+## Installing the NodeSource Node.js 12.x repo...\par
+\par
+\par
+## Populating apt-get cache...\par
+\par
++ apt-get update\par
+Hit:1 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu }}{\fldrslt{http://archive.ubuntu.com/ubuntu\ul0\cf0}}}}\f0\fs18  bionic InRelease\par
+Hit:2 {{\field{\*\fldinst{HYPERLINK http://security.ubuntu.com/ubuntu }}{\fldrslt{http://security.ubuntu.com/ubuntu\ul0\cf0}}}}\f0\fs18  bionic-security InRelease\par
+Hit:3 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu }}{\fldrslt{http://archive.ubuntu.com/ubuntu\ul0\cf0}}}}\f0\fs18  bionic-updates InRelease\par
+Hit:4 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu }}{\fldrslt{http://archive.ubuntu.com/ubuntu\ul0\cf0}}}}\f0\fs18  bionic-backports InRelease\par
+Reading package lists... Done\par
+\par
+## Confirming "bionic" is supported...\par
+\par
++ curl -sLf -o /dev/null '{{\field{\*\fldinst{HYPERLINK https://deb.nodesource.com/node_12.x/dists/bionic/Release }}{\fldrslt{https://deb.nodesource.com/node_12.x/dists/bionic/Release\ul0\cf0}}}}\f0\fs18 '\par
+\par
+## Adding the NodeSource signing key to your keyring...\par
+\par
++ curl -s {{\field{\*\fldinst{HYPERLINK https://deb.nodesource.com/gpgkey/nodesource.gpg.key }}{\fldrslt{https://deb.nodesource.com/gpgkey/nodesource.gpg.key\ul0\cf0}}}}\f0\fs18  | gpg --dearmor | tee /usr/share/keyrings/nodesource.gpg >/dev/null\par
+gpg: WARNING: unsafe ownership on homedir '/home/vagrant/.gnupg'\par
+\par
+## Creating apt sources list file for the NodeSource Node.js 12.x repo...\par
+\par
++ echo 'deb [signed-by=/usr/share/keyrings/nodesource.gpg] {{\field{\*\fldinst{HYPERLINK https://deb.nodesource.com/node_12.x }}{\fldrslt{https://deb.nodesource.com/node_12.x\ul0\cf0}}}}\f0\fs18  bionic main' > /etc/apt/sources.list.d/nodesource.\par
++ echo 'deb-src [signed-by=/usr/share/keyrings/nodesource.gpg] {{\field{\*\fldinst{HYPERLINK https://deb.nodesource.com/node_12.x }}{\fldrslt{https://deb.nodesource.com/node_12.x\ul0\cf0}}}}\f0\fs18  bionic main' >> /etc/apt/sources.list.d/nodeso\par
+\par
+## Running `apt-get update` for you...\par
+\par
++ apt-get update\par
+Get:1 {{\field{\*\fldinst{HYPERLINK https://deb.nodesource.com/node_12.x }}{\fldrslt{https://deb.nodesource.com/node_12.x\ul0\cf0}}}}\f0\fs18  bionic InRelease [4,584 B]\par
+Hit:2 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu }}{\fldrslt{http://archive.ubuntu.com/ubuntu\ul0\cf0}}}}\f0\fs18  bionic InRelease\par
+Hit:3 {{\field{\*\fldinst{HYPERLINK http://security.ubuntu.com/ubuntu }}{\fldrslt{http://security.ubuntu.com/ubuntu\ul0\cf0}}}}\f0\fs18  bionic-security InRelease\par
+Hit:4 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu }}{\fldrslt{http://archive.ubuntu.com/ubuntu\ul0\cf0}}}}\f0\fs18  bionic-updates InRelease\par
+Hit:5 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu }}{\fldrslt{http://archive.ubuntu.com/ubuntu\ul0\cf0}}}}\f0\fs18  bionic-backports InRelease\par
+Get:6 {{\field{\*\fldinst{HYPERLINK https://deb.nodesource.com/node_12.x }}{\fldrslt{https://deb.nodesource.com/node_12.x\ul0\cf0}}}}\f0\fs18  bionic/main amd64 Packages [768 B]\par
+Fetched 5,352 B in 2s (2,653 B/s)\par
+Reading package lists... Done\par
+\par
+## Run `\b sudo apt-get install -y nodejs\b0 ` to install Node.js 12.x and npm\par
+## You may also need development tools to build native addons:\par
+     sudo apt-get install gcc g++ make\par
+## To install the Yarn package manager, run:\par
+     curl -sL {{\field{\*\fldinst{HYPERLINK https://dl.yarnpkg.com/debian/pubkey.gpg }}{\fldrslt{https://dl.yarnpkg.com/debian/pubkey.gpg\ul0\cf0}}}}\f0\fs18  | gpg --dearmor | sudo tee /usr/share/keyrings/yarnkey.gpg >/dev/null\par
+     echo "deb [signed-by=/usr/share/keyrings/yarnkey.gpg] {{\field{\*\fldinst{HYPERLINK https://dl.yarnpkg.com/debian }}{\fldrslt{https://dl.yarnpkg.com/debian\ul0\cf0}}}}\f0\fs18  stable main" | sudo tee /etc/apt/sources.list.d/yarn.list\par
+     sudo apt-get update && sudo apt-get install yarn\par
+\par
+\par
+Reading package lists... Done\par
+Building dependency tree\par
+Reading state information... Done\par
+The following NEW packages will be installed:\par
+  nodejs\par
+0 upgraded, 1 newly installed, 0 to remove and 1 not upgraded.\par
+Need to get 18.2 MB of archives.\par
+After this operation, 93.5 MB of additional disk space will be used.\par
+Get:1 {{\field{\*\fldinst{HYPERLINK https://deb.nodesource.com/node_12.x }}{\fldrslt{https://deb.nodesource.com/node_12.x\ul0\cf0}}}}\f0\fs18  bionic/main amd64 nodejs amd64 12.22.12-1nodesource1 [18.2 MB]\par
+Fetched 18.2 MB in 1s (18.3 MB/s)\par
+Selecting previously unselected package nodejs.\par
+(Reading database ... 40503 files and directories currently installed.)\par
+Preparing to unpack .../nodejs_12.22.12-1nodesource1_amd64.deb ...\par
+Unpacking nodejs (12.22.12-1nodesource1) ...\par
+Setting up nodejs (12.22.12-1nodesource1) ...\par
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  \cf2 deprecated\cf0  uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is k\par
+/usr/bin/pm2 -> /usr/lib/node_modules/pm2/bin/pm2\par
+/usr/bin/pm2-dev -> /usr/lib/node_modules/pm2/bin/pm2-dev\par
+/usr/bin/pm2-docker -> /usr/lib/node_modules/pm2/bin/pm2-docker\par
+/usr/bin/pm2-runtime -> /usr/lib/node_modules/pm2/bin/pm2-runtime\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  \cf2 optional\cf0  SKIPPING OPTIONAL DEPENDENCY: fsevents@~2.3.2 (node_modules/pm2/node_modules/chokidar/node_modules/fsevents):\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  \cf2 notsup\cf0  SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.2: wanted \{"os":"darwin","arch":"any"\} (current: \{"os":"linux"\par
+\par
++ pm2@5.2.2\par
+added 184 packages from 182 contributors in 37.089s\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  \cf2 deprecated\cf0  superagent@2.3.0: Please upgrade to v7.0.2+ of superagent.  We have fixed numerous issues with streams, form-data, attach(), fee the releases tab for more information at <{{\field{\*\fldinst{HYPERLINK "https://github.com/visionmedia/superagent/releases"}}{\fldrslt{https://github.com/visionmedia/superagent/releases\ul0\cf0}}}}\f0\fs18 >.\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  \cf2 deprecated\cf0  mkdirp@0.5.1: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has c\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  \cf2 deprecated\cf0  json3@3.3.2: Please use the native JSON object instead of JSON 3\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  \cf2 deprecated\cf0  bson@1.0.9: Fixed a critical issue with BSON serialization documented in CVE-2019-2391, see {{\field{\*\fldinst{HYPERLINK https://bit.ly/2KcpXdo }}{\fldrslt{https://bit.ly/2KcpXdo\ul0\cf0}}}}\f0\fs18  for more de\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  \cf2 deprecated\cf0  formidable@1.2.6: Please upgrade to latest, formidable@v2 or formidable@v3! Check these notes: {{\field{\*\fldinst{HYPERLINK https://bit.ly/2ZEqIau }}{\fldrslt{https://bit.ly/2ZEqIau\ul0\cf0}}}}\f0\fs18\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  \cf2 deprecated\cf0  istanbul@0.4.5: This module is no longer maintained, try this instead:\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  \cf2 deprecated\cf0    npm i nyc\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  \cf2 deprecated\cf0  Visit {{\field{\*\fldinst{HYPERLINK https://istanbul.js.org/integrations }}{\fldrslt{https://istanbul.js.org/integrations\ul0\cf0}}}}\f0\fs18  for other alternatives.\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  \cf2 checkPermissions\cf0  Missing write access to /home/app/app\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  solution-code@1.0.0 No repository field.\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  The package jenkins-mocha is included as both a dev and production dependency.\par
+\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0  \cf2 code\cf0  EACCES\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0  \cf2 syscall\cf0  access\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0  \cf2 path\cf0  /home/app/app\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0  \cf2 errno\cf0  -13\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0  Error: EACCES: permission denied, access '/home/app/app'\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0   [Error: EACCES: permission denied, access '/home/app/app'] \{\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0    errno: -13,\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0    code: 'EACCES',\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0    syscall: 'access',\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0    path: '/home/app/app'\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0  \}\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\par
+\cf12 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0  The operation was rejected by your operating system.\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0  It is likely you do not have the permissions to access this file as the current user\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\par
+\cf12 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0  If you believe this might be a permissions issue, please double-check the\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0  permissions of the file and its containing directories, or try running\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0  the command again as root/Administrator.\par
+\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0  A complete log of this run can be found in:\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0      /home/vagrant/.npm/_logs/2023-02-28T15_46_33_716Z-debug.log\par
+internal/modules/cjs/loader.js:818\par
+  throw err;\par
+  ^\par
+\par
+Error: Cannot find module 'mongoose'\par
+Require stack:\par
+- /home/app/app/models/post.js\par
+- /home/app/app/seeds/seed.js\par
+\cf14     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)\par
+    at Function.Module._load (internal/modules/cjs/loader.js:667:27)\par
+    at Module.require (internal/modules/cjs/loader.js:887:19)\par
+    at require (internal/modules/cjs/helpers.js:74:18)\par
+\cf0     at Object.<anonymous> (/home/app/app/models/post.js:1:16)\par
+\cf14     at Module._compile (internal/modules/cjs/loader.js:999:30)\par
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\par
+    at Module.load (internal/modules/cjs/loader.js:863:32)\par
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\par
+    at Module.require (internal/modules/cjs/loader.js:887:19)\cf0  \{\par
+  code: \cf1 'MODULE_NOT_FOUND'\cf0 ,\par
+  requireStack: [ \cf1 '/home/app/app/models/post.js'\cf0 , \cf1 '/home/app/app/seeds/seed.js'\cf0  ]\par
+\}\par
+vagrant@web:/home/app$ ls\par
+\cf4 app\cf0                            \cf4 environment\cf0                \cf8 monolithServer.png\cf0         README.md             screenshotport.PNG  ubuntu-bionic-18.04-cl\par
+\cf8 cpuconfig.jpg\cf0                  \cf8 fileStructure.png\cf0          postserror.PNG            READMETask1.md        success.PNG         ubuntu-xenial-16.04-cl\par
+databaseclearedandseeded.PNG  \cf8 finalpage.png\cf0              provision.sh              READMETWOENV.md       Time                Vagrantfile\par
+DiagramDeployment.md          forwardreverseproxy.webp  READMEautomatingdbenv.md  reverseproxyfile.PNG  twoenvpic.PNG       vagrantfile1.PNG\par
+vagrant@web:/home/app$ cd app\par
+vagrant@web:/home/app/app$ ls\par
+app.js  \cf4 models\cf0   package.json  provsion.sh  \cf4 public\cf0   README.md  reverse_proxy  \cf4 seeds\cf0   \cf4 test\cf0   \cf4 views\par
+\cf0 vagrant@web:/home/app/app$ node app.js\par
+internal/modules/cjs/loader.js:818\par
+  throw err;\par
+  ^\par
+\par
+Error: Cannot find module 'express'\par
+Require stack:\par
+- /home/app/app/app.js\par
+\cf14     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)\par
+    at Function.Module._load (internal/modules/cjs/loader.js:667:27)\par
+    at Module.require (internal/modules/cjs/loader.js:887:19)\par
+    at require (internal/modules/cjs/helpers.js:74:18)\par
+\cf0     at Object.<anonymous> (/home/app/app/app.js:1:15)\par
+\cf14     at Module._compile (internal/modules/cjs/loader.js:999:30)\par
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\par
+    at Module.load (internal/modules/cjs/loader.js:863:32)\par
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\par
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)\cf0  \{\par
+  code: \cf1 'MODULE_NOT_FOUND'\cf0 ,\par
+  requireStack: [ \cf1 '/home/app/app/app.js'\cf0  ]\par
+\}\par
+vagrant@web:/home/app/app$ ls\par
+app.js  \cf4 models\cf0   package.json  provsion.sh  \cf4 public\cf0   README.md  reverse_proxy  \cf4 seeds\cf0   \cf4 test\cf0   \cf4 views\par
+\cf0 vagrant@web:/home/app/app$ sh provsion.sh\par
+Hit:1 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu }}{\fldrslt{http://archive.ubuntu.com/ubuntu\ul0\cf0}}}}\f0\fs18  bionic InRelease\par
+Hit:2 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu }}{\fldrslt{http://archive.ubuntu.com/ubuntu\ul0\cf0}}}}\f0\fs18  bionic-updates InRelease\par
+Hit:3 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu }}{\fldrslt{http://archive.ubuntu.com/ubuntu\ul0\cf0}}}}\f0\fs18  bionic-backports InRelease\par
+Hit:4 {{\field{\*\fldinst{HYPERLINK http://security.ubuntu.com/ubuntu }}{\fldrslt{http://security.ubuntu.com/ubuntu\ul0\cf0}}}}\f0\fs18  bionic-security InRelease\par
+Hit:5 {{\field{\*\fldinst{HYPERLINK https://deb.nodesource.com/node_12.x }}{\fldrslt{https://deb.nodesource.com/node_12.x\ul0\cf0}}}}\f0\fs18  bionic InRelease\par
+Reading package lists... Done\par
+Reading package lists... Done\par
+Building dependency tree\par
+Reading state information... Done\par
+Calculating upgrade... Done\par
+The following packages have been kept back:\par
+  linux-image-generic\par
+0 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.\par
+Reading package lists... Done\par
+Building dependency tree\par
+Reading state information... Done\par
+nginx is already the newest version (1.14.0-0ubuntu1.11).\par
+0 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.\par
+systemctl: invalid option -- 'y'\par
+cp: cannot stat 'app/reverse_proxy': No such file or directory\par
+systemctl: invalid option -- 'y'\par
+Reading package lists... Done\par
+Building dependency tree\par
+Reading state information... Done\par
+Package python-software-properties is not available, but is referred to by another package.\par
+This may mean that the package is missing, has been obsoleted, or\par
+is only available from another source\par
+However the following packages replace it:\par
+  software-properties-common\par
+\par
+E: Package 'python-software-properties' has no installation candidate\par
+\par
+\cf9 ================================================================================\par
+================================================================================\par
+\par
+\cf0   \cf11                             DEPRECATION WARNING\par
+\par
+\cf0   \b Node.js 12.x is no longer actively supported!\par
+\par
+\b0   \b You will not receive security or critical stability updates\b0  for this version.\par
+\par
+  You should migrate to a supported version of Node.js as soon as possible.\par
+  Use the installation script that corresponds to the version of Node.js you\par
+  wish to install. e.g.\par
+\par
+   * {\cf1\f2{\field{\*\fldinst{HYPERLINK https://deb.nodesource.com/setup_14.x }}{\fldrslt{https://deb.nodesource.com/setup_14.x\ul0\cf0}}}}\cf1\f2\fs18  \emdash  Node.js 14 LTS "Fermium"\cf0\f0  (recommended)\par
+   * {\cf1\f2{\field{\*\fldinst{HYPERLINK https://deb.nodesource.com/setup_16.x }}{\fldrslt{https://deb.nodesource.com/setup_16.x\ul0\cf0}}}}\cf1\f2\fs18  \emdash  Node.js 16 "Gallium"\f0\par
+\cf0    * {\cf1\f2{\field{\*\fldinst{HYPERLINK https://deb.nodesource.com/setup_18.x }}{\fldrslt{https://deb.nodesource.com/setup_18.x\ul0\cf0}}}}\cf1\f2\fs18  \emdash  Node.js 18 "Eighteen"\cf0\f0  (current)\par
+\par
+  Please see {\b{\field{\*\fldinst{HYPERLINK https://github.com/nodejs/Release }}{\fldrslt{https://github.com/nodejs/Release\ul0\cf0}}}}\f0\fs18  for details about which\par
+  version may be appropriate for you.\par
+\par
+  The \b NodeSource\b0  Node.js distributions repository contains\par
+  information both about supported versions of Node.js and supported Linux\par
+  distributions. To learn more about usage, see the repository:\par
+    {\b{\field{\*\fldinst{HYPERLINK https://github.com/nodesource/distributions }}{\fldrslt{https://github.com/nodesource/distributions\ul0\cf0}}}}\b\f0\fs18\par
+\par
+\cf9\b0 ================================================================================\par
+================================================================================\par
+\par
+\cf0 Continuing in 20 seconds ...\par
+\par
+\par
+## Installing the NodeSource Node.js 12.x repo...\par
+\par
+\par
+## Populating apt-get cache...\par
+\par
++ apt-get update\par
+Hit:1 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu }}{\fldrslt{http://archive.ubuntu.com/ubuntu\ul0\cf0}}}}\f0\fs18  bionic InRelease\par
+Hit:2 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu }}{\fldrslt{http://archive.ubuntu.com/ubuntu\ul0\cf0}}}}\f0\fs18  bionic-updates InRelease\par
+Hit:3 {{\field{\*\fldinst{HYPERLINK http://security.ubuntu.com/ubuntu }}{\fldrslt{http://security.ubuntu.com/ubuntu\ul0\cf0}}}}\f0\fs18  bionic-security InRelease\par
+Hit:4 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu }}{\fldrslt{http://archive.ubuntu.com/ubuntu\ul0\cf0}}}}\f0\fs18  bionic-backports InRelease\par
+Hit:5 {{\field{\*\fldinst{HYPERLINK https://deb.nodesource.com/node_12.x }}{\fldrslt{https://deb.nodesource.com/node_12.x\ul0\cf0}}}}\f0\fs18  bionic InRelease\par
+Reading package lists... Done\par
+\par
+## Confirming "bionic" is supported...\par
+\par
++ curl -sLf -o /dev/null '{{\field{\*\fldinst{HYPERLINK https://deb.nodesource.com/node_12.x/dists/bionic/Release }}{\fldrslt{https://deb.nodesource.com/node_12.x/dists/bionic/Release\ul0\cf0}}}}\f0\fs18 '\par
+\par
+## Adding the NodeSource signing key to your keyring...\par
+\par
++ curl -s {{\field{\*\fldinst{HYPERLINK https://deb.nodesource.com/gpgkey/nodesource.gpg.key }}{\fldrslt{https://deb.nodesource.com/gpgkey/nodesource.gpg.key\ul0\cf0}}}}\f0\fs18  | gpg --dearmor | tee /usr/share/keyrings/nodesource.gpg >/dev/null\par
+gpg: WARNING: unsafe ownership on homedir '/home/vagrant/.gnupg'\par
+\par
+## Creating apt sources list file for the NodeSource Node.js 12.x repo...\par
+\par
++ echo 'deb [signed-by=/usr/share/keyrings/nodesource.gpg] {{\field{\*\fldinst{HYPERLINK https://deb.nodesource.com/node_12.x }}{\fldrslt{https://deb.nodesource.com/node_12.x\ul0\cf0}}}}\f0\fs18  bionic main' > /etc/apt/sources.list.d/nodesource.\par
++ echo 'deb-src [signed-by=/usr/share/keyrings/nodesource.gpg] {{\field{\*\fldinst{HYPERLINK https://deb.nodesource.com/node_12.x }}{\fldrslt{https://deb.nodesource.com/node_12.x\ul0\cf0}}}}\f0\fs18  bionic main' >> /etc/apt/sources.list.d/nodeso\par
+\par
+## Running `apt-get update` for you...\par
+\par
++ apt-get update\par
+Hit:1 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu }}{\fldrslt{http://archive.ubuntu.com/ubuntu\ul0\cf0}}}}\f0\fs18  bionic InRelease\par
+Hit:2 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu }}{\fldrslt{http://archive.ubuntu.com/ubuntu\ul0\cf0}}}}\f0\fs18  bionic-updates InRelease\par
+Hit:3 {{\field{\*\fldinst{HYPERLINK http://security.ubuntu.com/ubuntu }}{\fldrslt{http://security.ubuntu.com/ubuntu\ul0\cf0}}}}\f0\fs18  bionic-security InRelease\par
+Hit:4 {{\field{\*\fldinst{HYPERLINK https://deb.nodesource.com/node_12.x }}{\fldrslt{https://deb.nodesource.com/node_12.x\ul0\cf0}}}}\f0\fs18  bionic InRelease\par
+Hit:5 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu }}{\fldrslt{http://archive.ubuntu.com/ubuntu\ul0\cf0}}}}\f0\fs18  bionic-backports InRelease\par
+Reading package lists... Done\par
+\par
+## Run `\b sudo apt-get install -y nodejs\b0 ` to install Node.js 12.x and npm\par
+## You may also need development tools to build native addons:\par
+     sudo apt-get install gcc g++ make\par
+## To install the Yarn package manager, run:\par
+     curl -sL {{\field{\*\fldinst{HYPERLINK https://dl.yarnpkg.com/debian/pubkey.gpg }}{\fldrslt{https://dl.yarnpkg.com/debian/pubkey.gpg\ul0\cf0}}}}\f0\fs18  | gpg --dearmor | sudo tee /usr/share/keyrings/yarnkey.gpg >/dev/null\par
+     echo "deb [signed-by=/usr/share/keyrings/yarnkey.gpg] {{\field{\*\fldinst{HYPERLINK https://dl.yarnpkg.com/debian }}{\fldrslt{https://dl.yarnpkg.com/debian\ul0\cf0}}}}\f0\fs18  stable main" | sudo tee /etc/apt/sources.list.d/yarn.list\par
+     sudo apt-get update && sudo apt-get install yarn\par
+\par
+\par
+Reading package lists... Done\par
+Building dependency tree\par
+Reading state information... Done\par
+nodejs is already the newest version (12.22.12-1nodesource1).\par
+0 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  \cf2 deprecated\cf0  uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is k\par
+/usr/bin/pm2 -> /usr/lib/node_modules/pm2/bin/pm2\par
+/usr/bin/pm2-dev -> /usr/lib/node_modules/pm2/bin/pm2-dev\par
+/usr/bin/pm2-docker -> /usr/lib/node_modules/pm2/bin/pm2-docker\par
+/usr/bin/pm2-runtime -> /usr/lib/node_modules/pm2/bin/pm2-runtime\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  \cf2 optional\cf0  SKIPPING OPTIONAL DEPENDENCY: fsevents@~2.3.2 (node_modules/pm2/node_modules/chokidar/node_modules/fsevents):\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  \cf2 notsup\cf0  SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.2: wanted \{"os":"darwin","arch":"any"\} (current: \{"os":"linux"\par
+\par
++ pm2@5.2.2\par
+updated 1 package in 8.696s\par
+provsion.sh: 39: cd: can't cd to app\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  \cf2 deprecated\cf0  istanbul@0.4.5: This module is no longer maintained, try this instead:\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  \cf2 deprecated\cf0    npm i nyc\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  \cf2 deprecated\cf0  Visit {{\field{\*\fldinst{HYPERLINK https://istanbul.js.org/integrations }}{\fldrslt{https://istanbul.js.org/integrations\ul0\cf0}}}}\f0\fs18  for other alternatives.\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  \cf2 deprecated\cf0  superagent@2.3.0: Please upgrade to v7.0.2+ of superagent.  We have fixed numerous issues with streams, form-data, attach(), fee the releases tab for more information at <{{\field{\*\fldinst{HYPERLINK "https://github.com/visionmedia/superagent/releases"}}{\fldrslt{https://github.com/visionmedia/superagent/releases\ul0\cf0}}}}\f0\fs18 >.\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  \cf2 deprecated\cf0  bson@1.0.9: Fixed a critical issue with BSON serialization documented in CVE-2019-2391, see {{\field{\*\fldinst{HYPERLINK https://bit.ly/2KcpXdo }}{\fldrslt{https://bit.ly/2KcpXdo\ul0\cf0}}}}\f0\fs18  for more de\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  \cf2 deprecated\cf0  mkdirp@0.5.1: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has c\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  \cf2 deprecated\cf0  json3@3.3.2: Please use the native JSON object instead of JSON 3\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  \cf2 deprecated\cf0  formidable@1.2.6: Please upgrade to latest, formidable@v2 or formidable@v3! Check these notes: {{\field{\*\fldinst{HYPERLINK https://bit.ly/2ZEqIau }}{\fldrslt{https://bit.ly/2ZEqIau\ul0\cf0}}}}\f0\fs18\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  \cf2 checkPermissions\cf0  Missing write access to /home/app/app\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  solution-code@1.0.0 No repository field.\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  The package jenkins-mocha is included as both a dev and production dependency.\par
+\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0  \cf2 code\cf0  EACCES\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0  \cf2 syscall\cf0  access\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0  \cf2 path\cf0  /home/app/app\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0  \cf2 errno\cf0  -13\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0  Error: EACCES: permission denied, access '/home/app/app'\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0   [Error: EACCES: permission denied, access '/home/app/app'] \{\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0    errno: -13,\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0    code: 'EACCES',\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0    syscall: 'access',\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0    path: '/home/app/app'\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0  \}\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\par
+\cf12 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0  The operation was rejected by your operating system.\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0  It is likely you do not have the permissions to access this file as the current user\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\par
+\cf12 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0  If you believe this might be a permissions issue, please double-check the\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0  permissions of the file and its containing directories, or try running\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0  the command again as root/Administrator.\par
+\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0  A complete log of this run can be found in:\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0      /home/vagrant/.npm/_logs/2023-02-28T15_48_21_685Z-debug.log\par
+Job for nginx.service failed because the control process exited with error code.\par
+See "systemctl status nginx.service" and "journalctl -xe" for details.\par
+internal/modules/cjs/loader.js:818\par
+  throw err;\par
+  ^\par
+\par
+Error: Cannot find module 'mongoose'\par
+Require stack:\par
+- /home/app/app/models/post.js\par
+- /home/app/app/seeds/seed.js\par
+\cf14     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)\par
+    at Function.Module._load (internal/modules/cjs/loader.js:667:27)\par
+    at Module.require (internal/modules/cjs/loader.js:887:19)\par
+    at require (internal/modules/cjs/helpers.js:74:18)\par
+\cf0     at Object.<anonymous> (/home/app/app/models/post.js:1:16)\par
+\cf14     at Module._compile (internal/modules/cjs/loader.js:999:30)\par
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\par
+    at Module.load (internal/modules/cjs/loader.js:863:32)\par
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\par
+    at Module.require (internal/modules/cjs/loader.js:887:19)\cf0  \{\par
+  code: \cf1 'MODULE_NOT_FOUND'\cf0 ,\par
+  requireStack: [ \cf1 '/home/app/app/models/post.js'\cf0 , \cf1 '/home/app/app/seeds/seed.js'\cf0  ]\par
+\}\par
+vagrant@web:/home/app/app$ ls\par
+app.js  \cf4 models\cf0   package.json  provsion.sh  \cf4 public\cf0   README.md  reverse_proxy  \cf4 seeds\cf0   \cf4 test\cf0   \cf4 views\par
+\cf0 vagrant@web:/home/app/app$ node app.js\par
+internal/modules/cjs/loader.js:818\par
+  throw err;\par
+  ^\par
+\par
+Error: Cannot find module 'express'\par
+Require stack:\par
+- /home/app/app/app.js\par
+\cf14     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)\par
+    at Function.Module._load (internal/modules/cjs/loader.js:667:27)\par
+    at Module.require (internal/modules/cjs/loader.js:887:19)\par
+    at require (internal/modules/cjs/helpers.js:74:18)\par
+\cf0     at Object.<anonymous> (/home/app/app/app.js:1:15)\par
+\cf14     at Module._compile (internal/modules/cjs/loader.js:999:30)\par
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\par
+    at Module.load (internal/modules/cjs/loader.js:863:32)\par
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\par
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)\cf0  \{\par
+  code: \cf1 'MODULE_NOT_FOUND'\cf0 ,\par
+  requireStack: [ \cf1 '/home/app/app/app.js'\cf0  ]\par
+\}\par
+vagrant@web:/home/app/app$ curl -sL {{\field{\*\fldinst{HYPERLINK https://deb.nodesource.com/setup_12.x }}{\fldrslt{https://deb.nodesource.com/setup_12.x\ul0\cf0}}}}\f0\fs18  | sudo -E bash -\par
+\par
+\cf9 ================================================================================\par
+================================================================================\par
+\par
+\cf0   \cf11                             DEPRECATION WARNING\par
+\par
+\cf0   \b Node.js 12.x is no longer actively supported!\par
+\par
+\b0   \b You will not receive security or critical stability updates\b0  for this version.\par
+\par
+  You should migrate to a supported version of Node.js as soon as possible.\par
+  Use the installation script that corresponds to the version of Node.js you\par
+  wish to install. e.g.\par
+\par
+   * {\cf1\f2{\field{\*\fldinst{HYPERLINK https://deb.nodesource.com/setup_14.x }}{\fldrslt{https://deb.nodesource.com/setup_14.x\ul0\cf0}}}}\cf1\f2\fs18  \emdash  Node.js 14 LTS "Fermium"\cf0\f0  (recommended)\par
+   * {\cf1\f2{\field{\*\fldinst{HYPERLINK https://deb.nodesource.com/setup_16.x }}{\fldrslt{https://deb.nodesource.com/setup_16.x\ul0\cf0}}}}\cf1\f2\fs18  \emdash  Node.js 16 "Gallium"\f0\par
+\cf0    * {\cf1\f2{\field{\*\fldinst{HYPERLINK https://deb.nodesource.com/setup_18.x }}{\fldrslt{https://deb.nodesource.com/setup_18.x\ul0\cf0}}}}\cf1\f2\fs18  \emdash  Node.js 18 "Eighteen"\cf0\f0  (current)\par
+\par
+  Please see {\b{\field{\*\fldinst{HYPERLINK https://github.com/nodejs/Release }}{\fldrslt{https://github.com/nodejs/Release\ul0\cf0}}}}\f0\fs18  for details about which\par
+  version may be appropriate for you.\par
+\par
+  The \b NodeSource\b0  Node.js distributions repository contains\par
+  information both about supported versions of Node.js and supported Linux\par
+  distributions. To learn more about usage, see the repository:\par
+    {\b{\field{\*\fldinst{HYPERLINK https://github.com/nodesource/distributions }}{\fldrslt{https://github.com/nodesource/distributions\ul0\cf0}}}}\b\f0\fs18\par
+\par
+\cf9\b0 ================================================================================\par
+================================================================================\par
+\par
+\cf0 Continuing in 20 seconds ...\par
+\par
+\par
+## Installing the NodeSource Node.js 12.x repo...\par
+\par
+\par
+## Populating apt-get cache...\par
+\par
++ apt-get update\par
+Hit:1 {{\field{\*\fldinst{HYPERLINK http://security.ubuntu.com/ubuntu }}{\fldrslt{http://security.ubuntu.com/ubuntu\ul0\cf0}}}}\f0\fs18  bionic-security InRelease\par
+Hit:2 {{\field{\*\fldinst{HYPERLINK https://deb.nodesource.com/node_12.x }}{\fldrslt{https://deb.nodesource.com/node_12.x\ul0\cf0}}}}\f0\fs18  bionic InRelease\par
+Hit:3 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu }}{\fldrslt{http://archive.ubuntu.com/ubuntu\ul0\cf0}}}}\f0\fs18  bionic InRelease\par
+Hit:4 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu }}{\fldrslt{http://archive.ubuntu.com/ubuntu\ul0\cf0}}}}\f0\fs18  bionic-updates InRelease\par
+Hit:5 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu }}{\fldrslt{http://archive.ubuntu.com/ubuntu\ul0\cf0}}}}\f0\fs18  bionic-backports InRelease\par
+Reading package lists... Done\par
+\par
+## Confirming "bionic" is supported...\par
+\par
++ curl -sLf -o /dev/null '{{\field{\*\fldinst{HYPERLINK https://deb.nodesource.com/node_12.x/dists/bionic/Release }}{\fldrslt{https://deb.nodesource.com/node_12.x/dists/bionic/Release\ul0\cf0}}}}\f0\fs18 '\par
+\par
+## Adding the NodeSource signing key to your keyring...\par
+\par
++ curl -s {{\field{\*\fldinst{HYPERLINK https://deb.nodesource.com/gpgkey/nodesource.gpg.key }}{\fldrslt{https://deb.nodesource.com/gpgkey/nodesource.gpg.key\ul0\cf0}}}}\f0\fs18  | gpg --dearmor | tee /usr/share/keyrings/nodesource.gpg >/dev/null\par
+gpg: WARNING: unsafe ownership on homedir '/home/vagrant/.gnupg'\par
+\par
+## Creating apt sources list file for the NodeSource Node.js 12.x repo...\par
+\par
++ echo 'deb [signed-by=/usr/share/keyrings/nodesource.gpg] {{\field{\*\fldinst{HYPERLINK https://deb.nodesource.com/node_12.x }}{\fldrslt{https://deb.nodesource.com/node_12.x\ul0\cf0}}}}\f0\fs18  bionic main' > /etc/apt/sources.list.d/nodesource.\par
++ echo 'deb-src [signed-by=/usr/share/keyrings/nodesource.gpg] {{\field{\*\fldinst{HYPERLINK https://deb.nodesource.com/node_12.x }}{\fldrslt{https://deb.nodesource.com/node_12.x\ul0\cf0}}}}\f0\fs18  bionic main' >> /etc/apt/sources.list.d/nodeso\par
+\par
+## Running `apt-get update` for you...\par
+\par
++ apt-get update\par
+Hit:1 {{\field{\*\fldinst{HYPERLINK http://security.ubuntu.com/ubuntu }}{\fldrslt{http://security.ubuntu.com/ubuntu\ul0\cf0}}}}\f0\fs18  bionic-security InRelease\par
+Hit:2 {{\field{\*\fldinst{HYPERLINK https://deb.nodesource.com/node_12.x }}{\fldrslt{https://deb.nodesource.com/node_12.x\ul0\cf0}}}}\f0\fs18  bionic InRelease\par
+Hit:3 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu }}{\fldrslt{http://archive.ubuntu.com/ubuntu\ul0\cf0}}}}\f0\fs18  bionic InRelease\par
+Hit:4 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu }}{\fldrslt{http://archive.ubuntu.com/ubuntu\ul0\cf0}}}}\f0\fs18  bionic-updates InRelease\par
+Hit:5 {{\field{\*\fldinst{HYPERLINK http://archive.ubuntu.com/ubuntu }}{\fldrslt{http://archive.ubuntu.com/ubuntu\ul0\cf0}}}}\f0\fs18  bionic-backports InRelease\par
+Reading package lists... Done\par
+\par
+## Run `\b sudo apt-get install -y nodejs\b0 ` to install Node.js 12.x and npm\par
+## You may also need development tools to build native addons:\par
+     sudo apt-get install gcc g++ make\par
+## To install the Yarn package manager, run:\par
+     curl -sL {{\field{\*\fldinst{HYPERLINK https://dl.yarnpkg.com/debian/pubkey.gpg }}{\fldrslt{https://dl.yarnpkg.com/debian/pubkey.gpg\ul0\cf0}}}}\f0\fs18  | gpg --dearmor | sudo tee /usr/share/keyrings/yarnkey.gpg >/dev/null\par
+     echo "deb [signed-by=/usr/share/keyrings/yarnkey.gpg] {{\field{\*\fldinst{HYPERLINK https://dl.yarnpkg.com/debian }}{\fldrslt{https://dl.yarnpkg.com/debian\ul0\cf0}}}}\f0\fs18  stable main" | sudo tee /etc/apt/sources.list.d/yarn.list\par
+     sudo apt-get update && sudo apt-get install yarn\par
+\par
+\par
+vagrant@web:/home/app/app$ sudo apt-get install -y nodejs\par
+Reading package lists... Done\par
+Building dependency tree\par
+Reading state information... Done\par
+nodejs is already the newest version (12.22.12-1nodesource1).\par
+0 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.\par
+vagrant@web:/home/app/app$ npm start\par
+\par
+> solution-code@1.0.0 start /home/app/app\par
+> node app.js\par
+\par
+internal/modules/cjs/loader.js:818\par
+  throw err;\par
+  ^\par
+\par
+Error: Cannot find module 'express'\par
+Require stack:\par
+- /home/app/app/app.js\par
+\cf14     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)\par
+    at Function.Module._load (internal/modules/cjs/loader.js:667:27)\par
+    at Module.require (internal/modules/cjs/loader.js:887:19)\par
+    at require (internal/modules/cjs/helpers.js:74:18)\par
+\cf0     at Object.<anonymous> (/home/app/app/app.js:1:15)\par
+\cf14     at Module._compile (internal/modules/cjs/loader.js:999:30)\par
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\par
+    at Module.load (internal/modules/cjs/loader.js:863:32)\par
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\par
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)\cf0  \{\par
+  code: \cf1 'MODULE_NOT_FOUND'\cf0 ,\par
+  requireStack: [ \cf1 '/home/app/app/app.js'\cf0  ]\par
+\}\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0  \cf2 code\cf0  ELIFECYCLE\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0  \cf2 errno\cf0  1\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0  solution-code@1.0.0 start: `node app.js`\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0  Exit status 1\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\par
+\cf12 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0  Failed at the solution-code@1.0.0 start script.\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0  This is probably not a problem with npm. There is likely additional logging output above.\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  Local package.json exists, but node_modules missing, did you mean to install?\par
+\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0  A complete log of this run can be found in:\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0      /home/vagrant/.npm/_logs/2023-02-28T15_50_47_175Z-debug.log\par
+vagrant@web:/home/app/app$ sudo npm install pm2 -g\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  \cf2 deprecated\cf0  uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See {{\field{\*\fldinst{HYPERLINK https://v8.dev/blog/math-random }}{\fldrslt{https://v8.dev/blog/math-random\ul0\cf0}}}}\f0\fs18  for details.\par
+/usr/bin/pm2 -> /usr/lib/node_modules/pm2/bin/pm2\par
+/usr/bin/pm2-docker -> /usr/lib/node_modules/pm2/bin/pm2-docker\par
+/usr/bin/pm2-runtime -> /usr/lib/node_modules/pm2/bin/pm2-runtime\par
+/usr/bin/pm2-dev -> /usr/lib/node_modules/pm2/bin/pm2-dev\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  \cf2 optional\cf0  SKIPPING OPTIONAL DEPENDENCY: fsevents@~2.3.2 (node_modules/pm2/node_modules/chokidar/node_modules/fsevents):\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  \cf2 notsup\cf0  SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.2: wanted \{"os":"darwin","arch":"any"\} (current: \{"os":"linux","arch":"x64"\})\par
+\par
++ pm2@5.2.2\par
+updated 1 package in 14.261s\par
+vagrant@web:/home/app/app$ npm install\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  \cf2 deprecated\cf0  superagent@2.3.0: Please upgrade to v7.0.2+ of superagent.  We have fixed numerous issues with streams, form-data, attach(), filesystem errors not bubbling up (ENOENT on attach()), and all tests are now passing.  See the releases tab for more information at <{{\field{\*\fldinst{HYPERLINK "https://github.com/visionmedia/superagent/releases"}}{\fldrslt{https://github.com/visionmedia/superagent/releases\ul0\cf0}}}}\f0\fs18 >.\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  \cf2 deprecated\cf0  mkdirp@0.5.1: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  \cf2 deprecated\cf0  formidable@1.2.6: Please upgrade to latest, formidable@v2 or formidable@v3! Check these notes: {{\field{\*\fldinst{HYPERLINK https://bit.ly/2ZEqIau }}{\fldrslt{https://bit.ly/2ZEqIau\ul0\cf0}}}}\f0\fs18\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  \cf2 deprecated\cf0  json3@3.3.2: Please use the native JSON object instead of JSON 3\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  \cf2 deprecated\cf0  bson@1.0.9: Fixed a critical issue with BSON serialization documented in CVE-2019-2391, see {{\field{\*\fldinst{HYPERLINK https://bit.ly/2KcpXdo }}{\fldrslt{https://bit.ly/2KcpXdo\ul0\cf0}}}}\f0\fs18  for more details\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  \cf2 deprecated\cf0  istanbul@0.4.5: This module is no longer maintained, try this instead:\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  \cf2 deprecated\cf0    npm i nyc\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  \cf2 deprecated\cf0  Visit {{\field{\*\fldinst{HYPERLINK https://istanbul.js.org/integrations }}{\fldrslt{https://istanbul.js.org/integrations\ul0\cf0}}}}\f0\fs18  for other alternatives.\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  \cf2 checkPermissions\cf0  Missing write access to /home/app/app\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  solution-code@1.0.0 No repository field.\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  The package jenkins-mocha is included as both a dev and production dependency.\par
+\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0  \cf2 code\cf0  EACCES\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0  \cf2 syscall\cf0  access\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0  \cf2 path\cf0  /home/app/app\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0  \cf2 errno\cf0  -13\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0  Error: EACCES: permission denied, access '/home/app/app'\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0   [Error: EACCES: permission denied, access '/home/app/app'] \{\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0    errno: -13,\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0    code: 'EACCES',\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0    syscall: 'access',\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0    path: '/home/app/app'\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0  \}\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\par
+\cf12 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0  The operation was rejected by your operating system.\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0  It is likely you do not have the permissions to access this file as the current user\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\par
+\cf12 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0  If you believe this might be a permissions issue, please double-check the\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0  permissions of the file and its containing directories, or try running\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0  the command again as root/Administrator.\par
+\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0  A complete log of this run can be found in:\par
+\cf12\highlight13 npm\cf0\highlight0  \cf9\highlight13 ERR!\cf0\highlight0      /home/vagrant/.npm/_logs/2023-02-28T15_52_03_705Z-debug.log\par
+vagrant@web:/home/app/app$ sudo npm install\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  \cf2 deprecated\cf0  json3@3.3.2: Please use the native JSON object instead of JSON 3\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  \cf2 deprecated\cf0  mkdirp@0.5.1: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  \cf2 deprecated\cf0  istanbul@0.4.5: This module is no longer maintained, try this instead:\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  \cf2 deprecated\cf0    npm i nyc\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  \cf2 deprecated\cf0  Visit {{\field{\*\fldinst{HYPERLINK https://istanbul.js.org/integrations }}{\fldrslt{https://istanbul.js.org/integrations\ul0\cf0}}}}\f0\fs18  for other alternatives.\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  \cf2 deprecated\cf0  superagent@2.3.0: Please upgrade to v7.0.2+ of superagent.  We have fixed numerous issues with streams, form-data, attach(), filesystem errors not bubbling up (ENOENT on attach()), and all tests are now passing.  See the releases tab for more information at <{{\field{\*\fldinst{HYPERLINK "https://github.com/visionmedia/superagent/releases"}}{\fldrslt{https://github.com/visionmedia/superagent/releases\ul0\cf0}}}}\f0\fs18 >.\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  \cf2 deprecated\cf0  bson@1.0.9: Fixed a critical issue with BSON serialization documented in CVE-2019-2391, see {{\field{\*\fldinst{HYPERLINK https://bit.ly/2KcpXdo }}{\fldrslt{https://bit.ly/2KcpXdo\ul0\cf0}}}}\f0\fs18  for more details\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  \cf2 deprecated\cf0  formidable@1.2.6: Please upgrade to latest, formidable@v2 or formidable@v3! Check these notes: {{\field{\*\fldinst{HYPERLINK https://bit.ly/2ZEqIau }}{\fldrslt{https://bit.ly/2ZEqIau\ul0\cf0}}}}\f0\fs18\par
+\par
+> ejs@2.7.4 postinstall /home/app/app/node_modules/ejs\par
+> node ./postinstall.js\par
+\par
+Thank you for installing \cf2 EJS\cf0 : built with the \cf1 Jake\cf0  JavaScript build tool ({\cf1{\field{\*\fldinst{HYPERLINK https://jakejs.com/ }}{\fldrslt{https://jakejs.com/\ul0\cf0}}}}\f0\fs18 )\par
+\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  \cf2 lifecycle\cf0  solution-code@1.0.0~postinstall: cannot run in wd solution-code@1.0.0 node seeds/seed.js (wd=/home/app/app)\par
+\cf12\highlight13 npm\cf0\highlight0  \cf15\highlight13 notice\cf0\highlight0  created a lockfile as package-lock.json. You should commit this file.\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  solution-code@1.0.0 No repository field.\par
+\cf12\highlight13 npm\cf0\highlight0  \cf13\highlight3 WARN\cf0\highlight0  The package jenkins-mocha is included as both a dev and production dependency.\par
+\par
+added 197 packages from 518 contributors and audited 198 packages in 12.155s\par
+\par
+10 packages are looking for funding\par
+  run `npm fund` for details\par
+\par
+found \cf16 39\cf0  vulnerabilities (4 \b low\b0 , 12 \cf11 moderate\cf0 , 15 \cf16 high\cf0 , 8 \cf8 critical\cf0 )\par
+  run `npm audit fix` to fix them, or `npm audit` for details\par
+vagrant@web:/home/app/app$ sudo npm start\par
+\par
+> solution-code@1.0.0 start /home/app/app\par
+> node app.js\par
+\par
+Your app is ready and listening on port 3000\par
+^Z\par
+[1]+  Stopped                 sudo npm start\par
+vagrant@web:/home/app/app$ printenv HOST_MONGODB\par
+vagrant@web:/home/app/app$ printenv HOST_MONGODB=\par
+vagrant@web:/home/app/app$ printenv HOST_db\par
+vagrant@web:/home/app/app$ printenv HOST_DB\par
+vagrant@web:/home/app/app$ printenv DB_HOST\par
+vagrant@web:/home/app/app$ printenv DB_HOST\par
+vagrant@web:/home/app/app$ export DB_HOST=mongodb://192.168.33.11:27017/posts\par
+vagrant@web:/home/app/app$ node seeds/seed.js\par
+(node:31021) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See {{\field{\*\fldinst{HYPERLINK http://mongoosejs.com/docs/4.x/docs/connections.html#use-mongo-client }}{\fldrslt{http://mongoosejs.com/docs/4.x/docs/connections.html#use-mongo-client\ul0\cf0}}}}\f0\fs18\par
+\par
+events.js:291\par
+      throw er; // Unhandled 'error' event\par
+      ^\par
+Error [MongoError]: failed to connect to server [192.168.33.11:27017] on first connect [Error: connect ECONNREFUSED 192.168.33.11:27017\par
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1144:16) \{\par
+  name: 'MongoError'\par
+\}]\par
+    at Pool.<anonymous> (/home/app/app/node_modules/\ul mongodb-core\ulnone /lib/topologies/server.js:336:35)\par
+\cf14     at Pool.emit (events.js:314:20)\par
+\cf0     at Connection.<anonymous> (/home/app/app/node_modules/\ul mongodb-core\ulnone /lib/connection/pool.js:280:12)\par
+\cf14     at Object.onceWrapper (events.js:421:26)\par
+    at Connection.emit (events.js:314:20)\par
+\cf0     at Socket.<anonymous> (/home/app/app/node_modules/\ul mongodb-core\ulnone /lib/connection/connection.js:189:49)\par
+\cf14     at Object.onceWrapper (events.js:421:26)\par
+    at Socket.emit (events.js:314:20)\par
+    at emitErrorNT (internal/streams/destroy.js:92:8)\par
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\par
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)\par
+\cf0 Emitted 'error' event on NativeConnection instance at:\par
+    at Immediate.<anonymous> (/home/app/app/node_modules/\ul mongoose\ulnone /lib/connection.js:325:19)\par
+\cf14     at processImmediate (internal/timers.js:461:21)\par
+\cf0 vagrant@web:/home/app/app$ export DB_HOST=mongodb://192.168.33.11/posts\par
+vagrant@web:/home/app/app$ node seeds/seed.js\par
+(node:31028) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See {{\field{\*\fldinst{HYPERLINK http://mongoosejs.com/docs/4.x/docs/connections.html#use-mongo-client }}{\fldrslt{http://mongoosejs.com/docs/4.x/docs/connections.html#use-mongo-client\ul0\cf0}}}}\f0\fs18\par
+\par
+events.js:291\par
+      throw er; // Unhandled 'error' event\par
+      ^\par
+Error [MongoError]: failed to connect to server [192.168.33.11:27017] on first connect [Error: connect ECONNREFUSED 192.168.33.11:27017\par
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1144:16) \{\par
+  name: 'MongoError'\par
+\}]\par
+    at Pool.<anonymous> (/home/app/app/node_modules/\ul mongodb-core\ulnone /lib/topologies/server.js:336:35)\par
+\cf14     at Pool.emit (events.js:314:20)\par
+\cf0     at Connection.<anonymous> (/home/app/app/node_modules/\ul mongodb-core\ulnone /lib/connection/pool.js:280:12)\par
+\cf14     at Object.onceWrapper (events.js:421:26)\par
+    at Connection.emit (events.js:314:20)\par
+\cf0     at Socket.<anonymous> (/home/app/app/node_modules/\ul mongodb-core\ulnone /lib/connection/connection.js:189:49)\par
+\cf14     at Object.onceWrapper (events.js:421:26)\par
+    at Socket.emit (events.js:314:20)\par
+    at emitErrorNT (internal/streams/destroy.js:92:8)\par
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\par
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)\par
+\cf0 Emitted 'error' event on NativeConnection instance at:\par
+    at Immediate.<anonymous> (/home/app/app/node_modules/\ul mongoose\ulnone /lib/connection.js:325:19)\par
+\cf14     at processImmediate (internal/timers.js:461:21)\par
+\cf0 vagrant@web:/home/app/app$ pirntenv DB_HOST\par
+-bash: pirntenv: command not found\par
+vagrant@web:/home/app/app$ printenv DB_HOST\par
+mongodb://192.168.33.11/posts\par
+vagrant@web:/home/app/app$ node seeds/seed.js\par
+(node:31037) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See {{\field{\*\fldinst{HYPERLINK http://mongoosejs.com/docs/4.x/docs/connections.html#use-mongo-client }}{\fldrslt{http://mongoosejs.com/docs/4.x/docs/connections.html#use-mongo-client\ul0\cf0}}}}\f0\fs18\par
+\par
+events.js:291\par
+      throw er; // Unhandled 'error' event\par
+      ^\par
+Error [MongoError]: failed to connect to server [192.168.33.11:27017] on first connect [Error: connect ECONNREFUSED 192.168.33.11:27017\par
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1144:16) \{\par
+  name: 'MongoError'\par
+\}]\par
+    at Pool.<anonymous> (/home/app/app/node_modules/\ul mongodb-core\ulnone /lib/topologies/server.js:336:35)\par
+\cf14     at Pool.emit (events.js:314:20)\par
+\cf0     at Connection.<anonymous> (/home/app/app/node_modules/\ul mongodb-core\ulnone /lib/connection/pool.js:280:12)\par
+\cf14     at Object.onceWrapper (events.js:421:26)\par
+    at Connection.emit (events.js:314:20)\par
+\cf0     at Socket.<anonymous> (/home/app/app/node_modules/\ul mongodb-core\ulnone /lib/connection/connection.js:189:49)\par
+\cf14     at Object.onceWrapper (events.js:421:26)\par
+    at Socket.emit (events.js:314:20)\par
+    at emitErrorNT (internal/streams/destroy.js:92:8)\par
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\par
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)\par
+\cf0 Emitted 'error' event on NativeConnection instance at:\par
+    at Immediate.<anonymous> (/home/app/app/node_modules/\ul mongoose\ulnone /lib/connection.js:325:19)\par
+\cf14     at processImmediate (internal/timers.js:461:21)\par
+\cf0 vagrant@web:/home/app/app$ node seeds/seed.js\par
+(node:31045) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See {{\field{\*\fldinst{HYPERLINK http://mongoosejs.com/docs/4.x/docs/connections.html#use-mongo-client }}{\fldrslt{http://mongoosejs.com/docs/4.x/docs/connections.html#use-mongo-client\ul0\cf0}}}}\f0\fs18\par
+\par
+events.js:291\par
+      throw er; // Unhandled 'error' event\par
+      ^\par
+Error [MongoError]: failed to connect to server [192.168.33.11:27017] on first connect [Error: connect ECONNREFUSED 192.168.33.11:27017\par
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1144:16) \{\par
+  name: 'MongoError'\par
+\}]\par
+    at Pool.<anonymous> (/home/app/app/node_modules/\ul mongodb-core\ulnone /lib/topologies/server.js:336:35)\par
+\cf14     at Pool.emit (events.js:314:20)\par
+\cf0     at Connection.<anonymous> (/home/app/app/node_modules/\ul mongodb-core\ulnone /lib/connection/pool.js:280:12)\par
+\cf14     at Object.onceWrapper (events.js:421:26)\par
+    at Connection.emit (events.js:314:20)\par
+\cf0     at Socket.<anonymous> (/home/app/app/node_modules/\ul mongodb-core\ulnone /lib/connection/connection.js:189:49)\par
+\cf14     at Object.onceWrapper (events.js:421:26)\par
+    at Socket.emit (events.js:314:20)\par
+    at emitErrorNT (internal/streams/destroy.js:92:8)\par
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\par
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)\par
+\cf0 Emitted 'error' event on NativeConnection instance at:\par
+    at Immediate.<anonymous> (/home/app/app/node_modules/\ul mongoose\ulnone /lib/connection.js:325:19)\par
+\cf14     at processImmediate (internal/timers.js:461:21)\par
+\cf0 vagrant@web:/home/app/app$ node seeds/seed.js\par
+(node:31052) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See {{\field{\*\fldinst{HYPERLINK http://mongoosejs.com/docs/4.x/docs/connections.html#use-mongo-client }}{\fldrslt{http://mongoosejs.com/docs/4.x/docs/connections.html#use-mongo-client\ul0\cf0}}}}\f0\fs18\par
+Database Cleared\par
+Database Seeded\par
+vagrant@web:/home/app/app$ node app.js\par
+(node:31059) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See {{\field{\*\fldinst{HYPERLINK http://mongoosejs.com/docs/4.x/docs/connections.html#use-mongo-client }}{\fldrslt{http://mongoosejs.com/docs/4.x/docs/connections.html#use-mongo-client\ul0\cf0}}}}\f0\fs18\par
+events.js:291\par
+      throw er; // Unhandled 'error' event\par
+      ^\par
+\par
+Error: listen EADDRINUSE: address already in use :::3000\par
+\cf14     at Server.setupListenHandle [as _listen2] (net.js:1316:16)\par
+    at listenInCluster (net.js:1364:12)\par
+    at Server.listen (net.js:1450:7)\par
+\cf0     at Function.listen (/home/app/app/node_modules/\ul express\ulnone /lib/application.js:635:24)\par
+    at Object.<anonymous> (/home/app/app/app.js:44:5)\par
+\cf14     at Module._compile (internal/modules/cjs/loader.js:999:30)\par
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\par
+    at Module.load (internal/modules/cjs/loader.js:863:32)\par
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\par
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)\par
+    at internal/main/run_main_module.js:17:47\par
+\cf0 Emitted 'error' event on Server instance at:\par
+\cf14     at emitErrorNT (net.js:1343:8)\par
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)\cf0  \{\par
+  code: \cf1 'EADDRINUSE'\cf0 ,\par
+  errno: \cf1 'EADDRINUSE'\cf0 ,\par
+  syscall: \cf1 'listen'\cf0 ,\par
+  address: \cf1 '::'\cf0 ,\par
+  port: \cf3 3000\par
+\cf0\}\par
+vagrant@web:/home/app/app$ sudo lsof -i :3000\par
+COMMAND   PID USER   FD   TYPE DEVICE SIZE/OFF NODE NAME\par
+node    30735 root   19u  IPv6  86247      0t0  TCP *:3000 (LISTEN)\par
+vagrant@web:/home/app/app$ kill -9 30735\par
+-bash: kill: (30735) - Operation not permitted\par
+vagrant@web:/home/app/app$ sudo kill -9 30735\par
+vagrant@web:/home/app/app$ node app.js\par
+(node:31073) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See {{\field{\*\fldinst{HYPERLINK http://mongoosejs.com/docs/4.x/docs/connections.html#use-mongo-client }}{\fldrslt{http://mongoosejs.com/docs/4.x/docs/connections.html#use-mongo-client\ul0\cf0}}}}\f0\fs18\par
+Your app is ready and listening on port 3000\par
+\f3\fs22\par
+}
+ 

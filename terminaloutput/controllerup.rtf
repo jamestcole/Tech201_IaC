@@ -1,0 +1,588 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fmodern\fprq1 Lucida Console;}{\f1\fmodern\fprq1\fcharset0 Lucida Console;}{\f2\fnil\fcharset0 Calibri;}}
+{\colortbl ;\red28\green168\blue0;\red177\green72\blue198;\red192\green160\blue0;\red125\green151\blue255;\red0\green168\blue154;\red0\green0\blue255;\red212\green44\blue58;\red255\green112\blue255;\red255\green118\blue118;}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\cf1\f0\fs18\lang9 James_Cole@DESKTOP-KSNKOST \cf2 MINGW64 \cf3 ~\par
+\cf0 $ cd .vscode\par
+\par
+\cf1 James_Cole@DESKTOP-KSNKOST \cf2 MINGW64 \cf3 ~/.vscode\par
+\cf0 $ ls\par
+ \cf4 Ansible\cf0 /               Program.cs     \cf4 files\cf0 /                    \cf4 test-ssh\cf0 /\par
+ \cf4 Cloud_computing_AWS\cf0 /   \cf4 Tech201_IaC\cf0 /   \cf4 folder1\cf0 /                 \cf4 'website 1'\cf0 /\par
+ \cf4 DevOps_Git_Test\cf0 /       argv.json     \cf4 'project html'\cf0 /\par
+ \cf4 Git_theory\cf0 /            \cf4 extensions\cf0 /    \cf4 tech201_virtualisation\cf0 /\par
+\par
+\cf1 James_Cole@DESKTOP-KSNKOST \cf2 MINGW64 \cf3 ~/.vscode\par
+\cf0 $ cd Tech201_IaC\par
+\par
+\cf1 James_Cole@DESKTOP-KSNKOST \cf2 MINGW64 \cf3 ~/.vscode/Tech201_IaC\cf5  (main)\par
+\cf0 $ ls\par
+README.md  READMEansible.md  \cf4 ansible\cf0 /  \cf4 pics\cf0 /\par
+\par
+\cf1 James_Cole@DESKTOP-KSNKOST \cf2 MINGW64 \cf3 ~/.vscode/Tech201_IaC\cf5  (main)\par
+\cf0 $ cd ansible\par
+\par
+\cf1 James_Cole@DESKTOP-KSNKOST \cf2 MINGW64 \cf3 ~/.vscode/Tech201_IaC/ansible\cf5  (main)\par
+\cf0 $ vagrant status\par
+Current machine states:\par
+\par
+controller                running (virtualbox)\par
+web                       running (virtualbox)\par
+db                        running (virtualbox)\par
+\par
+This environment represents multiple VMs. The VMs are all listed\par
+above with their current state. For more information about a specific\par
+VM, run `vagrant status NAME`.\par
+\par
+\cf1 James_Cole@DESKTOP-KSNKOST \cf2 MINGW64 \cf3 ~/.vscode/Tech201_IaC/ansible\cf5  (main)\par
+\cf0 $ vagrant status\par
+Current machine states:\par
+\par
+controller                running (virtualbox)\par
+web                       running (virtualbox)\par
+db                        running (virtualbox)\par
+\par
+This environment represents multiple VMs. The VMs are all listed\par
+above with their current state. For more information about a specific\par
+VM, run `vagrant status NAME`.\par
+\par
+\cf1 James_Cole@DESKTOP-KSNKOST \cf2 MINGW64 \cf3 ~/.vscode/Tech201_IaC/ansible\cf5  (main)\par
+\cf0 $ vagrant ssh web\par
+Welcome to Ubuntu 18.04.6 LTS (GNU/Linux 4.15.0-200-generic x86_64)\par
+\par
+ * Documentation:  {{\field{\*\fldinst{HYPERLINK https://help.ubuntu.com }}{\fldrslt{https://help.ubuntu.com\ul0\cf0}}}}\f0\fs18\par
+ * Management:     {{\field{\*\fldinst{HYPERLINK https://landscape.canonical.com }}{\fldrslt{https://landscape.canonical.com\ul0\cf0}}}}\f0\fs18\par
+ * Support:        {{\field{\*\fldinst{HYPERLINK https://ubuntu.com/advantage }}{\fldrslt{https://ubuntu.com/advantage\ul0\cf0}}}}\f0\fs18\par
+\par
+  System information as of Tue Feb 28 15:13:57 UTC 2023\par
+\par
+  System load:  0.0               Processes:           104\par
+  Usage of /:   2.6% of 61.75GB   Users logged in:     0\par
+  Memory usage: 14%               IP address for eth0: 10.0.2.15\par
+  Swap usage:   0%                IP address for eth1: 192.168.33.10\par
+\par
+\par
+This system is built by the Bento project by Chef Software\par
+More information can be found at {{\field{\*\fldinst{HYPERLINK https://github.com/chef/bento }}{\fldrslt{https://github.com/chef/bento\ul0\cf0}}}}\f0\fs18\par
+Last login: Tue Feb 28 15:10:45 2023 from 192.168.33.12\par
+vagrant@web:~$ ls\par
+vagrant@web:~$ ls -a\par
+\cf4 .\cf0          .bash_history  \cf4 .cache\cf0     \cf4 .ssh\cf0                        .wget-hsts\par
+\cf4 ..\cf0         .bash_logout   \cf4 .gnupg\cf0     .sudo_as_admin_successful\par
+\cf4 .ansible\cf0   .bashrc        .profile  .vbox_version\par
+vagrant@web:~$ cd /etc/ansible\par
+-bash: cd: /etc/ansible: No such file or directory\par
+vagrant@web:~$ ls\par
+vagrant@web:~$ ls -a\par
+\cf4 .\cf0          .bash_history  \cf4 .cache\cf0     \cf4 .ssh\cf0                        .wget-hsts\par
+\cf4 ..\cf0         .bash_logout   \cf4 .gnupg\cf0     .sudo_as_admin_successful\par
+\cf4 .ansible\cf0   .bashrc        .profile  .vbox_version\par
+vagrant@web:~$ cd .ansible\par
+vagrant@web:~/.ansible$ ls\par
+\cf4 tmp\par
+\cf0 vagrant@web:~/.ansible$ cd tmp\par
+vagrant@web:~/.ansible/tmp$ ls\par
+vagrant@web:~/.ansible/tmp$ cd ..\par
+vagrant@web:~/.ansible$ cd /etc/ansible\par
+-bash: cd: /etc/ansible: No such file or directory\par
+vagrant@web:~/.ansible$ ls\par
+\cf4 tmp\par
+\cf0 vagrant@web:~/.ansible$ cd\par
+vagrant@web:~$ cd home\par
+-bash: cd: home: No such file or directory\par
+vagrant@web:~$ ls\par
+vagrant@web:~$ ls -a\par
+\cf4 .\cf0          .bash_history  \cf4 .cache\cf0     \cf4 .ssh\cf0                        .wget-hsts\par
+\cf4 ..\cf0         .bash_logout   \cf4 .gnupg\cf0     .sudo_as_admin_successful\par
+\cf4 .ansible\cf0   .bashrc        .profile  .vbox_version\par
+vagrant@web:~$ cd .ansible\par
+vagrant@web:~/.ansible$ ls\par
+\cf4 tmp\par
+\cf0 vagrant@web:~/.ansible$ ls -a\par
+\cf4 .\cf0   \cf4 ..\cf0   \cf4 tmp\par
+\cf0 vagrant@web:~/.ansible$ cd tmp\par
+vagrant@web:~/.ansible/tmp$ ls\par
+vagrant@web:~/.ansible/tmp$ ls -a\par
+\cf4 .\cf0   \cf4 ..\par
+\cf0 vagrant@web:~/.ansible/tmp$ cd ..\par
+vagrant@web:~/.ansible$ cd ..\par
+vagrant@web:~$ /home\par
+-bash: /home: Is a directory\par
+vagrant@web:~$ ssh vagrant@192.168.33.10\par
+The authenticity of host '192.168.33.10 (192.168.33.10)' can't be established.\par
+ECDSA key fingerprint is SHA256:46OVSath7cDYfi8diQbBofRI7QpdCLnzuwe8eTsq1eU.\par
+Are you sure you want to continue connecting (yes/no)? yes\par
+Warning: Permanently added '192.168.33.10' (ECDSA) to the list of known hosts.\par
+vagrant@192.168.33.10's password:\par
+Welcome to Ubuntu 18.04.6 LTS (GNU/Linux 4.15.0-200-generic x86_64)\par
+\par
+ * Documentation:  {{\field{\*\fldinst{HYPERLINK https://help.ubuntu.com }}{\fldrslt{https://help.ubuntu.com\ul0\cf0}}}}\f0\fs18\par
+ * Management:     {{\field{\*\fldinst{HYPERLINK https://landscape.canonical.com }}{\fldrslt{https://landscape.canonical.com\ul0\cf0}}}}\f0\fs18\par
+ * Support:        {{\field{\*\fldinst{HYPERLINK https://ubuntu.com/advantage }}{\fldrslt{https://ubuntu.com/advantage\ul0\cf0}}}}\f0\fs18\par
+\par
+  System information as of Tue Feb 28 15:41:22 UTC 2023\par
+\par
+  System load:  0.03              Processes:           107\par
+vagrant@controller:/etc/ansible$  Users logged in:     1\par
+vagrant@controller:/etc/ansible$ sudo ansible-playbook db-playbook.yml\par
+\cf7 ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:\par
+JSON: No JSON object could be decoded\par
+\par
+Syntax Error while loading YAML.\par
+  did not find expected '-' indicator\par
+\par
+The error appears to be in '/etc/ansible/db-playbook.yml': line 10, column 1, but may\par
+be elsewhere in the file depending on the exact syntax problem.\par
+\par
+The offending line appears to be:\par
+\par
+  tasks:\par
+\f1\~ - name: Cloning GIT\f0\par
+^ here\par
+\cf0 vagrant@controller:/etc/ansible$ sudo nano db-playbook.yml\par
+vagrant@controller:/etc/ansible$ sudo nano db-playbook.yml\par
+vagrant@controller:/etc/ansible$ sudo nano db-playbook.yml\par
+vagrant@controller:/etc/ansible$ sudo ansible-playbook db-playbook.yml\par
+\cf7 ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:\par
+JSON: No JSON object could be decoded\par
+\par
+Syntax Error while loading YAML.\par
+  did not find expected '-' indicator\par
+\par
+The error appears to be in '/etc/ansible/db-playbook.yml': line 11, column 1, but may\par
+be elsewhere in the file depending on the exact syntax problem.\par
+\par
+The offending line appears to be:\par
+\par
+  - name: Cloning GIT\par
+\f1\~\~\~ git:\f0\par
+^ here\par
+\cf0 vagrant@controller:/etc/ansible$ sudo nano db-playbook.yml\par
+vagrant@controller:/etc/ansible$ sudo ansible-playbook db-playbook.yml\par
+\cf7 ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:\par
+JSON: No JSON object could be decoded\par
+\par
+Syntax Error while loading YAML.\par
+  did not find expected '-' indicator\par
+\par
+The error appears to be in '/etc/ansible/db-playbook.yml': line 11, column 1, but may\par
+be elsewhere in the file depending on the exact syntax problem.\par
+\par
+The offending line appears to be:\par
+\par
+  - name: Cloning GIT\par
+\f1\~\~\~ git:\f0\par
+^ here\par
+\cf0 vagrant@controller:/etc/ansible$ sudo nano db-playbook.yml\par
+vagrant@controller:/etc/ansible$ sudo ansible-playbook db-playbook.yml\par
+\cf7 ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:\par
+JSON: No JSON object could be decoded\par
+\par
+Syntax Error while loading YAML.\par
+  did not find expected '-' indicator\par
+\par
+The error appears to be in '/etc/ansible/db-playbook.yml': line 11, column 1, but may\par
+be elsewhere in the file depending on the exact syntax problem.\par
+\par
+The offending line appears to be:\par
+\par
+  - name: Cloning GIT\par
+\f1\~\~\~ - git:\f0\par
+^ here\par
+\cf0 vagrant@controller:/etc/ansible$ sudo nano db-playbook.yml\par
+vagrant@controller:/etc/ansible$ sudo ansible-playbook db-playbook.yml\par
+\cf7 ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:\par
+JSON: No JSON object could be decoded\par
+\par
+Syntax Error while loading YAML.\par
+  did not find expected '-' indicator\par
+\par
+The error appears to be in '/etc/ansible/db-playbook.yml': line 11, column 1, but may\par
+be elsewhere in the file depending on the exact syntax problem.\par
+\par
+The offending line appears to be:\par
+\par
+  - name: Cloning GIT\par
+\f1\~\~\~ git:\f0\par
+^ here\par
+\cf0 vagrant@controller:/etc/ansible$ sudo nano db-playbook.yml\par
+vagrant@controller:/etc/ansible$ sudo ansible-playbook db-playbook.yml\par
+\cf7 ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:\par
+JSON: No JSON object could be decoded\par
+\par
+Syntax Error while loading YAML.\par
+  did not find expected '-' indicator\par
+\par
+The error appears to be in '/etc/ansible/db-playbook.yml': line 11, column 1, but may\par
+be elsewhere in the file depending on the exact syntax problem.\par
+\par
+The offending line appears to be:\par
+\par
+  - name: Cloning GIT\par
+\f1\~\~\~   git:\f0\par
+^ here\par
+\cf0 vagrant@controller:/etc/ansible$ sudo nano db-playbook.yml\par
+vagrant@controller:/etc/ansible$ sudo ansible-playbook db-playbook.yml\par
+\cf7 ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:\par
+JSON: No JSON object could be decoded\par
+\par
+Syntax Error while loading YAML.\par
+  did not find expected '-' indicator\par
+\par
+The error appears to be in '/etc/ansible/db-playbook.yml': line 11, column 1, but may\par
+be elsewhere in the file depending on the exact syntax problem.\par
+\par
+The offending line appears to be:\par
+\par
+  - name: Cloning GIT\par
+\f1\~\~\~ git:\f0\par
+^ here\par
+\cf0 vagrant@controller:/etc/ansible$ sudo nano db-playbook.yml\par
+vagrant@controller:/etc/ansible$ sudo ansible-playbook db-playbook.yml\par
+\cf7 ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:\par
+JSON: No JSON object could be decoded\par
+\par
+Syntax Error while loading YAML.\par
+  did not find expected '-' indicator\par
+\par
+The error appears to be in '/etc/ansible/db-playbook.yml': line 11, column 1, but may\par
+be elsewhere in the file depending on the exact syntax problem.\par
+\par
+The offending line appears to be:\par
+\par
+  - name: Cloning GIT\par
+\f1\~\~\~ git:\f0\par
+^ here\par
+\cf0 vagrant@controller:/etc/ansible$ ls\par
+ansible.cfg  db-playbook.yml  hosts  nginx-playbook.yml  \cf4 roles\cf0   test.txt\par
+vagrant@controller:/etc/ansible$ cat nginx-playbook.yml\par
+# create a playbook to configure nginx web server in web machine\par
+\par
+# let's add --- 3 dashes to start a YAML file\par
+---\par
+# where do we want this playbook to run\par
+# add the name of the host\par
+- hosts: web\par
+# find the facts\par
+  gather_facts: yes\par
+# we need admin access\par
+  become: true\par
+\par
+# add instructions to perform the task\par
+# install nginx in web machine\par
+  tasks:\par
+  - name: Cloning GIT\par
+    git:\par
+      repo: {{\field{\*\fldinst{HYPERLINK https://github.com/jamestcole/tech201_virtualisation.git }}{\fldrslt{https://github.com/jamestcole/tech201_virtualisation.git\ul0\cf0}}}}\f0\fs18\par
+      dest: /home/app\par
+      clone: yes\par
+      update: yes\par
+\par
+# ensure tha nginx is running - status is running\par
+vagrant@controller:/etc/ansible$ ls\par
+ansible.cfg  db-playbook.yml  hosts  nginx-playbook.yml  \cf4 roles\cf0   test.txt\par
+vagrant@controller:/etc/ansible$ cat db-playbook.yml\par
+---\par
+\par
+- hosts: db\par
+# find the facts\par
+  gather_facts: yes\par
+# we need admin access\par
+  become: true\par
+# clone git on the machine\par
+  tasks:\par
+  - name: Cloning GIT\par
+\f1\~\~\~ git:\f0\par
+\f1\~\~\~\~repo: {{\field{\*\fldinst{HYPERLINK https://github.com/jamestcole/Tech201_Virtualisation.git }}{\fldrslt{https://github.com/jamestcole/Tech201_Virtualisation.git\ul0\cf0}}}}\f0\fs18\par
+\f1\~\~\~\~dest: /home/db\f0\par
+\f1\~\~\~\~clone: yes\f0\par
+\f1 # \~\f0\par
+  - name: Install nginx\par
+\f1\~\~\~ apt: name=nginx state=present\f0\par
+\par
+vagrant@controller:/etc/ansible$ sudo nano db-playbook.yml\par
+vagrant@controller:/etc/ansible$ sudo ansible-playbook db-playbook.yml\par
+\cf7 ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:\par
+JSON: No JSON object could be decoded\par
+\par
+Syntax Error while loading YAML.\par
+  did not find expected '-' indicator\par
+\par
+The error appears to be in '/etc/ansible/db-playbook.yml': line 11, column 1, but may\par
+be elsewhere in the file depending on the exact syntax problem.\par
+\par
+The offending line appears to be:\par
+\par
+  - name: Cloning GIT\par
+\f1\~\~\~ git:\f0\par
+^ here\par
+\cf0 vagrant@controller:/etc/ansible$ sudo nano db-playbook.yml\par
+vagrant@controller:/etc/ansible$ sudo ansible-playbook db-playbook.yml\par
+\cf7 ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:\par
+JSON: No JSON object could be decoded\par
+\par
+Syntax Error while loading YAML.\par
+  did not find expected '-' indicator\par
+\par
+The error appears to be in '/etc/ansible/db-playbook.yml': line 11, column 1, but may\par
+be elsewhere in the file depending on the exact syntax problem.\par
+\par
+The offending line appears to be:\par
+\par
+  - name: Cloning GIT\par
+\f1\~\~\~ git:\f0\par
+^ here\par
+\cf0 vagrant@controller:/etc/ansible$ sudo nano db-playbook.yml\par
+vagrant@controller:/etc/ansible$ sudo ansible-playbook db-playbook.yml\par
+\cf7 ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:\par
+JSON: No JSON object could be decoded\par
+\par
+Syntax Error while loading YAML.\par
+  did not find expected '-' indicator\par
+\par
+The error appears to be in '/etc/ansible/db-playbook.yml': line 11, column 1, but may\par
+be elsewhere in the file depending on the exact syntax problem.\par
+\par
+The offending line appears to be:\par
+\par
+  - name: Cloning GIT\par
+\f1\~\~\~ git:\f0\par
+^ here\par
+\cf0 vagrant@controller:/etc/ansible$ sudo nano db-playbook.yml\par
+vagrant@controller:/etc/ansible$ sudo ansible-playbook db-playbook.yml\par
+\cf7 ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:\par
+JSON: No JSON object could be decoded\par
+\par
+Syntax Error while loading YAML.\par
+  did not find expected '-' indicator\par
+\par
+The error appears to be in '/etc/ansible/db-playbook.yml': line 11, column 1, but may\par
+be elsewhere in the file depending on the exact syntax problem.\par
+\par
+The offending line appears to be:\par
+\par
+  - name: Cloning GIT\par
+\f1\~\~\~ git:\f0\par
+^ here\par
+\cf0 vagrant@controller:/etc/ansible$ sudo nano db-playbook.yml\par
+vagrant@controller:/etc/ansible$ sudo nano db-playbook.yml\par
+vagrant@controller:/etc/ansible$ sudo ansible-playbook db-playbook.yml\par
+\cf8 [WARNING]: Could not match supplied host pattern, ignoring: db\par
+\par
+\cf0 PLAY [db] ***********************************************************************************\par
+\cf5 skipping: no hosts matched\par
+\par
+\cf0 PLAY RECAP **********************************************************************************\par
+\par
+vagrant@controller:/etc/ansible$ ls\par
+ansible.cfg  db-playbook.yml  hosts  nginx-playbook.yml  \cf4 roles\cf0   test.txt\par
+vagrant@controller:/etc/ansible$ sudo nano hosts\par
+vagrant@controller:/etc/ansible$ sudo ansible-playbook db-playbook.yml\par
+\par
+PLAY [db] ***********************************************************************************\par
+\par
+TASK [Gathering Facts] **********************************************************************\par
+\cf9 fatal: [192.168.33.11]: UNREACHABLE! => \{"changed": false, "msg": "Failed to connect to the host via ssh: Warning: Permanently added '192.168.33.11' (ECDSA) to the list of known hosts.\\r\\nvagrant@192.168.33.11: Permission denied (publickey,password).", "unreachable": true\}\par
+\par
+\cf0 PLAY RECAP **********************************************************************************\par
+\cf7 192.168.33.11\cf0               : ok=0    changed=0    \cf9 unreachable=1   \cf0  failed=0    skipped=0    rescued=0    ignored=0\par
+\par
+vagrant@controller:/etc/ansible$ sudo nano hosts\par
+vagrant@controller:/etc/ansible$ ssh vagrant@192.168.33.10\par
+vagrant@192.168.33.10's password:\par
+Welcome to Ubuntu 18.04.6 LTS (GNU/Linux 4.15.0-200-generic x86_64)\par
+\par
+ * Documentation:  {{\field{\*\fldinst{HYPERLINK https://help.ubuntu.com }}{\fldrslt{https://help.ubuntu.com\ul0\cf0}}}}\f0\fs18\par
+ * Management:     {{\field{\*\fldinst{HYPERLINK https://landscape.canonical.com }}{\fldrslt{https://landscape.canonical.com\ul0\cf0}}}}\f0\fs18\par
+ * Support:        {{\field{\*\fldinst{HYPERLINK https://ubuntu.com/advantage }}{\fldrslt{https://ubuntu.com/advantage\ul0\cf0}}}}\f0\fs18\par
+\par
+  System information as of Tue Feb 28 17:09:52 UTC 2023\par
+\par
+  System load:  0.0               Processes:           106\par
+  Usage of /:   3.1% of 61.75GB   Users logged in:     1\par
+  Memory usage: 19%               IP address for eth0: 10.0.2.15\par
+  Swap usage:   0%                IP address for eth1: 192.168.33.10\par
+\par
+ * Introducing Expanded Security Maintenance for Applications.\par
+   Receive updates to over 25,000 software packages with your\par
+   Ubuntu Pro subscription. Free for personal use.\par
+\par
+     {{\field{\*\fldinst{HYPERLINK https://ubuntu.com/pro }}{\fldrslt{https://ubuntu.com/pro\ul0\cf0}}}}\f0\fs18\par
+\par
+\par
+This system is built by the Bento project by Chef Software\par
+More information can be found at {{\field{\*\fldinst{HYPERLINK https://github.com/chef/bento }}{\fldrslt{https://github.com/chef/bento\ul0\cf0}}}}\f0\fs18\par
+Last login: Tue Feb 28 16:16:56 2023 from 192.168.33.12\par
+vagrant@web:~$ ls\par
+vagrant@web:~$ exit\par
+logout\par
+Connection to 192.168.33.10 closed.\par
+vagrant@controller:/etc/ansible$ sudo ansible-playbook db-playbook.yml\par
+\par
+PLAY [db] ***********************************************************************************\par
+\par
+TASK [Gathering Facts] **********************************************************************\par
+\cf9 fatal: [192.168.33.11]: UNREACHABLE! => \{"changed": false, "msg": "Failed to connect to the host via ssh: vagrant@192.168.33.11: Permission denied (publickey,password).", "unreachable": true\}\par
+\par
+\cf0 PLAY RECAP **********************************************************************************\par
+\cf7 192.168.33.11\cf0               : ok=0    changed=0    \cf9 unreachable=1   \cf0  failed=0    skipped=0    rescued=0    ignored=0\par
+\par
+vagrant@controller:/etc/ansible$ sudo nano hosts\par
+vagrant@controller:/etc/ansible$ ssh vagrant@192.168.33.11\par
+vagrant@192.168.33.11's password:\par
+Welcome to Ubuntu 18.04.6 LTS (GNU/Linux 4.15.0-200-generic x86_64)\par
+\par
+ * Documentation:  {{\field{\*\fldinst{HYPERLINK https://help.ubuntu.com }}{\fldrslt{https://help.ubuntu.com\ul0\cf0}}}}\f0\fs18\par
+ * Management:     {{\field{\*\fldinst{HYPERLINK https://landscape.canonical.com }}{\fldrslt{https://landscape.canonical.com\ul0\cf0}}}}\f0\fs18\par
+ * Support:        {{\field{\*\fldinst{HYPERLINK https://ubuntu.com/advantage }}{\fldrslt{https://ubuntu.com/advantage\ul0\cf0}}}}\f0\fs18\par
+\par
+  System information as of Tue Feb 28 17:15:14 UTC 2023\par
+\par
+  System load:  0.0               Processes:           100\par
+  Usage of /:   2.6% of 61.75GB   Users logged in:     0\par
+  Memory usage: 13%               IP address for eth0: 10.0.2.15\par
+  Swap usage:   0%                IP address for eth1: 192.168.33.11\par
+\par
+\par
+This system is built by the Bento project by Chef Software\par
+More information can be found at {{\field{\*\fldinst{HYPERLINK https://github.com/chef/bento }}{\fldrslt{https://github.com/chef/bento\ul0\cf0}}}}\f0\fs18\par
+Last login: Tue Feb 28 09:21:52 2023 from 10.0.2.2\par
+vagrant@db:~$ ls\par
+vagrant@db:~$ exit\par
+logout\par
+Connection to 192.168.33.11 closed.\par
+vagrant@controller:/etc/ansible$ sudo ansible-playbook db-playbook.yml\par
+\par
+PLAY [db] ***********************************************************************************\par
+\par
+TASK [Gathering Facts] **********************************************************************\par
+\cf9 fatal: [192.168.33.11]: UNREACHABLE! => \{"changed": false, "msg": "Failed to connect to the host via ssh: vagrant@192.168.33.11: Permission denied (publickey,password).", "unreachable": true\}\par
+\par
+\cf0 PLAY RECAP **********************************************************************************\par
+\cf7 192.168.33.11\cf0               : ok=0    changed=0    \cf9 unreachable=1   \cf0  failed=0    skipped=0    rescued=0    ignored=0\par
+\par
+vagrant@controller:/etc/ansible$ sudo ansible-playbook db-playbook.yml\par
+\par
+PLAY [db] ***********************************************************************************\par
+\par
+TASK [Gathering Facts] **********************************************************************\par
+\cf9 fatal: [192.168.33.11]: UNREACHABLE! => \{"changed": false, "msg": "Failed to connect to the host via ssh: vagrant@192.168.33.11: Permission denied (publickey,password).", "unreachable": true\}\par
+\par
+\cf0 PLAY RECAP **********************************************************************************\par
+\cf7 192.168.33.11\cf0               : ok=0    changed=0    \cf9 unreachable=1   \cf0  failed=0    skipped=0    rescued=0    ignored=0\par
+\par
+vagrant@controller:/etc/ansible$ sudo nano db-playbook.yml\par
+vagrant@controller:/etc/ansible$ sudo nano db-playbook.yml\par
+vagrant@controller:/etc/ansible$ ls\par
+ansible.cfg  db-playbook.yml  hosts  nginx-playbook.yml  \cf4 roles\cf0   test.txt\par
+vagrant@controller:/etc/ansible$ sudo nano ansible.cfg\par
+vagrant@controller:/etc/ansible$ ansible db -m ping\par
+Unhandled error:\par
+ Traceback (most recent call last):\par
+  File "/usr/lib/python2.7/dist-packages/ansible/config/manager.py", line 575, in update_config_data\par
+    value, origin = self.get_config_value_and_origin(config, configfile)\par
+  File "/usr/lib/python2.7/dist-packages/ansible/config/manager.py", line 519, in get_config_value_and_origin\par
+    value = ensure_type(value, defs[config].get('type'), origin=origin)\par
+  File "/usr/lib/python2.7/dist-packages/ansible/config/manager.py", line 122, in ensure_type\par
+    makedirs_safe(value, 0o700)\par
+  File "/usr/lib/python2.7/dist-packages/ansible/utils/path.py", line 95, in makedirs_safe\par
+    raise AnsibleError("Unable to create local directories(%s): %s" % (to_native(rpath), to_native(e)))\par
+AnsibleError: Unable to create local directories(/home/vagrant/.ansible/tmp): [Errno 13] Permission denied: '/home/vagrant/.ansible/tmp'\par
+\par
+\par
+Traceback (most recent call last):\par
+  File "/usr/bin/ansible", line 62, in <module>\par
+    import ansible.constants as C\par
+  File "/usr/lib/python2.7/dist-packages/ansible/constants.py", line 175, in <module>\par
+    config = ConfigManager()\par
+  File "/usr/lib/python2.7/dist-packages/ansible/config/manager.py", line 291, in __init__\par
+    self.update_config_data()\par
+  File "/usr/lib/python2.7/dist-packages/ansible/config/manager.py", line 587, in update_config_data\par
+    raise AnsibleError("Invalid settings supplied for %s: %s\\n" % (config, to_native(e)), orig_exc=e)\par
+ansible.errors.AnsibleError: Invalid settings supplied for DEFAULT_LOCAL_TMP: Unable to create local directories(/home/vagrant/.ansible/tmp): [Errno 13] Permission denied: '/home/vagrant/.ansible/tmp'\par
+\par
+vagrant@controller:/etc/ansible$ ansible web -m ping\par
+Unhandled error:\par
+ Traceback (most recent call last):\par
+  File "/usr/lib/python2.7/dist-packages/ansible/config/manager.py", line 575, in update_config_data\par
+    value, origin = self.get_config_value_and_origin(config, configfile)\par
+  File "/usr/lib/python2.7/dist-packages/ansible/config/manager.py", line 519, in get_config_value_and_origin\par
+    value = ensure_type(value, defs[config].get('type'), origin=origin)\par
+  File "/usr/lib/python2.7/dist-packages/ansible/config/manager.py", line 122, in ensure_type\par
+    makedirs_safe(value, 0o700)\par
+  File "/usr/lib/python2.7/dist-packages/ansible/utils/path.py", line 95, in makedirs_safe\par
+    raise AnsibleError("Unable to create local directories(%s): %s" % (to_native(rpath), to_native(e)))\par
+AnsibleError: Unable to create local directories(/home/vagrant/.ansible/tmp): [Errno 13] Permission denied: '/home/vagrant/.ansible/tmp'\par
+\par
+\par
+Traceback (most recent call last):\par
+  File "/usr/bin/ansible", line 62, in <module>\par
+    import ansible.constants as C\par
+  File "/usr/lib/python2.7/dist-packages/ansible/constants.py", line 175, in <module>\par
+    config = ConfigManager()\par
+  File "/usr/lib/python2.7/dist-packages/ansible/config/manager.py", line 291, in __init__\par
+    self.update_config_data()\par
+  File "/usr/lib/python2.7/dist-packages/ansible/config/manager.py", line 587, in update_config_data\par
+    raise AnsibleError("Invalid settings supplied for %s: %s\\n" % (config, to_native(e)), orig_exc=e)\par
+ansible.errors.AnsibleError: Invalid settings supplied for DEFAULT_LOCAL_TMP: Unable to create local directories(/home/vagrant/.ansible/tmp): [Errno 13] Permission denied: '/home/vagrant/.ansible/tmp'\par
+\par
+vagrant@controller:/etc/ansible$ sudo ansible -m ping web\par
+\cf2 [DEPRECATION WARNING]: Distribution Ubuntu 18.04 on host 192.168.33.10 should use\par
+/usr/bin/python3, but is using /usr/bin/python for backward compatibility with prior Ansible\par
+ releases. A future Ansible release will default to using the discovered platform python for\par
+ this host. See\par
+{{\field{\*\fldinst{HYPERLINK https://docs.ansible.com/ansible/2.9/reference_appendices/interpreter_discovery.html }}{\fldrslt{https://docs.ansible.com/ansible/2.9/reference_appendices/interpreter_discovery.html\ul0\cf0}}}}\f0\fs18  for\par
+more information. This feature will be removed in version 2.12. Deprecation warnings can be\par
+disabled by setting deprecation_warnings=False in ansible.cfg.\par
+\cf1 192.168.33.10 | SUCCESS => \{\par
+    "ansible_facts": \{\par
+        "discovered_interpreter_python": "/usr/bin/python"\par
+    \},\par
+    "changed": false,\par
+    "ping": "pong"\par
+\}\par
+\cf0 vagrant@controller:/etc/ansible$ sudo ansible -m ping db\par
+\cf9 192.168.33.11 | UNREACHABLE! => \{\par
+    "changed": false,\par
+    "msg": "Failed to connect to the host via ssh: vagrant@192.168.33.11: Permission denied (publickey,password).",\par
+    "unreachable": true\par
+\}\par
+\cf0 vagrant@controller:/etc/ansible$ sudo nano hosts\par
+vagrant@controller:/etc/ansible$ sudo ansible -m ping db\par
+\cf2 [DEPRECATION WARNING]: Distribution Ubuntu 18.04 on host 192.168.33.11 should use\par
+/usr/bin/python3, but is using /usr/bin/python for backward compatibility with prior Ansible\par
+ releases. A future Ansible release will default to using the discovered platform python for\par
+ this host. See\par
+{{\field{\*\fldinst{HYPERLINK https://docs.ansible.com/ansible/2.9/reference_appendices/interpreter_discovery.html }}{\fldrslt{https://docs.ansible.com/ansible/2.9/reference_appendices/interpreter_discovery.html\ul0\cf0}}}}\f0\fs18  for\par
+more information. This feature will be removed in version 2.12. Deprecation warnings can be\par
+disabled by setting deprecation_warnings=False in ansible.cfg.\par
+\cf1 192.168.33.11 | SUCCESS => \{\par
+    "ansible_facts": \{\par
+        "discovered_interpreter_python": "/usr/bin/python"\par
+    \},\par
+    "changed": false,\par
+    "ping": "pong"\par
+\}\par
+\cf0 vagrant@controller:/etc/ansible$ sudo ansible-playbook db-playbook.yml\par
+\par
+PLAY [db] ***********************************************************************************\par
+\par
+TASK [Gathering Facts] **********************************************************************\par
+\cf2 [DEPRECATION WARNING]: Distribution Ubuntu 18.04 on host 192.168.33.11 should use\par
+/usr/bin/python3, but is using /usr/bin/python for backward compatibility with prior Ansible\par
+ releases. A future Ansible release will default to using the discovered platform python for\par
+ this host. See\par
+{{\field{\*\fldinst{HYPERLINK https://docs.ansible.com/ansible/2.9/reference_appendices/interpreter_discovery.html }}{\fldrslt{https://docs.ansible.com/ansible/2.9/reference_appendices/interpreter_discovery.html\ul0\cf0}}}}\f0\fs18  for\par
+more information. This feature will be removed in version 2.12. Deprecation warnings can be\par
+disabled by setting deprecation_warnings=False in ansible.cfg.\par
+\cf1 ok: [192.168.33.11]\par
+\par
+\cf0 TASK [Cloning GIT] **************************************************************************\par
+\cf3 changed: [192.168.33.11]\par
+\par
+\cf0 PLAY RECAP **********************************************************************************\par
+\cf3 192.168.33.11\cf0               : \cf1 ok=2   \cf0  \cf3 changed=1   \cf0  unreachable=0    failed=0    skipped=0    rescued=0    ignored=0\par
+\par
+vagrant@controller:/etc/ansible$\par
+\f2\fs22\par
+}
+ 
