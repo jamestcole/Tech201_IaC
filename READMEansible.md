@@ -158,6 +158,12 @@ Now go into your ansible directory
 ```
 cd /etc/ansible
 ```
+We can use a series of commands here to check the status of our app and db for example, here we are specifying the db and within the brackets the command we want to use.
+
+```
+sudo ansible db -a "systemctl status mongodb"
+```
+
 This is where you can put your YAML files and also the ansible config file. Entering new details in the ansible config file may be necassery to get your app and database to connect.
 
 ```
@@ -191,8 +197,85 @@ sudo nano db-playbook.yml
 sudo ansible-playbook app-playbook.yml
 sudo ansible-playbook db-playbook.yml
 ```
-### Writing the YAML playbook
+## Writing the YAML playbook
+
+To start the file write `---` and settings to name the host, gather facts and grant admin access.
+
+```
+---
+- hosts: web
+  gather_facts: yes
+  become: true
+```
+
+The tasks to be completed need to be specified Under this many different tasks can be specified, to start with install Nginx. when Writing this it is important to check each line is indented by two spaces. copying text may also make this unusable.
+
+```
+  tasks:
+  - name: Install Nginx
+    apt: pkg=nginx state=present update_cache=yes
+```
+the beginning of the file should look like this.
+![Alt text](pics/nginxinstall.PNG "a title")
 
 
 
+## Writing a YAML playbook for mongodb and database onfiguration
 
+Firstly make a new YAML file while in controller,etc/ansible
+```
+sudo nano mongodb-playbook.yml
+```
+Firstly we can start our playbook by specifying that it is the database 
+```
+---
+- hosts: db
+  gather_facts: yes
+  become: true
+```
+Now we have to write the tasks to install mongodb, configure it and enable and start it.
+```
+  tasks:
+  - name: install mongodb most latest version
+    apt: pkg=mongodb state=present
+
+  - name: remove mongodb file
+    file:
+      path: /etc/mongodb.conf
+      state: absent
+
+  - name: create mongodb config file
+    file:
+      path: /etc/mongodb.conf
+      state: touch
+      mode: u=rw,g=r,o=r
+
+  - name: insert file
+    blockinfile:
+      path: /etc/mongodb.conf
+      block: |
+        storage:
+          dbPath: /var/lib/mongodb
+          journal:
+            enabled:
+        systemLog:
+          destination: file
+          logAppend: true
+          path: /var/log/mongodb/mongod.log
+        net:
+          port: 27017
+          bindIp: 0.0.0.0
+
+  - name: Restart mongodb
+    become: true
+    shell: systemctl enable mongodb
+
+  - name: enable mongodb
+    become: true
+    shell: systemctl enable mongodb
+
+  - name: start mongodb
+    become: true
+    shell: systemctl start mongodb
+
+```
