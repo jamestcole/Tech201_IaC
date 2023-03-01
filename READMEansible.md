@@ -258,6 +258,40 @@ the beginning of the file should look like this.
 
 ## Writing a YAML playbook for the app
 
+---
+- hosts: db
+  gather_facts: yes
+  become: true
+```
+
+```
+  tasks:
+  - name: Install Nginx
+    apt: pkg=nginx state=present update_cache=yes
+  - name: environment variable
+    shell: echo 'export DB_HOST="mongodb://192.168.33.1127017/posts"' >> ~/.bashrc && source .bashrc
+    args:
+      executable: /bin/bash
+  - name: install node
+    register: out
+
+    shell: |
+      sudo apt update && sudo apt upgrade
+      cd /home/app/app
+      sudo apt -y install curl dirmngr apt-transport-https lsb-release ca-certificates
+      curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+      sudo apt update
+      sudo apt -y install nodejs
+      sudo npm install pm2 -g
+  - name: Start the app
+    shell: |
+      cd /home/app/app
+      node seeds/seed.js
+      npm install
+      pm2 kill
+      pm2 start app.js
+      nohup npm start 2>/dev/null 1>/dev/null&
+  - debug: var=out.stdout_lines
 
 
 
