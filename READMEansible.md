@@ -197,6 +197,44 @@ sudo nano db-playbook.yml
 sudo ansible-playbook app-playbook.yml
 sudo ansible-playbook db-playbook.yml
 ```
+## Cloning the app and database files
+
+### Cloning DB
+The app can be cloned using git clone in yaml
+```
+---
+- hosts: web
+  gather_facts: yes
+  become: true
+
+  tasks:
+  - name: Cloning GIT
+    git:
+      repo: https://github.com/jamestcole/tech201_virtualisation.git
+      dest: /home/app
+      clone: yes
+      update: yes
+```
+
+The database can be cloned using git clone in yaml
+
+```
+---
+- hosts: db
+  gather_facts: yes
+  become: true
+
+  tasks:
+  - name: Cloning GIT
+    git:
+      repo: https://github.com/jamestcole/tech201_virtualisation.git
+      dest: /home/db
+      clone: yes
+      update: yes
+```
+
+
+
 ## Writing the YAML playbook
 
 To start the file write `---` and settings to name the host, gather facts and grant admin access.
@@ -218,9 +256,12 @@ The tasks to be completed need to be specified Under this many different tasks c
 the beginning of the file should look like this.
 ![Alt text](pics/nginxinstall.PNG "a title")
 
+## Writing a YAML playbook for the app
 
 
-## Writing a YAML playbook for mongodb and database onfiguration
+
+
+## Writing a YAML playbook for mongodb and database configuration
 
 Firstly make a new YAML file while in controller,etc/ansible
 ```
@@ -279,3 +320,5 @@ Now we have to write the tasks to install mongodb, configure it and enable and s
     shell: systemctl start mongodb
 
 ```
+
+![Alt text](pics/iac3.PNG "a title")
