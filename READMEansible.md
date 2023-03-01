@@ -86,6 +86,8 @@ sudo apt-get install ansible
 sudo ansible --version
 ```
 
+
+
 To go into anisble use the following command
 
 ```
@@ -144,6 +146,53 @@ How to copy and send files in ansible
 ```
 sudo ansible web -m copy -a "src=/etc/ansible/test.txt dest=/tmp/"
 ```
+
+## How to start the app and database through the controller
+
+YAML files need to be created to automatically clone and initiate our databases and app files. Firstly navigate to your directory with ansible and enter your controller virtual box. Use the following.
+
+```
+vagrant ssh controller
+```
+Now go into your ansible directory
+```
+cd /etc/ansible
+```
+This is where you can put your YAML files and also the ansible config file. Entering new details in the ansible config file may be necassery to get your app and database to connect.
+
+```
+sudo nano ansible.cfg
+```
+Make sure under defaults , host_key_checking = false. 
+
+![Alt text](pics/hostkeychecking.PNG "a title")
+
+There is also the hosts file here. This must be edited to allow for our app and database IP addresses. There are also other options here like specifying the version of python.
+
+```
+sudo nano hosts
+
+[web]
+192.168.33.10 ansible_connection=ssh ansible_ssh_user=vagrant ansible_ssh_pass=vagrant
+
+[db]
+192.168.33.11 ansible_connection=ssh ansible_ssh_user=vagrant ansible_ssh_pass=vagrant
+
+```
+![Alt text](pics/hostsfile.PNG "a title")
+
+
+You can use the following to create YAML files for your App and DB respectively and start the YAML playbook with the ansible-playbook command.
+
+```
+sudo nano app-playbook.yml
+sudo nano db-playbook.yml
+
+sudo ansible-playbook app-playbook.yml
+sudo ansible-playbook db-playbook.yml
+```
+### Writing the YAML playbook
+
 
 
 
