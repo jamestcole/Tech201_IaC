@@ -10,8 +10,8 @@ Go to control panel, settings , system properties and environment variables. The
 It should look something like this.
 
 ```
-AWS_ACCESS_KEY_ID       pastekeyhere
-AWS_SECRET_ACCESS_KEY   pastekeyhere
+AWS_ACCESS_KEY_ID       pasteaccesskeyhere
+AWS_SECRET_ACCESS_KEY   pastesecretkeyhere
 ```
 
 In system variables, path
@@ -19,4 +19,22 @@ In system variables, path
 C:\terraform
 ```
 
+Make a new directory next to your ansible directory for convenience, in my case Tech201_IaC/terraform.
 
+then you can check that terrform is active there.
+```
+terraform --version
+```
+The main.tf file needs to be written and put in this folder.
+
+After it has been written and saved and gitbash reopened in admin mode. The following commands can be used to initialise,  plan and then apply the deployement of ec2 instances.
+
+```
+terraform init
+terraform plan
+terraform apply
+```
+When we are done, we can used the following to terminate.
+```
+terraform destroy
+```
