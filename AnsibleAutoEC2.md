@@ -1,5 +1,6 @@
 # Automating our EC2 Instance in AWS with ansible
 
+
 In order to automate our AWS we need to make a YAML file to provision with and make a new set of keys.
 
 
@@ -80,3 +81,6 @@ ssh -i ~/.ssh/key_name ubuntu@ec2-54-171-109-153.eu-west-1.compute.amazonaws.com
 
 ## Troubleshooting
 
+### Instansce won't rerun after being shut down
+
+The instance may need to use a different security group or alternatively it may be possible to create a new security group alongside your instance by adjusting the playbook to get it to run.
