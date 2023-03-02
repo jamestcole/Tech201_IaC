@@ -25,7 +25,22 @@ then you can check that terrform is active there.
 ```
 terraform --version
 ```
-The main.tf file needs to be written and put in this folder.
+The main.tf file needs to be written and put in this folder. The follwoing can used as a template. Remember to replace the appropiate text with the correct settings from your AMI.
+
+```
+provider "aws" {
+    region = "eu-west-1"
+
+}
+resource "aws_instance" "app_instance" {
+  ami = "ami-09a9582ce47915c82"
+  instance_type = "t2.micro"
+  associate_public_ip_address = true
+  tags = {
+    Name = "tech201-James-terraform-app"
+  }
+}
+```
 
 After it has been written and saved and gitbash reopened in admin mode. The following commands can be used to initialise,  plan and then apply the deployement of ec2 instances.
 
@@ -38,3 +53,5 @@ When we are done, we can used the following to terminate.
 ```
 terraform destroy
 ```
+
+Remember to add your terraform files to your `.gitignore` if it was made in your IDE.
