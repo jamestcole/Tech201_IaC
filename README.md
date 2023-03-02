@@ -41,5 +41,10 @@ Tools can be for networking , security, app infrastructure and storage.
 
 ## push configuration vs pull configuration
 
-With the push configuration , CICD pipeline is utilised to push changes to your environment which is triggered by a code commit or merge. It has the advantages of simplicity , flexibility, Efficiency and Optimized bandwidth. 
+With the push configuration , CICD pipeline is utilised to push changes to your environment which is triggered by a code commit or merge. It has the advantages of simplicity , flexibility, Efficiency and Optimized bandwidth.
 
+Pull is another configuration , it can be usefull if all or the majority of workloads are in kubernetes. 
+
+## Infrastructure as Code plan
+
+![Alt text](pics/iac4.PNG "a title")

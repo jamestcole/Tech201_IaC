@@ -127,6 +127,18 @@ sudo apt install python3-pip
 alias python=python3
 ```
 
+This is to install boto3 and ensure you have the correct version
+```
+pip3 install boto boto3
+pip3 show boto3
+```
+
+```
+pip3 install awscli
+```
+Then update and upgrade to ensure the changes have been saved
+
+
 
 ### Solving empty hosts list problem
 
@@ -168,10 +180,20 @@ Now go into your ansible directory
 ```
 cd /etc/ansible
 ```
+## Ansible Commands
 We can use a series of commands here to check the status of our app and db for example, here we are specifying the db and within the brackets the command we want to use.
 
 ```
 sudo ansible db -a "systemctl status mongodb"
+```
+
+Checking the date, memory and uptime can be done using the following.
+
+```
+ansible all -a date
+ansible all -m shell -a "free -m"
+ansible all -a uptime --become
+ansible all -m shell -a uptime
 ```
 
 This is where you can put your YAML files and also the ansible config file. Entering new details in the ansible config file may be necassery to get your app and database to connect.
@@ -182,6 +204,8 @@ sudo nano ansible.cfg
 Make sure under defaults , host_key_checking = false. 
 
 ![Alt text](pics/hostkeychecking.PNG "a title")
+
+## HOSTS file
 
 There is also the hosts file here. This must be edited to allow for our app and database IP addresses. There are also other options here like specifying the version of python.
 
@@ -267,7 +291,7 @@ the beginning of the file should look like this.
 ![Alt text](pics/nginxinstall.PNG "a title")
 
 ## Writing a YAML playbook for the app
-
+```
 ---
 - hosts: db
   gather_facts: yes
@@ -302,7 +326,7 @@ the beginning of the file should look like this.
       pm2 start app.js
       nohup npm start 2>/dev/null 1>/dev/null&
   - debug: var=out.stdout_lines
-
+```
 
 
 ## Writing a YAML playbook for mongodb and database configuration
@@ -366,3 +390,5 @@ Now we have to write the tasks to install mongodb, configure it and enable and s
 ```
 
 ![Alt text](pics/iac3.PNG "a title")
+
+## Troubleshooting

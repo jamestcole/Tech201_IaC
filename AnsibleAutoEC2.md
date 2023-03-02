@@ -4,13 +4,14 @@ In order to automate our AWS we need to make a YAML file to provision with and m
 
 
 
-
+Here is the YAML file, Put this in your etc/ansible directory inside your ansible controller, You can name it something like AWS_playbook .
 ```
 ---
 
 - hosts: localhost
   connection: local
-  gather_facts: False
+  gather_facts: true
+  become: true
 
   vars:
     key_name: my_aws
@@ -67,5 +68,15 @@ In order to automate our AWS we need to make a YAML file to provision with and m
       tags: ['never', 'create_ec2']
 
 ```
+The following command can
+ansible-playbook playbook.yml --ask-vault-pass --tags create_ec2
+You should be able to connect to your app by using the following command whilst in `/etc/ansible`. Use the IPV4 address given to you in aws , in the instance connect tab.
+```
+ssh -i ~/.ssh/key_name ubuntu@ec2-54-171-109-153.eu-west-1.compute.amazonaws.com
 
-![Alt text](pics/key.PNG "a title")
+```
+
+![Alt text](pics/appworkingbyansibleautoaws.PNG "a title")
+
+## Troubleshooting
+
