@@ -5,7 +5,7 @@ https://developer.hashicorp.com/terraform/downloads
 
 ## Change variable for private and public keys
 
-Go to control panel, settings , system properties and environment variables. The access key and secret key can be put in the user variable whearas the path can be put in the System variales . click new to creake new user variables and edit to edit your path in system variables
+Go to control panel, settings , system properties and environment variables. The access key and secret key can be put in the user variable whearas the path can be put in the System variales . click new to creake new user variables and edit to edit your path in system variables.
 
 It should look something like this.
 
@@ -42,7 +42,7 @@ resource "aws_instance" "app_instance" {
 }
 ```
 
-After it has been written and saved and gitbash reopened in admin mode. The following commands can be used to initialise,  plan and then apply the deployement of ec2 instances.
+After it has been written and saved and gitbash reopened in admin mode and directory changed to your terraform directory. The following commands can be used to initialise,  plan and then apply the deployement of ec2 instances.
 
 ```
 terraform init
