@@ -1,0 +1,22 @@
+# Terraform Documentation
+
+Set up terraform from the following address.
+https://developer.hashicorp.com/terraform/downloads
+
+## Change variable for private and public keys
+
+Go to control panel, settings , system properties and environment variables. The access key and secret key can be put in the user variable whearas the path can be put in the System variales . click new to creake new user variables and edit to edit your path in system variables
+
+It should look something like this.
+
+```
+AWS_ACCESS_KEY_ID       pastekeyhere
+AWS_SECRET_ACCESS_KEY   pastekeyhere
+```
+
+In system variables, path
+```
+C:\terraform
+```
+
+

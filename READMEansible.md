@@ -77,11 +77,12 @@ Firstly update and upgrade
 ```
 sudo apt update
 sudo apt upgrade
+
 ```
 
 ```
 sudo apt-get install software-properties-common
-sudo apt-add-repository ppa:ansible/ansible ## only in controler
+sudo apt-add-repository ppa:ansible/ansible ## only in controller
 sudo apt-get install ansible
 sudo ansible --version
 ```
@@ -117,6 +118,15 @@ sudo ansible -m ping web
 You should get the response that the ping has been successfull but may get an error instead if not properly configured.
 
 ![Alt text](pics/vagrantsuccess.PNG "a title")
+
+### Installing Dependancies
+For teh latest version of python-pip and to ensure the program will refer to python3.x rather than an older version.
+
+```
+sudo apt install python3-pip
+alias python=python3
+```
+
 
 ### Solving empty hosts list problem
 
