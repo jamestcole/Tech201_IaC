@@ -331,7 +331,8 @@ the beginning of the file should look like this.
 
 ## Writing a YAML playbook for mongodb and database configuration
 
-Firstly make a new YAML file while in controller,etc/ansible
+Firstly make a new YAML file while in controller.etc/ansible .
+
 ```
 sudo nano mongodb-playbook.yml
 ```
@@ -392,3 +393,5 @@ Now we have to write the tasks to install mongodb, configure it and enable and s
 ![Alt text](pics/iac3.PNG "a title")
 
 ## Troubleshooting
+
+
