@@ -1,4 +1,10 @@
-# Terraform Documentation
+# Terraform 
+
+Terraform is usefull for building Infrastrucure as code , It can interact with asw or other cloud service providers to define vpc's, subnets, security rules, route tables and launch instances. This is called orchestration.
+
+Terraform scripts can be run through gitbash , It has extensive, easy to read documentation and is more user freindly than ansible.
+
+## Terraform Documentation
 
 Set up terraform from the following address.
 https://developer.hashicorp.com/terraform/downloads
