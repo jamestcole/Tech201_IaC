@@ -1,5 +1,7 @@
 # Automating our EC2 Instance in AWS with ansible
 
+![Alt text](pics/plandiag.PNG "a title")
+
 
 In order to automate our AWS we need to make a YAML file to provision with and make a new set of keys.
 
