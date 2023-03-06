@@ -1,13 +1,12 @@
 # Automating our EC2 Instance in AWS with ansible
 
-![Alt text](pics/plandiag.PNG "a title")
 
+![Alt text](pics/plandiag.PNG "a title")
 
 In order to automate our AWS we need to make a YAML file to provision with and make a new set of keys.
 
+Here is the YAML file, Put this in your etc/ansible directory inside your ansible controller, You can name it something like AWS_playbook.
 
-
-Here is the YAML file, Put this in your etc/ansible directory inside your ansible controller, You can name it something like AWS_playbook .
 ```
 ---
 
