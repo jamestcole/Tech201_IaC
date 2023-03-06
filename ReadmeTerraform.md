@@ -54,4 +54,6 @@ When we are done, we can used the following to terminate.
 terraform destroy
 ```
 
+There are more Terraform settings that can be put in the main file, however we can also use another file to define variables, we can call this file variable.tf
+
 Remember to add your terraform files to your `.gitignore` if it was made in your IDE.

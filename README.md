@@ -1,4 +1,4 @@
-# Infrastructure as code
+# Infrastructure as Code
 
 ## Configuration management
 
@@ -33,7 +33,7 @@ Terraform is the leader of IaCs in the current market scenario. Because the stan
 
 Many services exist such as AWS hybrid cloud that can manage a Hybrid environment as an alternative to purely cloud or an on premisis server such as AWS hybrid cloud services which deliver consistent AWS wherever it's needed – from the cloud, to on premises, and at the edge. 
 
-![Alt text](pics/hybrid.PNG "a title")
+![Alt text](pics/hybrid.png "a title")
 
 ## What other tools are 
 
@@ -46,5 +46,7 @@ With the push configuration , CICD pipeline is utilised to push changes to your 
 Pull is another configuration , it can be usefull if all or the majority of workloads are in kubernetes. 
 
 ## Infrastructure as Code plan
+
+
 
 ![Alt text](pics/iac4.PNG "a title")
